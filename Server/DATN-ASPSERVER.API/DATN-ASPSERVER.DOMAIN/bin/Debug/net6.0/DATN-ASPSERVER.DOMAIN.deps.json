@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DATN-ASPSERVER.DOMAIN/1.0.0": {
+        "dependencies": {
+          "DATN-ASPSERVER.COMMON": "1.0.0"
+        },
+        "runtime": {
+          "DATN-ASPSERVER.DOMAIN.dll": {}
+        }
+      },
+      "DATN-ASPSERVER.COMMON/1.0.0": {
+        "runtime": {
+          "DATN-ASPSERVER.COMMON.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DATN-ASPSERVER.DOMAIN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DATN-ASPSERVER.COMMON/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

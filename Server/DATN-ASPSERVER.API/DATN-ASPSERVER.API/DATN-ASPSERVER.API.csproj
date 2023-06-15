@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DATN_ASPSERVER.API</RootNamespace>
+    <UserSecretsId>ac530949-3eb6-4463-8997-d0e5aa73d592</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DATN-ASPSERVER.COMMON\DATN-ASPSERVER.COMMON.csproj" />
+    <ProjectReference Include="..\DATN-ASPSERVER.DOMAIN\DATN-ASPSERVER.DOMAIN.csproj" />
+    <ProjectReference Include="..\DATN-ASPSERVER.INFRASTRUCTURE\DATN-ASPSERVER.INFRASTRUCTURE.csproj" />
+    <ProjectReference Include="..\DATN-ASPSERVER.SERVICE\DATN-ASPSERVER.SERVICE.csproj" />
+  </ItemGroup>
+
+</Project>
