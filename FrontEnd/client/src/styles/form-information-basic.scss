@@ -1,0 +1,81 @@
+@import './varible';
+@import './function';
+
+.form-information-basic {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  padding: 0 0 30px;
+}
+
+.form-infomation-basic__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  align-items: flex-start;
+  @include mobile() {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.form__label-basic {
+  display: flex;
+  min-width: 100px;
+  height: 100%;
+  font-weight: bold;
+  align-items: center;
+  span {
+    color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: -5px;
+  }
+} 
+
+.form-information-basic__contain-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  @include mobile() {
+    width: 100%;
+  }
+}
+
+.form-information-basic__contain-button {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  @include mobile() {
+    width: 100%;
+  }
+}
+
+.form-input{
+  width: 100% !important;
+} 
+
+@media screen and (max-width: 990px) {
+  .form-information-basic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 0px 30px;
+  }
+}

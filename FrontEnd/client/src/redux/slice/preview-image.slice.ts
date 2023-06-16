@@ -33,4 +33,4 @@ export const { open, close } = PreviewImageModal.actions
 
 export const selectCount = (state: RootState) => {state.previewimagemodal.open,state.previewimagemodal.url}
 
-export default PreviewImageModal.reducer
+export default PreviewImageModal.reducer 

@@ -1,0 +1,13 @@
+@import './varible';
+
+.quantity-star-vote {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+.quantity-star-vote__half,
+.quantity-star-vote__fill {
+    color: $secondary-color;
+}

@@ -1,22 +1,24 @@
 import React, { useState } from 'react'
-import { Link, useLocation} from 'react-router-dom'
 import * as ICON from './Icon'
 import { Button } from './Button'
-import { Notification } from '../'
+import { Notification } from '../notification/Notification'
 import { UserHeader } from '../userdropdown'
 import HeaderEXPRO from '../expore-promo-header/HeaderEXPRO'
 import { SearchComponent } from '../search'
-import { useAppDispatch, useAppSelector } from '../../hooks'
-import { sidebar, searchmobile, overlay, popup } from '../../sliceredux'
-import { login } from '../../sliceredux/login.slice'
-import logo from '../../assets/logo.svg'
-import bookmark from '../../assets/bookmark2.svg'
-import '../../styles/header.scss'
+import { useAppDispatch, useAppSelector } from '@hooks/index'
+import { sidebar, searchmobile, popup } from '@reduxslice/trigger.overlay.slice'
+import {login } from '@reduxslice/login.slice'
+import logo from '@assets/logo.svg'
+import bookmark from '@assets/bookmark2.svg'
+import '@styles/header.scss'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 type Props = {}
 
 export const Header = (props: Props) => {
-  const url = useLocation()
+  const router = useRouter()
+  const url = router.pathname
   const [triggerOpenModal, setTriggerOpenModal] = useState<number>(useAppSelector((state)=> state.trigger.value)) // create a trigger check only a modal show when click dropdown
   const { logged } = useAppSelector((state) => state.loginmodal);
   const dispatch = useAppDispatch()
@@ -30,7 +32,7 @@ export const Header = (props: Props) => {
       <div className= {'header__container'}>
         <div className={'header__container-left'}>
           <div className= {'header__logo'}>
-          <Link to={'/'}>
+          <Link href={'/'}>
           <img src={logo} alt='' className={'header__logo-image'} /> 
           </Link>
           </div>
@@ -38,13 +40,13 @@ export const Header = (props: Props) => {
         <div className={'header__container-right'}>
           <div className='header__container-right-1'>
             {
-              url.pathname !== '/' && <SearchComponent trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger} type='header-search' placeholder='tim kiem quan cafe' currentPath={url.pathname} />  
+              url !== '/' && <SearchComponent trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger} type='header-search' placeholder='tim kiem quan cafe' currentPath={url} />  
             }
             <HeaderEXPRO trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger} />  
           </div>
           <div className='header__container-right-2'>    
             <div className={'header__button-write-preview'}>
-              <Link className= {'header__button-write-preview-container'} to={'/preview'}>
+              <Link className= {'header__button-write-preview-container'} href={'/preview'}>
                 <Button bg={1} type={1} padding={'10px 12px'}>
                   <>
                   <span> 
@@ -70,7 +72,7 @@ export const Header = (props: Props) => {
                   :
                   <div className='header__feature-loggined'>
                       <div className='header__location-saved'>
-                        <Link to={'/save'}>
+                        <Link href={'/save'}>
                           <img src={bookmark} alt='book mark' className='header__location-saved-image' />
                         </Link>
                       </div>
@@ -80,9 +82,9 @@ export const Header = (props: Props) => {
               }
               </div>
             {
-               url.pathname == '/' ? 
+               url == '/' ? 
               <div className='header__near-place'>
-                <Link to={'/near-you'}>
+                <Link href={'/near-you'}>
                   <span>
                     <ICON.HiLocationMarker size={25}/>
                   </span>

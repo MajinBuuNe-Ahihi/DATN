@@ -1,0 +1,33 @@
+@import './varible';
+
+.switch-button__point {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: $primary-color;
+  box-shadow: $shadow-primary-card;
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  transform: translateY(-50%);
+  transition: 0.45s linear;
+  &:hover {
+    transform: translateY(-50%) scale(1.05);
+  }
+}
+
+.switch-button {
+  height: 17px;
+  width: 35px;
+  border-radius: 150px;
+  background-color: rgba(56, 105, 196, 0.384);
+  box-shadow: $shadow-primary-card;
+  position: relative;
+  transition: 0.8s linear;
+  &.active {
+    background-color: $secondary-color;
+    .switch-button__point {
+      left: calc(100% - 16px);
+    }
+  }
+}

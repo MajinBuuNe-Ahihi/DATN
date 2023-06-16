@@ -1,7 +1,7 @@
 import React from 'react'
-import { useAppSelector, useCheckpoint, useScrollPostion } from '../../hooks'
+import { useAppSelector, useCheckpoint, useScrollPostion } from '@hooks/index'
 import { RiArrowUpCircleFill } from './Icon'
-import '../../styles/button.scroll.scss'
+import '@styles/button.scroll.scss'
 import { CSSTransition } from 'react-transition-group'
 type Props = {}
 

@@ -1,0 +1,114 @@
+@import './varible';
+
+.user-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+.user-header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  &:hover {
+    box-shadow: $shadow-button;
+  }
+}
+
+.header-user-drop-down {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  top: 50px;
+  right: 0;
+  background-color: $primary-color;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: $shadow-primary-card;
+  z-index: 99;
+}
+
+.header-user-drop-down__top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  padding: 8px 14px;
+  border-bottom: 1px solid rgb(134, 129, 129);
+  color: $primary-color-text;
+  &:hover {
+    background-color: $color-button-1;
+    color: $secondary-color;
+  }
+}
+
+.header-user-drop-down-top-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.header-user-drop-down-top-profile__avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.header-user-drop-down-top-profile__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  cursor: pointer;
+  img {
+    width: 40px;
+    height: 16px;
+  }
+}
+
+.header-user-drop-down__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+}
+
+.header-user-drop-down-list-element {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-user-drop-down-list-element__link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  padding: 8px 16px;
+  color: $primary-color-text;
+  &:hover {
+    background-color: $color-button-1;
+    color: $secondary-color;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

@@ -1,0 +1,57 @@
+@import './varible';
+
+.navigation-mobile {
+  display: flex;
+  height: 80px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  border-top: 1px rgb(180, 176, 176) solid;
+  background-color: $primary-color;
+}
+
+.navigation-mobile__container {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+
+.navigation-mobile__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80px;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px 0;
+    color: $primary-color-text;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .navigation-mobile__container {
+      width: 100%;
+    }
+    .navigation-mobile__element {
+      width: 75px;
+      a {
+        padding: 5px 0;
+      }
+    }
+}
