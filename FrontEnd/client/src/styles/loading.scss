@@ -1,0 +1,35 @@
+@import './varible';
+.loading-bullet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $primary-color;
+  z-index: 10990;
+}
+
+.loading-bullet__list-bullet {
+  display: flex;
+  height: 10px;
+  justify-content: space-between;
+  width: 60px;
+  align-items: center;
+  span {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    opacity: 0.5;
+    &.active {
+      opacity: 1;
+      margin-bottom: 10px;
+      transform: scale(1.2);
+    }
+  }
+}
+

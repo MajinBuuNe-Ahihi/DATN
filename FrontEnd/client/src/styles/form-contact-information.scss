@@ -1,0 +1,63 @@
+@import './varible';
+
+
+.form-contact-information {
+  display: flex;
+  align-items: flex-start;
+  justify-self: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.form-contact-information__row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-contact-information__label {
+  display: flex;
+  height: 100%;
+  width: 30%;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.form-contact-information__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 70%;
+  gap: 5px;
+}
+
+@media screen and (max-width: 990px) {
+  .form-contact-information {
+    padding: 0px 0px 30px;
+    gap: 0px;
+  }
+  .form-contact-information__row {
+    flex-direction: column;
+    gap: 5px;
+    align-content: flex-start;
+    margin: 0;
+  }
+  .form-contact-information__label {
+    height: 100%;
+    width: 100%;
+    justify-self: flex-start;
+  }
+  .form-contact-information__info {
+    margin: 10px 0px 5px;
+
+  }
+  .form-contact-information__input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+@import './varible';
+
+.page404 {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: $secondary-color-label;
+  padding: 50px 0;
+  height: calc(100vh - 130px);
+}
+
+.page404__image {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page404__title {
+  color: $primary-color-text;
+  font-family: $font-family-heading;
+  font-weight: normal;
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page404__link {
+  display: flex;
+  justify-items: stretch;
+  align-items: stretch;
+  color: $secondary-color-label;
+  width: 200px;
+  height: 50px;
+  button {
+    color: $secondary-color-label;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .page404 {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .page404__image {
+    height: 200px;
+    width: 200px;
+  }
+}

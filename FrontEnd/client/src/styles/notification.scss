@@ -1,0 +1,110 @@
+@import './varible';
+
+.header__noti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+
+.header__noti-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: $color-button-1;
+  border-radius: 50%;
+  &:hover {
+    box-shadow: $shadow-button;
+  }
+}
+
+.header__noti-button-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.header__noti-drop-down {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: $shadow-primary-card;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background-color: $primary-color;
+  z-index: 99;
+}
+
+.header__noti-drop-down-header {
+  width: 100%;
+  padding: 12px 16px 12px 20px;
+  color: $primary-color-text;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+
+}
+
+.header__noti-drop-down-header-title {
+  font-size: 24px;
+}
+
+.header__noti-drop-down-header-check {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header__noti-drop-down-list {
+  display: flex;
+  padding: 10px 0;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.header__noti-drop-down-element {
+  height: 50px;
+  box-shadow: $shadow-second-card;
+  color: $primary-color-text;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5px;
+  &.seen {
+    background-color: $color-button-1;
+  }
+}
+
+.header__noti-drop-down-element-icons {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__noti-drop-down-element-content {
+  flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.header__noti-drop-down-element-time{
+  width: 100px;
+  font-size: 13px;
+  opacity: 0.6;
+}
