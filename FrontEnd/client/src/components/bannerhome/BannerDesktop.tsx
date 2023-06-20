@@ -1,7 +1,7 @@
 import React, { ElementRef, useEffect, useRef, useState } from 'react'
 import {BsPlayFill, BsFillPauseFill} from '../common'
-import Video from '@components/common/Video'
-import '@styles/home-banner.scss'
+import Video from '../common/Video'
+import '../../styles/home-banner.scss'
 import TitleAndSearch from './TitleAndSearch'
 
 type Props = {}

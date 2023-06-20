@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsStarHalf,BsFillStarFill} from './Icon'
-import '@styles/quantitystarvote.scss'
+import '../../styles/quantitystarvote.scss'
 type Props = {
     quantity: number // quantity of number vote 
 }

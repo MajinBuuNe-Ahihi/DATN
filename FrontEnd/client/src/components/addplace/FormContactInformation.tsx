@@ -1,6 +1,6 @@
 import React from 'react'
 import { Field, FormikErrors, FormikTouched } from 'formik'
-import '@styles/form-contact-information.scss'
+import '../../styles/form-contact-information.scss'
 
 type Props = {
   errors: FormikErrors<{

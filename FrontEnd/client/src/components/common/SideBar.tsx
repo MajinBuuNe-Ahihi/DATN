@@ -1,15 +1,14 @@
 import React, { ReactElement } from 'react'
+import { Link } from 'react-router-dom'
 import * as ICON from '../common'
 import { Social } from './Social'
 import { Button } from './Button'
-import { useAppDispatch, useAppSelector } from '@hooks/index'
-import { overlay, popup } from '@reduxslice/trigger.overlay.slice'
-import { logout, login } from '@reduxslice/login.slice'
-import '@styles/sidebar.scss'
-import user from '@assets/unnamed.jpg'
-import level from '@assets/level.png'
-import Link from 'next/link'
-import Image from 'next/image'
+import { useAppDispatch, useAppSelector } from '../../hooks'
+import { overlay, popup } from '../../sliceredux'
+import { logout, login } from '../../sliceredux/login.slice'
+import '../../styles/sidebar.scss'
+import user from '../../assets/unnamed.jpg'
+import level from '../../assets/level.png'
 
 
 type Props = {}
@@ -42,13 +41,13 @@ export default function SideBar({ }: Props) {
           <div className='sidebar__container'>
               {
               logged ?
-              <Link href= {'/account'} className='sidebar__profile-user' onClick={()=>dispatch(overlay())}>
-                <Image src={user} alt='' className='sidebar__user-image' />
+              <Link to = {'/account'} className='sidebar__profile-user' onClick={()=>dispatch(overlay())}>
+                <img src={user} alt='' className='sidebar__user-image' />
                 <span className='siderbar__user-info'>
                   <span className='siderbar__user-name'>
                     Hoang Van Manh
                   </span>
-                  <Image src={level} alt='' className='siderbar__user-level' />
+                  <img src={level} alt='' className='siderbar__user-level' />
                 </span>
               </Link> : 
               <div className='siderbar__login'>
@@ -62,7 +61,7 @@ export default function SideBar({ }: Props) {
             <div className='sidebar__menu'>
               {
                 (logged && sidebarNav.map((element: Nav,index) => element.type === 1 &&
-                <Link key={index} href={element.link} onClick={() => dispatch(overlay())} className='sidebar__menu-element'>
+                <Link key={index} to={element.link} onClick={() => dispatch(overlay())} className='sidebar__menu-element'>
                 <span className='sidebar__menu-icon'>
                   {element.icon}
                 </span>
@@ -75,7 +74,7 @@ export default function SideBar({ }: Props) {
               </h3>
               {
                 sidebarNav.map((element: Nav,index) => element.type === 2 &&
-                  <Link key={index} href={element.link} onClick={() => dispatch(overlay())} className='sidebar__menu-element'>
+                  <Link key={index} to={element.link} onClick={() => dispatch(overlay())} className='sidebar__menu-element'>
                 <span className='sidebar__menu-icon'>
                   {element.icon}
                 </span>
@@ -86,7 +85,7 @@ export default function SideBar({ }: Props) {
               <h3 className='sidebar__menu-section'>Thong tin</h3>
               {
                 sidebarNav.map((element: Nav,index) => element.type === 3 &&
-                <Link key={index} href={element.link} onClick={() => dispatch(overlay())} className='sidebar__menu-element'>
+                <Link key={index} to={element.link} onClick={() => dispatch(overlay())} className='sidebar__menu-element'>
                 <span className='sidebar__menu-icon'>
                   {element.icon}
                 </span>

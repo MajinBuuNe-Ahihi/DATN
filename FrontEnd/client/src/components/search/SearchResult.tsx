@@ -1,10 +1,9 @@
 import React from 'react'
-import * as ICON from '@components/common'
-import image from '@assets/element-search.webp'
+import * as ICON from '../common'
+import image from '../../assets/element-search.webp'
+import { Link } from 'react-router-dom'
 import SearchHistory from './SearchHistory'
 import { SearchResultElement } from './SearchResultElement'
-import Link from 'next/link'
-import Image from 'next/image'
 
 type Props = {
   value:any
@@ -18,7 +17,7 @@ export default function({value}: Props) {
           // check if no value in input
         !value ? <> 
         <div className='search-result-near-you'>
-          <Link href={'/'} className='search-result-near-you__link'>
+          <Link to={'/'} className='search-result-near-you__link'>
             <span><ICON.TiLocationArrowOutline size={25} /></span>
             <span>Tim dia diem quanh ban</span>
           </Link>
@@ -27,8 +26,8 @@ export default function({value}: Props) {
           De xuat
         </div>
         <div className='search-result-element'>
-          <Link href={'/'} className='search-result-element-link'>
-          <Image src={image} alt='shopname' className='search-result-element__image' />
+          <Link to={'/'} className='search-result-element-link'>
+          <img src={image} alt='shopname' className='search-result-element__image' />
           <div className='search-result-element-info'>
             <span className='search-result-element-info__name'>
               Manh CoffeeShop
@@ -53,7 +52,7 @@ export default function({value}: Props) {
         <SearchResultElement />
         <SearchResultElement />
         <div className='more-search-result'>
-          <Link href={'/'}  className='more-search-result-link'>
+          <Link to={'/'}  className='more-search-result-link'>
             <span className='more-search-result-icon'>
               <ICON.GrSearchAdvanced size={25} />
             </span>

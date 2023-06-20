@@ -1,7 +1,7 @@
 import { Form, Formik } from 'formik'
 import { toast } from 'react-toastify'
 import * as Yup from 'yup'
-import '@styles/add-place.scss'
+import '../../styles/add-place.scss'
 import { AiOutlinePlus, Button, HandleUpload  } from '../common'
 import FormContactInformation from './FormContactInformation'
 import FormInfomationBasic from './FormInfomationBasic'

@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleAndSearch from './TitleAndSearch'
-import '@styles/home-banner.scss';
+import '../../styles/home-banner.scss';
 
 type Props = {}
 

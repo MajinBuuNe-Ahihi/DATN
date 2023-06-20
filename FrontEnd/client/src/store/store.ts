@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import loginSlice from '../slice/login.slice'
-import previewImageSlice from '../slice/preview-image.slice'
-import triggerOverlaySlice from '../slice/trigger.overlay.slice'
+import loginSlice from '../sliceredux/login.slice'
+import previewImageSlice from '../sliceredux/preview-image.slice'
+import triggerOverlaySlice from '../sliceredux/trigger.overlay.slice'
 
 // ...
 

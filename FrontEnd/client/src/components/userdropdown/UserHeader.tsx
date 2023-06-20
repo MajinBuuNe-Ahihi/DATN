@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { CSSTransition } from 'react-transition-group';
-import user from '@assets/unnamed.jpg'
+import user from '../../assets/unnamed.jpg'
 import { UserDropDown } from './UserDropDown'
-import '@styles/userdropdown.scss'
-import { useCheckpoint } from '@hooks/index';
-import Image from 'next/image';
+import '../../styles/userdropdown.scss'
+import { useCheckpoint } from '../../hooks';
 
 type Props = {
   trigger: number,
@@ -27,7 +26,7 @@ export function UserHeader({trigger,setTrigger }: Props) {
   return (
     <div className='user-header'>
       <div className='user-header-button' onClick={() => openDropDown()}>
-        <Image src={user} alt='Hoang van manhh' className='user-header-button' />
+        <img src={user} alt='Hoang van manhh' className='user-header-button' />
       </div>
       <CSSTransition
         in={open && trigger == 3}

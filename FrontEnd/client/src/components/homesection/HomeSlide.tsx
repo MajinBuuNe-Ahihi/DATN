@@ -1,10 +1,10 @@
 import { ReactElement } from 'react';
 import { Autoplay, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useCheckpoint } from '@hooks/checkponit.hooks';
-import { CardItem } from '@components/common';
+import { useCheckpoint } from '../../hooks';
+import { CardItem } from '../common';
 import 'swiper/css';
-import '@styles/slide.scss';
+import '../../styles/slide.scss';
 type Props = {
   card: { children: ReactElement, image: { src: string, alt: string } }[],
   type: string

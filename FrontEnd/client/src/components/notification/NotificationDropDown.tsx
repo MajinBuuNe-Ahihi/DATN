@@ -1,7 +1,7 @@
 import React from 'react'
 import { NotificationDropDownElement } from './NotificationDropDownElement'
 import * as ICON from '../common'
-import '@styles/notification.scss'
+import '../../styles/notification.scss'
 
 type Props = {}
 

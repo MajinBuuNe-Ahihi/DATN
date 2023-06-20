@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { CSSTransition } from 'react-transition-group'
-import { useCheckpoint } from '@hooks/index'
-import bell from '@assets/bell2.svg'
-import '@styles/notification.scss'
+import { useCheckpoint } from '../../hooks'
+import bell from '../../assets/bell2.svg'
+import '../../styles/notification.scss'
 import { NotificationDropDown } from './NotificationDropDown'
 type Props = {
   trigger: number,

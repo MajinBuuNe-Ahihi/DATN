@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '@styles/switch-button.scss'
+import '../../styles/switch-button.scss'
 type Props = {
   state: React.Dispatch<React.SetStateAction<boolean>>,
   className?: string

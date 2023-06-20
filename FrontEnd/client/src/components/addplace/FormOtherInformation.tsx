@@ -1,14 +1,14 @@
 import { Field, FormikErrors, FormikTouched } from 'formik'
 import React from 'react'
-import '@styles/styles/form-other-information.scss'
+import '../../styles/form-other-information.scss'
 import { v4 as uuidv4 } from 'uuid';
 
 type Props = {
   errors: FormikErrors<{
     time_open: string,
     time_closed: string,
-    touched: FormikTouched<{
   }>,
+  touched: FormikTouched<{
     time_open: string,
     time_closed: string,
   }>

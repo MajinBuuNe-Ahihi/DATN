@@ -1,8 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "../store";
-import { Enums } from "@/constants";
-
+/*
+ value:
+ 0 : nothing open 
+ 5 : open sidebar
+ 6 : open search mobile
+ 7 : open search home
+ 8 : open preview image
+ 9 : open login popup
+ */
 interface triggerState {
   value: number
 }
@@ -16,22 +23,22 @@ export const TriggerOverlayandModal = createSlice({
   initialState,
   reducers: {
     overlay: (state) => {
-      state.value = Enums.EnumsTriggerOverLay.Nothing
+      state.value = 0
     },
     sidebar: (state) => {
-      state.value = Enums.EnumsTriggerOverLay.Sidebar
+      state.value = 5
     },
     searchmobile: (state) => {
-      state.value = Enums.EnumsTriggerOverLay.SearchMobile
+      state.value = 6
     },
     searchhomedesktop: (state) => {
-      state.value = Enums.EnumsTriggerOverLay.SearchHome
+      state.value = 7
     },
     previewimage: (state) => {
-      state.value = Enums.EnumsTriggerOverLay.PreviewImage
+      state.value = 8
     },
     popup: (state) => {
-      state.value = Enums.EnumsTriggerOverLay.Login
+      state.value = 9
     }
   }
 })

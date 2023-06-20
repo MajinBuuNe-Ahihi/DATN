@@ -13,7 +13,6 @@ const initialState= {
   url: ""
 } as previewState
 
-// state theo dõi việc mở preview image
 export const PreviewImageModal = createSlice({
   name: 'previewimagemodal',
   initialState,
@@ -33,4 +32,4 @@ export const { open, close } = PreviewImageModal.actions
 
 export const selectCount = (state: RootState) => {state.previewimagemodal.open,state.previewimagemodal.url}
 
-export default PreviewImageModal.reducer 
+export default PreviewImageModal.reducer

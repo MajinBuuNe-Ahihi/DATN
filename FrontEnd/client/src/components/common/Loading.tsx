@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '@styles/loading.scss'
+import '../../styles/loading.scss'
 
 type Props = {}
 

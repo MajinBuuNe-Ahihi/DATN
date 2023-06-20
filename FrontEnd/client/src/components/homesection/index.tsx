@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react'
-import '@styles/home.scss'
+import HomeSlide from './HomeSlide'
+import '../../styles/home.scss'
 type Props = {
   title: string,
   subclass: string,

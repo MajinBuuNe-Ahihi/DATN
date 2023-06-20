@@ -1,6 +1,6 @@
 import { Field, Form, Formik } from 'formik'
 import * as Yup from 'yup'
-import '@styles/login.scss'
+import '../../styles/login.scss'
 import { AiOutlineEye, HiOutlineMail } from '../common'
 import SocialLogin from './SocialLogin'
 

@@ -11,7 +11,6 @@ const initialState = {
   logged: false
 } as loginState
 
-// state theo dỡi việc login
 export const loginModal = createSlice({
   name: 'loginmodal',
   initialState,

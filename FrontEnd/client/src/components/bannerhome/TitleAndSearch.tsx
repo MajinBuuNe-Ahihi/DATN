@@ -1,7 +1,6 @@
 import Typewriter from 'typewriter-effect';
-import { useAppSelector } from '@hooks/redux.hooks';
-import { useCheckpoint} from '@hooks/checkponit.hooks';
-import '@styles/home-banner.scss';
+import { useAppSelector, useCheckpoint } from '../../hooks';
+import '../../styles/home-banner.scss';
 import { SearchComponent } from '../search';
 
 type Props = {}

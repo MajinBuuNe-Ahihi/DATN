@@ -1,6 +1,7 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 import { Footer, Header,NavigationMobile  } from '../common'
-import { useAppSelector, useCheckpoint } from '@hooks/index'
+import { useAppSelector, useCheckpoint } from '../../hooks'
 import { CSSTransition } from 'react-transition-group'
 import SideBar from '../common/SideBar'
 import { SearchComponent } from '../search'
@@ -13,6 +14,7 @@ export function MainLayout({ }: Props) {
   return (
     <div className='MainLayout'>
       <Header></Header>
+      <Outlet></Outlet>
       {
         deviceCurrent == 'mobile' && <CSSTransition
         in={trigger == 5}

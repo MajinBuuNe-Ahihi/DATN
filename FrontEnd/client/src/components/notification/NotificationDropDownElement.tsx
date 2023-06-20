@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import * as ICON from '../common'
 import { formatDistance } from 'date-fns'
-import '@styles/notification.scss'
+import '../../styles/notification.scss'
 type Props = {
   id: string,
   status: boolean,

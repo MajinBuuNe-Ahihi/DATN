@@ -1,13 +1,11 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import * as ICON from './Icon'
-import '@styles/navigation-mobile.scss'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import '../../styles/navigation-mobile.scss'
 
 type Props = {}
 
 export const NavigationMobile = (props: Props) => {
-  const path = useRouter().pathname
   let activeStyle:React.CSSProperties = {
     borderTop: '1px solid #ee0033',
     color: '#ee0033'
@@ -19,8 +17,8 @@ export const NavigationMobile = (props: Props) => {
     <div className='navigation-mobile'>
       <ul className='navigation-mobile__container'>
         <li className='navigation-mobile__element'>
-          <Link href={'/'}
-            style = {path == '/'?activeStyle : unActiveStyle}
+          <NavLink to={'/'}
+            style = {({isActive}) => isActive?activeStyle : unActiveStyle}
           >
             <span>
               <ICON.ImHome size={25}/>
@@ -28,11 +26,11 @@ export const NavigationMobile = (props: Props) => {
             <span>
               trang chu
             </span>
-          </Link>
+          </NavLink>
         </li>
         <li className='navigation-mobile__element'>
-          <Link href={'/explore'}
-             style = {path == '/explore'?activeStyle : unActiveStyle}
+          <NavLink to={'/explore'}
+            style={({ isActive }) => isActive ? activeStyle : unActiveStyle}
           >
             <span>
               <ICON.AiTwotoneFire size={25}/>
@@ -40,40 +38,40 @@ export const NavigationMobile = (props: Props) => {
             <span>
               kham pha
             </span>
-          </Link>
+          </NavLink>
         </li>
         <li className='navigation-mobile__element'>
-          <Link href={'/promo'}
-             style = {path == '/promo'?activeStyle : unActiveStyle}>
+          <NavLink to={'/promo'}
+           style = {({isActive}) => isActive?activeStyle : unActiveStyle}>
             <span>
               <ICON.TbDiscount2 size={25}/>
             </span>
             <span>
               khuyen mai
             </span>
-          </Link>
+          </NavLink>
         </li>
         <li className='navigation-mobile__element'>
-          <Link href={'/save'}
-             style = {path == '/save'?activeStyle : unActiveStyle}>
+          <NavLink to={'/save'}
+            style={({ isActive }) => isActive ? activeStyle : unActiveStyle}>
             <span>
              <ICON.BsBookmarkStarFill size={25}/>
             </span>
             <span>
               da luU
             </span>
-          </Link>
+          </NavLink>
         </li>
         <li className='navigation-mobile__element'>
-          <Link href={'/account'}
-             style = {path == '/account'?activeStyle : unActiveStyle}>
+          <NavLink to={'/account'}
+            style={({ isActive }) => isActive ? activeStyle : unActiveStyle}>
             <span>
               <ICON.FaUser size={25}/>
             </span>
             <span>
               tai khoan
             </span>
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </div>

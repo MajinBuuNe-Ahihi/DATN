@@ -1,7 +1,7 @@
 import React from 'react'
-import { CardItem } from '@components/common';
-import { useCheckpoint } from '@hooks/checkponit.hooks';
-import '@styles/home.scss'
+import { CardItem } from '../common';
+import { useCheckpoint } from '../../hooks';
+import '../../styles/home.scss'
 import { Col, Container, Row } from 'react-bootstrap';
 
 type Props = {}

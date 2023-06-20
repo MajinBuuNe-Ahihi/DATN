@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { CSSTransition } from 'react-transition-group';
 import { Input, BiSearch, AiOutlineLoading3Quarters, FaTimes } from '../common'
-import { useAppDispatch, useAppSelector, useCheckpoint } from '@hooks/index'
+import { useAppDispatch, useAppSelector, useCheckpoint } from '../../hooks'
 import SearchResult from './SearchResult';
-import { overlay, searchhomedesktop,searchmobile} from '@reduxslice/trigger.overlay.slice';
-import '@styles/search.scss'
-
+import { overlay, searchhomedesktop,searchmobile} from '../../sliceredux';
+import '../../styles/search.scss'
+import id from 'date-fns/esm/locale/id/index.js';
 
 type Props = {
   type: string, //type class search

@@ -1,7 +1,7 @@
 import React from 'react'
-import { useAppSelector, useAppDispatch } from '@hooks/index'
-import { overlay } from '@reduxslice/trigger.overlay.slice';
-import { close } from '@reduxslice/preview-image.slice';
+import { useAppSelector, useAppDispatch } from '../../hooks'
+import { overlay } from '../../sliceredux';
+import { close } from '../../sliceredux/preview-image.slice';
 
 type Props = {}
 

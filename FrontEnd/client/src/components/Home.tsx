@@ -1,13 +1,13 @@
-import BannerHome from '@components/bannerhome';
-import HomeSection from '@components/homesection';
-import HomeSlide from '@components/homesection/HomeSlide';
-import ListItemFamous from '@components/homesection/ListItemFamous';
+import BannerHome from './bannerhome';
+import HomeSection from './homesection';
+import HomeSlide from './homesection/HomeSlide';
+import ListItemFamous from './homesection/ListItemFamous';
 import image from '../assets/suggest-place.svg'
-import '@styles/home-banner.scss';
-import { Button } from '@components/common/Button';
+import '../styles/home-banner.scss';
+import { Button } from './common';
+import {useScrollPostion} from '../hooks';
+import { useNavigate } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import Image from 'next/image';
-import Link from 'next/link';
 
 const card = [{
   children: <h1>Lam viec</h1>,
@@ -99,6 +99,10 @@ const card2 = [{
 
 type Props = {}
 export default function Home({ }: Props) {
+  const nav = useNavigate();
+  const redrictAddplace = () => {
+    nav('/add-place')
+  }
 
   return (
     <div className='home-section'>
@@ -108,9 +112,9 @@ export default function Home({ }: Props) {
         <HomeSection subclass='near-you' title='Khu vực gần đây' children={<HomeSlide card={card2} type={'near-you'} />} /> 
         <HomeSection subclass='famous-destination' title='Địa điểm nổi bật' children={<ListItemFamous />} /> 
         <div className='home-section-suggest-place'>
-          <Image className='home-section-suggest-place__img' src={image} alt='suggest place' />
+          <img className='home-section-suggest-place__img' src={image} alt='suggest place' />
           <span className='home-section-suggest-place__text' >Chung toi co bo lo dia diem nao ma ban biet</span>
-          <Link href='/add-place'><Button  className={'home-section-suggest-place__button-suggest-palace'} type={2} bg={1} children={<>Dong Gop Dia Diem</>} ></Button></Link>
+          <Button onClick = {()=>redrictAddplace()} className={'home-section-suggest-place__button-suggest-palace'} type={2} bg={1} children={<>Dong Gop Dia Diem</>} ></Button>
         </div>
      </Container>
     </div>

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import {BsTrash,AiOutlineEye} from '../../common';
-import { useAppDispatch, useAppSelector } from '@hooks/redux.hooks'
-import  {open}  from '@reduxslice/preview-image.slice';
-import { previewimage } from '@reduxslice/trigger.overlay.slice';
+import { useAppDispatch, useAppSelector } from '../../../hooks'
+import { previewimage } from '../../../sliceredux';
+import { open } from '../../../sliceredux/preview-image.slice';
 
 type Props = {
   url: string,

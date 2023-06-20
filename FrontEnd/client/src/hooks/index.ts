@@ -1,3 +1,3 @@
-export * from './checkponit.hooks'
 export * from './redux.hooks'
-export * from './scrollposition.hooks'
+export * from './checkpoint.hooks'
+export * from './scrollpostion.hooks'

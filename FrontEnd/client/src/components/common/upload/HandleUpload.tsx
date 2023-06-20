@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { ButtonLoad } from './ButtonLoad'
 import ImageUpload from './ImageUpload'
 import { v4 as uuidv4 } from 'uuid';
-import '@styles/upload-image.scss'
+import '../../../styles/upload-image.scss'
 type Props = {}
 
 export function HandleUpload({ }: Props) {

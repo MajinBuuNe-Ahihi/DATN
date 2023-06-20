@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Field , FormikErrors, FormikTouched } from 'formik'
 import { SwitchButton } from '../common'
-import '@styles/form-information-basic.scss'
+import '../../styles/form-information-basic.scss'
 
 type Props = {
   errors: FormikErrors<{

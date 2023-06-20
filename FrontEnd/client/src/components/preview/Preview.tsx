@@ -1,6 +1,6 @@
 import { Container, Row } from 'react-bootstrap'
 import AddPlaceForm from './AddPlaceForm'
-import '@styles/preview.scss'
+import '../../styles/preview.scss'
 
 type Props = {}
 
