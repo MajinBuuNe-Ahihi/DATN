@@ -17,18 +17,18 @@ export const PreviewImageModal = createSlice({
   name: 'previewimagemodal',
   initialState,
   reducers: {
-    open: (state,actions:PayloadAction<{url:string}>) => {
+    OpenPreview: (state,actions:PayloadAction<{url:string}>) => {
       state.open = true;
       state.url = actions.payload.url
     },
-    close: (state) => {
+    ClosePreview: (state) => {
       state.open = false;
       state.url = "";
     }
   }
 })
 
-export const { open, close } = PreviewImageModal.actions
+export const { OpenPreview, ClosePreview } = PreviewImageModal.actions
 
 export const selectCount = (state: RootState) => {state.previewimagemodal.open,state.previewimagemodal.url}
 

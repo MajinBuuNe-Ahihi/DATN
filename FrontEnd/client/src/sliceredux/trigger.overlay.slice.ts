@@ -1,6 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "../store";
+import { Enumrable } from "../constants";
+import { number } from "yup";
 /*
  value:
  0 : nothing open 
@@ -8,7 +10,7 @@ import type { RootState } from "../store";
  6 : open search mobile
  7 : open search home
  8 : open preview image
- 9 : open login popup
+ 9 : open login Popup
  */
 interface triggerState {
   value: number
@@ -18,32 +20,34 @@ const initialState= {
   value:0
 } as triggerState
 
+const {Overlay:OverlayEnum} = Enumrable 
+
 export const TriggerOverlayandModal = createSlice({
   name: 'trigger',
   initialState,
   reducers: {
-    overlay: (state) => {
-      state.value = 0
+    Overlay: (state) => {
+      state.value = OverlayEnum.Nothing
     },
-    sidebar: (state) => {
-      state.value = 5
+    SideBar: (state) => {
+      state.value = OverlayEnum.SideBar
     },
-    searchmobile: (state) => {
-      state.value = 6
+    MobileSearch: (state) => {
+      state.value = OverlayEnum.MobileSearch
     },
     searchhomedesktop: (state) => {
-      state.value = 7
+      state.value = OverlayEnum.DesktopSerch
     },
     previewimage: (state) => {
-      state.value = 8
+      state.value = OverlayEnum.PreviewImage
     },
-    popup: (state) => {
-      state.value = 9
+    Popup: (state) => {
+      state.value = OverlayEnum.Login
     }
   }
 })
 
-export const { overlay, sidebar, searchmobile,searchhomedesktop,previewimage,popup} = TriggerOverlayandModal.actions
+export const { Overlay, SideBar, MobileSearch,searchhomedesktop,previewimage,Popup} = TriggerOverlayandModal.actions
 
 export const selectCount = (state: RootState) => state.trigger.value
 

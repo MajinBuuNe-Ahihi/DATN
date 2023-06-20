@@ -1,8 +1,8 @@
 import React from 'react'
 import { FaTimes } from './Icon'
 import { useAppDispatch, useAppSelector, useCheckpoint } from '../../hooks'
-import { overlay } from '../../sliceredux';
-import { close } from '../../sliceredux/preview-image.slice';
+import { Overlay } from '../../sliceredux';
+import { ClosePreview } from '../../sliceredux/preview-image.slice';
 import '../../styles/preview-image.scss'
 
 type Props = {}
@@ -12,8 +12,8 @@ export  function PreviewImage({ }: Props) {
   const dispatch = useAppDispatch();
   const { deviceCurrent } = useCheckpoint('');
   const closePreview = () => {
-    dispatch(close());
-    dispatch(overlay());
+    dispatch(ClosePreview());
+    dispatch(Overlay());
   }
   return (
     <>

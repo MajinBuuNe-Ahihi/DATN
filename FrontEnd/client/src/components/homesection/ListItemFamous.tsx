@@ -3,6 +3,7 @@ import { CardItem } from '../common';
 import { useCheckpoint } from '../../hooks';
 import '../../styles/home.scss'
 import { Col, Container, Row } from 'react-bootstrap';
+import { Enumrable } from '../../constants';
 
 type Props = {}
 const card2 = [{
@@ -86,14 +87,15 @@ const card2 = [{
   }
   }
 ]
+const {Mobile} = Enumrable.Screen
 function ListItemFamous({ }: Props) {
   const { deviceCurrent} = useCheckpoint('')
   return (
     <Container className='famous-destionation-wrapper'>
       <Row className = {"gy-3"}>
       { 
-        card2.slice(0,deviceCurrent == 'mobile'?3:card2.length).map((item,index) =>
-          <Col xs={11} md={6} lg={4} xl = {3}> <CardItem key={index} image={item.image} children={item.children} type={'famous-destination'} /></Col>
+        card2.slice(0,deviceCurrent == Mobile.Name?3:card2.length).map((item,index) =>
+          <Col xs={11} md={6} lg={4} xl = {3} key={index}> <CardItem key={index} image={item.image} children={item.children} type={'famous-destination'} /></Col>
         )
       }
       </Row>

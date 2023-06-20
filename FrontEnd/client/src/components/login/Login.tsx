@@ -1,7 +1,7 @@
 import { CSSTransition } from 'react-transition-group'
 import loginimage from '../../assets/coffee-break.svg'
 import { useAppDispatch, useAppSelector, useCheckpoint } from '../../hooks'
-import { overlay } from '../../sliceredux'
+import {Overlay } from '../../sliceredux'
 import FormLogin from './FormLogin'
 import { FaTimes } from '../common'
 import '../../styles/login.scss'
@@ -31,7 +31,7 @@ export default function Login({ }: Props) {
       classNames={'login-mobile'}>
         <div className="login">
           <div className="login__close">
-            <FaTimes size={25} className="login__icon" onClick={() =>  dispatch(overlay())} />
+            <FaTimes size={25} className="login__icon" onClick={() =>  dispatch(Overlay())} />
           </div>
           {
             !currentPage ?
@@ -45,7 +45,7 @@ export default function Login({ }: Props) {
     :
       <div className="login">
         <div className="login__close">
-          <FaTimes size={25} className="login__icon" onClick={() =>  dispatch(overlay())} />
+          <FaTimes size={25} className="login__icon" onClick={() =>  dispatch(Overlay())} />
         </div>
         {
           !currentPage ?
