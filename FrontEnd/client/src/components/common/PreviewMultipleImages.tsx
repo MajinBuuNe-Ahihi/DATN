@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import {  Navigation} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {  useCheckpoint } from '../../hooks'
@@ -17,7 +17,9 @@ const PreviewMultipleImages = (props: Props) => {
     const [zoom,setZoom] = useState<number>(1);
     const { deviceCurrent } = useCheckpoint('');
     const currentSizeIcon = deviceCurrent === Mobile.Name? 15 : 25
-
+    useEffect(()=>{
+        setZoom(1);
+    },[currentImageIndex])
   return (
     <>
         {
@@ -43,7 +45,7 @@ const PreviewMultipleImages = (props: Props) => {
                 <AiOutlinePlus size={currentSizeIcon} className="preview-multiple-images__icon" />
                 </div>
                 <div style={{opacity: zoom == 0?0.5:1}} title='thu nhỏ' className="preview-multiple-images__button preview-multiple-images__button--minus" 
-                onClick={()=>zoom>0?setZoom((z)=>z-0.25):zoom}>
+                onClick={()=>zoom>1?setZoom((z)=>z-0.25):zoom}>
                 <AiOutlineMinus size={currentSizeIcon} className="preview-multiple-images__icon" />
                 </div>
                 <div title='Đóng' className="preview-multiple-images__button preview-multiple-images__button--close">
@@ -61,7 +63,7 @@ const PreviewMultipleImages = (props: Props) => {
                 {
                 props.listImage.map((item,index) =>
                 <SwiperSlide key={index}>
-                    <div className="preview-multiple-images__image" style={{background: `url(${item})`}}></div>
+                    <div className="preview-multiple-images__image" style={{background: `url(${item})`,transform:`scale(${zoom})`}}></div>
                 </SwiperSlide>
                 )
                 }
