@@ -5,25 +5,25 @@ import type { RootState } from "../store";
 
 interface previewState {
   open: boolean,
-  url: string
+  url: Array<string>
 }
 
 const initialState= {
   open: false,
-  url: ""
+  url: [],
 } as previewState
 
 export const PreviewImageModal = createSlice({
   name: 'previewimagemodal',
   initialState,
   reducers: {
-    OpenPreview: (state,actions:PayloadAction<{url:string}>) => {
+    OpenPreview: (state,actions:PayloadAction<{urls:[string]}>) => {
       state.open = true;
-      state.url = actions.payload.url
+      state.url = actions.payload.urls
     },
     ClosePreview: (state) => {
       state.open = false;
-      state.url = "";
+      state.url = [];
     }
   }
 })

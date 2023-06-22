@@ -18,7 +18,6 @@ export function Overlay({ }: Props) {
           dispatch(OverlayRedux());
           dispatch(ClosePreview());
         }}>
-
     </div>
     }
     </>

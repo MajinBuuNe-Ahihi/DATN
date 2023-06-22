@@ -15,7 +15,7 @@ export default function ImageUpload({ url, setBlob, index }: Props) {
   const dispatch = useAppDispatch();
   const openPreview = () => {
     dispatch(previewimage());
-    dispatch(OpenPreview({ url }));
+    dispatch(OpenPreview({ urls:[url] }));
   }
 
   return (
