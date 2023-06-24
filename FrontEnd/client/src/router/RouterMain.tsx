@@ -9,6 +9,7 @@ const  AddPlace  = React.lazy(() => import('../components/addplace'))
 const  About= React.lazy(() => import('../components/About'))
 const  Contact= React.lazy(() => import('../components/Contact'))
 const  Preview  = React.lazy(() => import('../components/preview/Preview'))
+const NearYou = React.lazy(()=> import('../components/near-you/Index'))
 
 type Props = {}
 
@@ -22,6 +23,7 @@ export function RouterMain({}: Props) {
         <Route path='about' element={<About />}></Route>
         <Route path='contact' element={<Contact />}></Route>
         <Route path='preview' element={<Preview />}></Route>
+        <Route path='near-you' element={<NearYou/>}></Route>
         {/* <Route path='profile' element={<></>}>
           <Route path=':id' element={<></>} />
           <Route path='settings' element={<></>} />

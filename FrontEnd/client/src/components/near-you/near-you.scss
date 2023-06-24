@@ -1,0 +1,21 @@
+@import '../../styles/base';
+@import '../../styles/function';
+@import '../../styles/varible';
+
+.near-you-containter {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    padding: 20px 0;
+}
+
+.near-you-containter__col-left {
+    padding:  0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

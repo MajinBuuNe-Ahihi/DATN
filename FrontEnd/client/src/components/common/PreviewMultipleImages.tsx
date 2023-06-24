@@ -1,19 +1,23 @@
 import React,{useEffect, useState} from 'react'
 import {  Navigation} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {  useCheckpoint } from '../../hooks'
 import { FaTimes,AiOutlineMinus,AiOutlinePlus } from '../common/Icon';
 import { Enumrable } from '../../constants';
 import '../../styles/previewmultipleimage.scss'
+import { useAppDispatch, useAppSelector, useCheckpoint } from '../../hooks'
+import { ClosePreview } from '../../sliceredux/preview-multiple-image.slice';
 
 type Props = {
-    currentImage: string,
-    listImage: Array<string>
 }
 const {Mobile} = Enumrable.Screen;
 
 const PreviewMultipleImages = (props: Props) => {
-    const [currentImageIndex,setCurrentImageIndex] = useState<number>(props.listImage.findIndex((item)=>item == props.currentImage)+1);
+    const { open: openPreview, currentImage,listImage } = useAppSelector(state => state.previewmultipleimagemodal)
+    const dispatch = useAppDispatch();
+    const closePreview = () => {
+      dispatch(ClosePreview());
+    }
+    const [currentImageIndex,setCurrentImageIndex] = useState<number>(listImage.findIndex((item)=>item == currentImage)+1);
     const [zoom,setZoom] = useState<number>(1);
     const { deviceCurrent } = useCheckpoint('');
     const currentSizeIcon = deviceCurrent === Mobile.Name? 15 : 25
@@ -23,7 +27,7 @@ const PreviewMultipleImages = (props: Props) => {
   return (
     <>
         {
-        (props.listImage?.length > 0 && props.currentImage) &&
+        (openPreview && listImage?.length > 0 && currentImage) &&
         <div className="preview-multiple-images">
             <div className="preview-multiple-images__header">
                 <div className="preview-multiple-images__header--left">
@@ -35,7 +39,7 @@ const PreviewMultipleImages = (props: Props) => {
                         /
                         </span>
                         <span>
-                            {props.listImage?.length}
+                            {listImage?.length}
                         </span>
                     </div>
                 </div>
@@ -48,7 +52,7 @@ const PreviewMultipleImages = (props: Props) => {
                 onClick={()=>zoom>1?setZoom((z)=>z-0.25):zoom}>
                 <AiOutlineMinus size={currentSizeIcon} className="preview-multiple-images__icon" />
                 </div>
-                <div title='Đóng' className="preview-multiple-images__button preview-multiple-images__button--close">
+                <div title='Đóng' onClick={()=>closePreview()} className="preview-multiple-images__button preview-multiple-images__button--close">
                     <FaTimes size={currentSizeIcon} className="preview-multiple-images__icon" />
                 </div>
                 </div>
@@ -61,7 +65,7 @@ const PreviewMultipleImages = (props: Props) => {
                 className={`preview-multiple-images__slide`}
                 >
                 {
-                props.listImage.map((item,index) =>
+                listImage.map((item,index) =>
                 <SwiperSlide key={index}>
                     <div className="preview-multiple-images__image" style={{background: `url(${item})`,transform:`scale(${zoom})`}}></div>
                 </SwiperSlide>
