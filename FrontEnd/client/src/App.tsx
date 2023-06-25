@@ -24,13 +24,13 @@ function App() {
   return (
     <div className="App">
       <RouterMain></RouterMain>
-      <MapModal></MapModal>
       {ReactDOM.createPortal(<Overlay />, document.getElementById('overlay') as HTMLElement)}
       {ReactDOM.createPortal(<PreviewImage />, document.getElementById('preview') as HTMLElement)}
       {ReactDOM.createPortal(<ButtonScroll />, document.getElementById('button-scroll') as HTMLElement)}
       {ReactDOM.createPortal(<Login />, document.getElementById('popup') as HTMLElement)}
       {ReactDOM.createPortal(toast,document.getElementById('toastify') as HTMLElement)}
       {ReactDOM.createPortal(<PreviewMultipleImages/>,document.getElementById('preview-multiple') as HTMLElement)}
+      {ReactDOM.createPortal(<MapModal/>,document.getElementById('map-modal') as HTMLElement)}
     </div>
   )
 }

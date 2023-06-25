@@ -3,7 +3,7 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "../store";
 
 
-interface previewState {
+interface IPreviewState {
   open: boolean,
   url: Array<string>
 }
@@ -11,7 +11,7 @@ interface previewState {
 const initialState= {
   open: false,
   url: [],
-} as previewState
+} as IPreviewState
 
 export const PreviewImageModal = createSlice({
   name: 'previewimagemodal',

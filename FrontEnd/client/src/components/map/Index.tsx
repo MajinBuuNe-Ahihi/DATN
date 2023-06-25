@@ -6,6 +6,8 @@ import { Resource } from '../../constants'
 import { MarkerMap, StateMap } from './types'
 import MarkerPoint from './MarkerPoint'
 import { BsFillPinMapFill } from '../common/Icon'
+import { useAppDispatch } from '../../hooks';
+import { OpenMapModalState} from '../../sliceredux/modal-map.slice';
 
 
 
@@ -23,6 +25,12 @@ const {Map: ResoureMap} = Resource
 export default function ViewMap(props: Props) {
   const [coords,setCoords] = useState<{latitude: number,longitude: number}>({latitude:0,longitude:0})
   const [open,setOpen] = useState<boolean>(false)
+  const dispatch = useAppDispatch();
+
+  const OpenMapModal = ()=> {
+    dispatch(OpenMapModalState());
+  }
+
 
   useLayoutEffect(()=>{
     const requestLocationPermission = async () => {
@@ -67,9 +75,9 @@ export default function ViewMap(props: Props) {
 
   return (
     
-    <div className={`${props.show?'map map--background':'map'}`} style={{height:props.height}}>
+    <div className={`${!props.show?'map map--background':'map'}`} style={{height:props.height}}>
         {
-        true ? (open) &&
+        props.show ? (open) &&
         <div className="map__geo">
             <Map
             mapboxAccessToken= {import.meta.env.VITE_MAP_BOX_TOKEN}
@@ -92,7 +100,7 @@ export default function ViewMap(props: Props) {
             </a>
         </div>
         :
-         <div className="map__open-map">
+         <div className="map__open-map" onClick={()=> OpenMapModal()}>
             {ResoureMap.Button}
         </div> 
         }

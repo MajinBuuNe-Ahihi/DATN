@@ -3,7 +3,7 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "../store";
 
 
-interface previewState {
+interface IPreviewMultipleState {
   open: boolean,
   currentImage: string,
   listImage: Array<string>
@@ -13,7 +13,7 @@ const initialState= {
   open: false,
   currentImage: '',
   listImage: []
-} as previewState
+} as IPreviewMultipleState
 
 export const PreviewMultipleImageModal = createSlice({
   name: 'previewmultipleimagemodal',

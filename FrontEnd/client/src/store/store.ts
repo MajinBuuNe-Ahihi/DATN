@@ -3,6 +3,7 @@ import loginSlice from '../sliceredux/login.slice'
 import previewImageSlice from '../sliceredux/preview-image.slice'
 import triggerOverlaySlice from '../sliceredux/trigger.overlay.slice'
 import previewMultipleImageSlice from '../sliceredux/preview-multiple-image.slice'
+import mapModalSlice from '../sliceredux/modal-map.slice'
 
 // ...
 
@@ -11,7 +12,8 @@ export const store = configureStore({
     trigger: triggerOverlaySlice,
     previewimagemodal: previewImageSlice,
     loginmodal: loginSlice,
-    previewmultipleimagemodal:previewMultipleImageSlice
+    previewmultipleimagemodal:previewMultipleImageSlice,
+    mapmodal: mapModalSlice
   },
 })
 
