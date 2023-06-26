@@ -14,7 +14,7 @@ export function Overlay({ }: Props) {
     <>
       {
         (array.includes(trigger)) &&
-         <div id='Overlay-component' onClick={() => {
+         <div id='overlay-component' onClick={() => {
           dispatch(OverlayRedux());
           dispatch(ClosePreview());
         }}>

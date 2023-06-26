@@ -4,6 +4,7 @@ import { AiOutlineMinus, AiOutlinePlus, MdMyLocation, MdOutlineLocationSearching
 import MarkerPoint from '../MarkerPoint'
 import PopupPoint from '../PopupPoint'
 import './map-contain.scss'
+import MapItemCoffee from './MapItemCoffee'
 
 
 type Props = {}
@@ -78,6 +79,22 @@ useEffect(()=> {
 
 
   return (
+    <div className="map-modal__main">
+    <div className="map-model__list-place">
+        <div className="map-model__list-place-number-result">
+            Đang hiển thị 10/440 kết quả tìm kiếm:
+        </div>
+        <div className="map-model__list-place-result">
+            {
+                listCoordinate.map(coord =>(
+                    <MapItemCoffee RedirectLocation={()=>{
+                        setCoords({latitude: coord[0],longitude:coord[1]})
+                        setPopupLocation({latitude: coord[0],longitude:coord[1]})
+                    }}></MapItemCoffee>
+                ))
+            }
+        </div>
+    </div>
      <div className="map-contain" ref={mapRef}>
         <div className="map-contain__tool">
             <div className="map-contain__tool-button map-contain__tool-button--location">
@@ -139,5 +156,6 @@ useEffect(()=> {
             </Map>
         </div>
      </div>
+</div>
   )
 }

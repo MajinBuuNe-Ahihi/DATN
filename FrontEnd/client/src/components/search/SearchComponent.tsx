@@ -5,7 +5,7 @@ import { useAppDispatch, useAppSelector, useCheckpoint } from '../../hooks'
 import SearchResult from './SearchResult';
 import {Overlay, searchhomedesktop,MobileSearch} from '../../sliceredux';
 import '../../styles/search.scss'
-import id from 'date-fns/esm/locale/id/index.js';
+
 
 type Props = {
   type: string, //type class search

@@ -5,6 +5,7 @@ import { Resource } from '../../../constants'
 import MapContain from './MapContain'
 import { useAppDispatch,useAppSelector } from '../../../hooks';
 import {CloseMapModalState} from '../../../sliceredux/modal-map.slice'
+import MapItemCoffee from './MapItemCoffee'
 
 type Props = {}
 
@@ -31,16 +32,7 @@ export default function MapModal({}: Props) {
                     <FaTimes size={25}/>
                 </div>
             </div>
-            <div className="map-modal__main">
-                <div className="map-model__list-place">
-                    <div className="map-model__list-place-number-result">
-
-                    </div>
-                    <div className="map-model__list-place-result">
-                    </div>
-                </div>
-                <MapContain/>
-            </div>
+            <MapContain/>
         </div>
         </div>
     }

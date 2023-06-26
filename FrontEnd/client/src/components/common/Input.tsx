@@ -15,6 +15,6 @@ type Props = {
 
 export const Input = (props: Props) => {
   return (
-    <input {...props} />
+    <input {...props} autoComplete='off' />
   )
 }

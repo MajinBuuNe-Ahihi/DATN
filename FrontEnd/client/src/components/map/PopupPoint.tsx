@@ -10,7 +10,7 @@ export default function PopupPoint({closeFunction}: Props) {
     const star = [0, 1, 2, 3, 4];
 
   return (
-    <div className="map-popup">
+    <div className="map-popup" onClick={()=>closeFunction()}>
         <div className="map-popup__main-close" onClick={()=>closeFunction()}>
             <FaTimes size={10}></FaTimes>
         </div>
