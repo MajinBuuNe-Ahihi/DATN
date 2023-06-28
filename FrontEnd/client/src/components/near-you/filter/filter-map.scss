@@ -1,0 +1,56 @@
+@import '../../../styles/base';
+@import '../../../styles/function';
+@import '../../../styles/varible';
+
+.filter-map {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.383);
+    background-color: $primary-color;
+    width: 100%;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.filter-map__title {
+    padding: 5px 0 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.filter-map__contain {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filter-map__main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter-map__label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.filter-map__list-control {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 5px;
+}
+
+.filter-map__item-control {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.filter-map__item-control-label {
+    font-size: 15px;
+}

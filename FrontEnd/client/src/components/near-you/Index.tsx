@@ -2,6 +2,7 @@ import React from 'react'
 import './near-you.scss'
 import { Col, Container, Row } from 'react-bootstrap'
 import ViewMap from '../map/Index'
+import FilterContain from './filter/Index'
 
 type Props = {}
 
@@ -15,7 +16,7 @@ export default function NearYou({}: Props) {
                     <ViewMap height={200}></ViewMap>
                 </Row>
                 <Row>
-                    options
+                    <FilterContain></FilterContain>
                 </Row>
             </Col>
             <Col style={{marginLeft: "30px"}}>
