@@ -1,11 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import ButtonRadio from '../../common/button-radio/ButtonRadio'
 import CheckBox from '../../common/check-box/CheckBox'
 import './filter-map.scss'
+import RangeSlider from '../../common/range-slider/RangeSlider'
 
 type Props = {}
 
 export default function FilterContain({}: Props) {
+    const [price,setPrice] = useState<number>(30000)
   return (
     <div className="filter-map">
         <div className="filter-map__title">
@@ -121,6 +123,19 @@ export default function FilterContain({}: Props) {
                         <div className="filter-map__item-control-label">
                             Cafe Lounge
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="filter-map__main">
+                <div className="filter-map__label">
+                   Khoảng giá
+                </div>
+                <div className="filter-map__list-control">
+                    <div className="filter-map__price">
+                        0 ~ {price} VNĐ
+                    </div>
+                    <div className="filter-map__item-control">
+                        <RangeSlider setValue={setPrice} total={30000} step={1000} ></RangeSlider>
                     </div>
                 </div>
             </div>
