@@ -4,10 +4,11 @@ import CheckBox from '../../common/check-box/CheckBox'
 import './filter-map.scss'
 import RangeSlider from '../../common/range-slider/RangeSlider'
 
+
 type Props = {}
 
 export default function FilterContain({}: Props) {
-    const [price,setPrice] = useState<number>(30000)
+    const [price,setPrice] = useState<{min:number,max:number}>({min:0,max:300})
   return (
     <div className="filter-map">
         <div className="filter-map__title">
@@ -132,10 +133,10 @@ export default function FilterContain({}: Props) {
                 </div>
                 <div className="filter-map__list-control">
                     <div className="filter-map__price">
-                        0 ~ {price} VNĐ
+                        {price.min} ~ {price.max} VNĐ
                     </div>
                     <div className="filter-map__item-control">
-                        <RangeSlider setValue={setPrice} total={30000} step={1000} ></RangeSlider>
+                        <RangeSlider setValue={setPrice} max={30000} step={1000} min={0} ></RangeSlider>
                     </div>
                 </div>
             </div>

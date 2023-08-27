@@ -11,6 +11,7 @@
     overflow-x: hidden;
     flex: 1;
     padding: 20px 0;
+    user-select:  none;
 }
 
 .near-you-containter__col-left {
@@ -18,4 +19,27 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.near-you-containter__col-right {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.near-you-list-place {
+    width: 100%;
+    height: auto !important;
+}
+
+.near-you-list-place__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.near-you-paging {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 20px;
 }

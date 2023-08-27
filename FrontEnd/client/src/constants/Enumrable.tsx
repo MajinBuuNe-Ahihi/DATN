@@ -49,6 +49,18 @@ const Screen =Object.freeze<ScreenType>( {
     }
 })
 
+type SortFilterType = {
+    Correct: number,
+    Point: number,
+    NearYou: number
+}
+
+const SortFilter = Object.freeze<SortFilterType>({
+    Correct: 0,
+    Point: 1,
+    NearYou: 2
+})
+
 export const Enumrable = Object.freeze({
-    Overlay,Screen
+    Overlay,Screen,SortFilter
 });

@@ -1,0 +1,85 @@
+@import './varible';
+
+.place-card {
+    width: 100%;
+    height: 250px;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    background-color: $primary-color;
+    box-shadow:$shadow-primary-card;
+
+}
+
+.place-card__contain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.place-card__image {
+    height:  100% !important;
+    img {
+       height:100% !important;
+        aspect-ratio: 10/9;
+        border-radius: 10px;
+    }
+}
+
+.place-card__content {
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.place-card__name {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.place-card__vote {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.place-card__price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.place-card__place {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.place-card__time {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .status-open {
+        font-size: large;
+        font-weight: bold;
+        color: #FF9800;
+    }
+}
+
+.place-card__bookmark {
+    justify-items: flex-end;
+}
+
+.place-card__bookmark-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: $shadow-primary-card;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

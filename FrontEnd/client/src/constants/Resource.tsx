@@ -11,5 +11,10 @@ export const Resource = Object.freeze({
         Modal: {
             Title: "Tìm kiếm địa điểm"
         }
+    },
+    SortFilter: {
+        Correct: 'Đúng nhất',
+        Point: 'Điểm đánh giá',
+        NearYou: 'Gần tôi nhất'
     }
 })
