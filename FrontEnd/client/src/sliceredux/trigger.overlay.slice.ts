@@ -27,6 +27,7 @@ export const TriggerOverlayandModal = createSlice({
   initialState,
   reducers: {
     Overlay: (state) => {
+
       state.value = OverlayEnum.Nothing
     },
     SideBar: (state) => {
@@ -35,10 +36,10 @@ export const TriggerOverlayandModal = createSlice({
     MobileSearch: (state) => {
       state.value = OverlayEnum.MobileSearch
     },
-    searchhomedesktop: (state) => {
-      state.value = OverlayEnum.DesktopSerch
+    SearchHomeDesktop: (state) => {
+      state.value = OverlayEnum.DesktopSearch
     },
-    previewimage: (state) => {
+    PreviewImage: (state) => {
       state.value = OverlayEnum.PreviewImage
     },
     Popup: (state) => {
@@ -47,7 +48,7 @@ export const TriggerOverlayandModal = createSlice({
   }
 })
 
-export const { Overlay, SideBar, MobileSearch,searchhomedesktop,previewimage,Popup} = TriggerOverlayandModal.actions
+export const { Overlay, SideBar, MobileSearch, SearchHomeDesktop,PreviewImage,Popup} = TriggerOverlayandModal.actions
 
 export const selectCount = (state: RootState) => state.trigger.value
 

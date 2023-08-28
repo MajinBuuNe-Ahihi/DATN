@@ -4,7 +4,7 @@ import React, { useState, useEffect, Ref } from "react";
  * Hook that alerts clicks outside of the passed ref
  */
 function useOutsideClick(ref:any) {
-  const [outClick,setOutClick] = useState<boolean>(true)
+  const [outClick,setOutClick] = useState<boolean>(false)
   useEffect(() => {
     /**
      * Alert if clicked on outside of element

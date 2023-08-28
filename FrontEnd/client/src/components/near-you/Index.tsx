@@ -52,9 +52,9 @@ export default function NearYou({}: Props) {
                         địa điểm khớp với tìm kiếm của bạn:
                     </div>
                     <div className="near-you-result-container__select">
-                        <span>Label</span>
+                        <span>Sắp xếp theo:</span>
                       <Dropdown>
-                        <Dropdown.Toggle  id="dropdown-basic">
+                        <Dropdown.Toggle  id="dropdown-basic" className='near-you-result-container__select-button'>
                             {selectValue.label}
                         </Dropdown.Toggle>
                         <Dropdown.Menu className='near-you__filter-sort'>

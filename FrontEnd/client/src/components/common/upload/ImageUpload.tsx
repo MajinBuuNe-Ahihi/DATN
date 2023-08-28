@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {BsTrash,AiOutlineEye} from '../../common';
 import { useAppDispatch, useAppSelector } from '../../../hooks'
-import { previewimage } from '../../../sliceredux';
+import { PreviewImage } from '../../../sliceredux';
 import { OpenPreview } from '../../../sliceredux/preview-image.slice';
 
 type Props = {
@@ -14,7 +14,7 @@ export default function ImageUpload({ url, setBlob, index }: Props) {
   const deleteImage = () => setBlob(pre => pre.filter((_, i) => i != index));
   const dispatch = useAppDispatch();
   const openPreview = () => {
-    dispatch(previewimage());
+    dispatch(PreviewImage());
     dispatch(OpenPreview({ urls:[url] }));
   }
 

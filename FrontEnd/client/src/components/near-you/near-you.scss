@@ -43,3 +43,43 @@
     justify-content: center;
     padding: 40px 0 20px;
 }
+
+.near-you-result-container__number {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ font-size: 18px;
+}
+
+.near-you-result-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.number-result {
+    font-weight: bold !important;
+    font-size: 25px;
+}
+
+.near-you-result-container__select {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.near-you-result-container__select-button {
+    background-color:  $primary-color;
+    color: $primary-color-text;
+    border: $secondary-color solid 1px !important;
+    width: 150px !important;
+    &:active,&:hover,&.show {
+        background-color: $secondary-color !important; 
+    }
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color:  $secondary-color !important;
+    color: $primary-color !important;
+}

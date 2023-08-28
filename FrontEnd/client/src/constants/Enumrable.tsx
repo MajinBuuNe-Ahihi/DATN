@@ -4,7 +4,7 @@ type OverlayType = {
     Nothing: number,
     SideBar: number,
     MobileSearch: number,
-    DesktopSerch: number,
+    DesktopSearch: number,
     PreviewImage: number,
     Login: number
 }
@@ -13,7 +13,7 @@ const Overlay = Object.freeze<OverlayType>({
     Nothing: 0,
     SideBar: 5,
     MobileSearch: 6,
-    DesktopSerch: 7,
+    DesktopSearch: 7,
     PreviewImage: 8,
     Login: 9
 })

@@ -1,15 +1,15 @@
-import React from 'react'
+import React,{ useEffect }from 'react'
 import { useAppSelector, useAppDispatch } from '../../hooks'
 import { Overlay as OverlayRedux} from '../../sliceredux';
 import { ClosePreview } from '../../sliceredux/preview-image.slice';
 import { Enumrable } from '../../constants';
 
 type Props = {}
-const {SideBar,MobileSearch,PreviewImage,DesktopSerch,Login} = Enumrable.Overlay
+const {SideBar,MobileSearch,PreviewImage,DesktopSearch,Login} = Enumrable.Overlay
 export function Overlay({ }: Props) {
-  const trigger:number = useAppSelector((state) => state.trigger.value)
+  const trigger:number = useAppSelector((state) => state.trigger.value);
   const dispatch = useAppDispatch()
-  const array = [SideBar,MobileSearch,PreviewImage,DesktopSerch,Login]
+  const array = [SideBar,MobileSearch,PreviewImage,DesktopSearch,Login]
   return (
     <>
       {
@@ -18,7 +18,7 @@ export function Overlay({ }: Props) {
           dispatch(OverlayRedux());
           dispatch(ClosePreview());
         }}>
-    </div>
+        </div>
     }
     </>
   )

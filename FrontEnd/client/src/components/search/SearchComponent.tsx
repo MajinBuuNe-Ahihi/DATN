@@ -3,7 +3,7 @@ import { CSSTransition } from 'react-transition-group';
 import { Input, BiSearch, AiOutlineLoading3Quarters, FaTimes } from '../common'
 import { useAppDispatch, useAppSelector, useCheckpoint } from '../../hooks'
 import SearchResult from './SearchResult';
-import {Overlay, searchhomedesktop,MobileSearch} from '../../sliceredux';
+import {Overlay, SearchHomeDesktop,MobileSearch} from '../../sliceredux';
 import '../../styles/search.scss'
 
 
@@ -34,7 +34,7 @@ export function SearchComponent(props: Props) {
       if (props.type != 'home-search') {
         dispatch(MobileSearch())
       } else {
-        dispatch(searchhomedesktop())
+        dispatch( SearchHomeDesktop())
       }
     }
   }
