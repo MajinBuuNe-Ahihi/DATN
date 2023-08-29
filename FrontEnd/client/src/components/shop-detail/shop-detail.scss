@@ -1,0 +1,59 @@
+@import '../../styles/varible';
+
+.detail-info {
+    flex: 1;
+    margin: 10px auto 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.detail-info__image-and-adress {
+    padding: 10px ;
+    box-shadow: $shadow-primary-card;
+    border-radius: 10px;
+}
+
+.detail-info__image-and-adress-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.detail-info__name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.detail-info__slogan {
+    font-size: 20px;
+}
+
+.detail-info__address-more-option {
+    display: flex;
+    gap: 5px;
+    a {
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: bold;
+        color: $secondary-color !important;
+        &:hover {
+            color: $secondary-color-hover !important;
+        }
+    }
+}
+
+.detail-info__book-mark {
+    position: absolute;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    box-shadow: $shadow-primary-card;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
