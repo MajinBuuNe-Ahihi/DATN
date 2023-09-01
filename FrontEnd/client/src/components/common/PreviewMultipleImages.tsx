@@ -1,6 +1,6 @@
-import React,{useEffect, useState} from 'react'
+import React,{useEffect, useState,useRef} from 'react'
 import {  Navigation} from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperProps, SwiperSlide } from 'swiper/react';
 import { FaTimes,AiOutlineMinus,AiOutlinePlus } from '../common/Icon';
 import { Enumrable } from '../../constants';
 import '../../styles/previewmultipleimage.scss'
@@ -12,18 +12,26 @@ type Props = {
 const {Mobile} = Enumrable.Screen;
 
 const PreviewMultipleImages = (props: Props) => {
-    const { open: openPreview, currentImage,listImage } = useAppSelector(state => state.previewmultipleimagemodal)
+    
+    const { open: openPreview, currentImage,listImage} = useAppSelector(state => state.previewmultipleimagemodal)
     const dispatch = useAppDispatch();
     const closePreview = () => {
       dispatch(ClosePreview());
     }
-    const [currentImageIndex,setCurrentImageIndex] = useState<number>(listImage.findIndex((item)=>item == currentImage)+1);
+    
+    
+
+    const [currentImageIndex,setCurrentImageIndex] = useState<number>(1);
     const [zoom,setZoom] = useState<number>(1);
     const { deviceCurrent } = useCheckpoint('');
     const currentSizeIcon = deviceCurrent === Mobile.Name? 15 : 25
     useEffect(()=>{
         setZoom(1);
     },[currentImageIndex])
+    useEffect(()=> {
+        let index = listImage.findIndex((item)=>item == currentImage)+1
+        setCurrentImageIndex(index);
+    },[currentImage])
   return (
     <>
         {
@@ -57,21 +65,25 @@ const PreviewMultipleImages = (props: Props) => {
                 </div>
                 </div>
             </div>
-            <Swiper
-                slidesPerView={1}
-                navigation={true}
-                onSnapIndexChange={(e)=>setCurrentImageIndex(e.activeIndex + 1)}
-                modules={[Navigation]}
-                className={`preview-multiple-images__slide`}
-                >
-                {
-                listImage.map((item,index) =>
-                <SwiperSlide key={index}>
-                    <div className="preview-multiple-images__image" style={{background: `url(${item})`,transform:`scale(${zoom})`}}></div>
-                </SwiperSlide>
-                )
-                }
-            </Swiper>
+            {
+                currentImageIndex && 
+                <Swiper
+                    initialSlide={currentImageIndex - 1}
+                    slidesPerView={1}
+                    navigation={true}
+                    onSnapIndexChange={(e)=>setCurrentImageIndex(e.activeIndex + 1)}
+                    modules={[Navigation]}
+                    className={`preview-multiple-images__slide`}
+                    >
+                    {
+                    listImage.map((item,index) =>
+                    <SwiperSlide key={index}>
+                        <div className="preview-multiple-images__image" style={{background: `url(${item})`,transform:`scale(${zoom})`}}></div>
+                    </SwiperSlide>
+                    )
+                    }
+                </Swiper>
+            }
         </div>
         }
     </>
