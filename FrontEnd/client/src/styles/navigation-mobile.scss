@@ -35,12 +35,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
     width: 100%;
     text-align: center;
     font-size: 13px;
     padding: 10px 0;
     color: $primary-color-text;
+    border-top: 1px solid transparent;
+    &:hover {
+      color: $secondary-color-hover;
+    }
+    &.active {
+      border-color: $secondary-color;
+    }
   }
 }
 

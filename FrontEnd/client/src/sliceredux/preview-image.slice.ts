@@ -3,32 +3,32 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "../store";
 
 
-interface previewState {
+interface IPreviewState {
   open: boolean,
-  url: string
+  url: Array<string>
 }
 
 const initialState= {
   open: false,
-  url: ""
-} as previewState
+  url: [],
+} as IPreviewState
 
 export const PreviewImageModal = createSlice({
   name: 'previewimagemodal',
   initialState,
   reducers: {
-    open: (state,actions:PayloadAction<{url:string}>) => {
+    OpenPreview: (state,actions:PayloadAction<{urls:[string]}>) => {
       state.open = true;
-      state.url = actions.payload.url
+      state.url = actions.payload.urls
     },
-    close: (state) => {
+    ClosePreview: (state) => {
       state.open = false;
-      state.url = "";
+      state.url = [];
     }
   }
 })
 
-export const { open, close } = PreviewImageModal.actions
+export const { OpenPreview, ClosePreview } = PreviewImageModal.actions
 
 export const selectCount = (state: RootState) => {state.previewimagemodal.open,state.previewimagemodal.url}
 

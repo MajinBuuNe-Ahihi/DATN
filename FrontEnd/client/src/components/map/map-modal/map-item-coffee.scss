@@ -1,0 +1,77 @@
+@import '../../../styles/base';
+@import '../../../styles/function';
+@import '../../../styles/varible';
+
+
+.map-item-coffee {
+    user-select: none;
+    cursor: pointer;
+    height: auto;
+    padding: 10px;
+    background-color: $primary-color;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.398);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &.horizontal {
+        border-radius: 10px;
+    }
+}
+
+.main-item-coffee__image {
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.map-item-coffee__main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.map-item-coffee__name {
+    font-size: 17px;
+    width: 100%;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+
+.map-item-coffee__address {
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.map-item-coffee__review {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+}
+
+.map-item-coffee__review-count {
+    font-size: 12px;
+    word-wrap: break-word;
+    opacity: 0.9;
+}
+
+.map-item-coffee__open-time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+    font-size: 12px;
+}
+
+.map-item-coffee__status {
+    font-size: 13px;
+    color: rgba(24, 213, 24, 0.558);
+}

@@ -1,0 +1,56 @@
+@import './varible';
+
+.paging {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+.paging-container {
+    display: flex;
+    height: 80px;
+    width: fit-content;
+    align-items: center;
+    gap: 12px;
+}
+
+.paging-button {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid $primary-color-text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: $primary-color-text;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in-out;
+        border: 1px solid $secondary-color;
+        color: $secondary-color !important;
+        box-shadow: $shadow-second-card;
+    }
+    &.active {
+        background-color: $secondary-color;
+        color: $primary-color !important;
+        border: 1px solid $primary-color-text;
+    }
+}
+
+.paging-jump {
+    border: none !important;
+    opacity: 0.7;
+    &:hover {
+        color: $secondary-color !important;
+    }
+}
+
+.paging-previous:hover,.paging-next:hover {
+    polyline {
+        stroke: $secondary-color !important;
+    }
+}

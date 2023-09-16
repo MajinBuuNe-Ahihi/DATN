@@ -17,7 +17,7 @@ export default function({value}: Props) {
           // check if no value in input
         !value ? <> 
         <div className='search-result-near-you'>
-          <Link to={'/'} className='search-result-near-you__link'>
+          <Link to={'/near-you'} className='search-result-near-you__link'>
             <span><ICON.TiLocationArrowOutline size={25} /></span>
             <span>Tim dia diem quanh ban</span>
           </Link>

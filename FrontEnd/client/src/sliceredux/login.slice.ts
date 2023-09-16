@@ -3,13 +3,13 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "../store";
 
 
-interface loginState {
+interface ILoginState {
   logged: boolean;
 }
 
 const initialState = {
   logged: false
-} as loginState
+} as ILoginState
 
 export const loginModal = createSlice({
   name: 'loginmodal',

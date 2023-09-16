@@ -2,16 +2,18 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import * as ICON from './Icon'
 import '../../styles/navigation-mobile.scss'
+import { Resource } from '../../constants'
 
 type Props = {}
 
+const {Navigation} = Resource
 export const NavigationMobile = (props: Props) => {
   let activeStyle:React.CSSProperties = {
-    borderTop: '1px solid #ee0033',
+    borderTop: '1px solid',
     color: '#ee0033'
   }
   let unActiveStyle:React.CSSProperties = {
-    borderTop: 'none'
+    borderTop: '1px solid transparent'
   }
   return (
     <div className='navigation-mobile'>
@@ -24,7 +26,7 @@ export const NavigationMobile = (props: Props) => {
               <ICON.ImHome size={25}/>
             </span>
             <span>
-              trang chu
+              {Navigation.Home}
             </span>
           </NavLink>
         </li>
@@ -36,7 +38,7 @@ export const NavigationMobile = (props: Props) => {
               <ICON.AiTwotoneFire size={25}/>
             </span>
             <span>
-              kham pha
+            {Navigation.Explore}
             </span>
           </NavLink>
         </li>
@@ -47,7 +49,7 @@ export const NavigationMobile = (props: Props) => {
               <ICON.TbDiscount2 size={25}/>
             </span>
             <span>
-              khuyen mai
+            {Navigation.Promo}
             </span>
           </NavLink>
         </li>
@@ -58,7 +60,7 @@ export const NavigationMobile = (props: Props) => {
              <ICON.BsBookmarkStarFill size={25}/>
             </span>
             <span>
-              da luU
+            {Navigation.BookMark}
             </span>
           </NavLink>
         </li>
@@ -69,7 +71,7 @@ export const NavigationMobile = (props: Props) => {
               <ICON.FaUser size={25}/>
             </span>
             <span>
-              tai khoan
+            {Navigation.Account}
             </span>
           </NavLink>
         </li>

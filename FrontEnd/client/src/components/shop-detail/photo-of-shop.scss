@@ -1,0 +1,80 @@
+@import  '../../styles/varible';
+
+.photo-of-shop {
+    flex: 1;
+    margin: 10px auto 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: $shadow-primary-card;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photo-of-shop__contain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo-of-shop__head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.photo-of-shop__back-button {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #00000053;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: $primary-color;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid $primary-color-text;
+    & * {
+        stroke: $primary-color !important;
+    }
+    &:hover {
+        border: 1px solid $secondary-color;
+    }
+}
+
+.photo-of-shop__title {
+    text-align: center;
+}
+
+.photo-of-shop__name {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.photo-of-shop__address {
+    font-size: 20px;
+}
+
+.photo-of-shop__images {
+    height: auto;
+    width: 100%;
+}
+
+.photo-of-shop__list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 10px;
+    }
+}

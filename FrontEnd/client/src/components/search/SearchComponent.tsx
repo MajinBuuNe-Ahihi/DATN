@@ -3,9 +3,9 @@ import { CSSTransition } from 'react-transition-group';
 import { Input, BiSearch, AiOutlineLoading3Quarters, FaTimes } from '../common'
 import { useAppDispatch, useAppSelector, useCheckpoint } from '../../hooks'
 import SearchResult from './SearchResult';
-import { overlay, searchhomedesktop,searchmobile} from '../../sliceredux';
+import {Overlay, SearchHomeDesktop,MobileSearch} from '../../sliceredux';
 import '../../styles/search.scss'
-import id from 'date-fns/esm/locale/id/index.js';
+
 
 type Props = {
   type: string, //type class search
@@ -32,9 +32,9 @@ export function SearchComponent(props: Props) {
     if (props.currentPath === '/')
     { 
       if (props.type != 'home-search') {
-        dispatch(searchmobile())
+        dispatch(MobileSearch())
       } else {
-        dispatch(searchhomedesktop())
+        dispatch( SearchHomeDesktop())
       }
     }
   }
@@ -44,7 +44,7 @@ export function SearchComponent(props: Props) {
     setOpen(false);
     if (props.currentPath === '/' && props.type == 'home-search' )
     { 
-      dispatch(overlay())
+      dispatch(Overlay())
     }
   }
   
@@ -92,7 +92,7 @@ export function SearchComponent(props: Props) {
       </CSSTransition>
       {
         triggerSidebar == 6 && props.type != 'home-search-mobile' &&<>
-          <div className='search-cancel-button-sidebar' onClick={()=> dispatch(overlay())}>
+          <div className='search-cancel-button-sidebar' onClick={()=> dispatch(Overlay())}>
           Huy
           </div>
           <SearchResult value={value} />    

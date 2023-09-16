@@ -7,7 +7,7 @@ import { UserHeader } from '../userdropdown'
 import HeaderEXPRO from '../expore-promo-header/HeaderEXPRO'
 import { SearchComponent } from '../search'
 import { useAppDispatch, useAppSelector } from '../../hooks'
-import { sidebar, searchmobile, overlay, popup } from '../../sliceredux'
+import { SideBar,MobileSearch, Popup } from '../../sliceredux'
 import { login } from '../../sliceredux/login.slice'
 import logo from '../../assets/logo.svg'
 import bookmark from '../../assets/bookmark2.svg'
@@ -61,7 +61,7 @@ export const Header = (props: Props) => {
               {
                 !logged ?
                   <div className={'header__login-button'}>
-                      <Button type={1} bg={2} padding={'10px 12px'} onClick={() => { dispatch(popup()); dispatch(login()) }}>
+                      <Button type={1} bg={2} padding={'10px 12px'} onClick={() => { dispatch(Popup()); dispatch(login()) }}>
                       <span>
                         Dang nhap
                       </span>
@@ -88,13 +88,13 @@ export const Header = (props: Props) => {
                   </span>
                 </Link>
               </div>:
-              <div className='header__search-button' onClick={() => dispatch(searchmobile())}>
+              <div className='header__search-button' onClick={() => dispatch(MobileSearch())}>
                 <span>
                   <ICON.BiSearch size={25}/>
                 </span>
               </div>
             }
-            <div className='header__more-feature' onClick={()=>dispatch(sidebar())}>
+            <div className='header__more-feature' onClick={()=>dispatch(SideBar())}>
                 <span>
                   <ICON.HiViewGrid size={25}/>
                 </span>

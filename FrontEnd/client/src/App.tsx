@@ -5,6 +5,10 @@ import { ButtonScroll, Overlay,PreviewImage} from './components/common'
 import Login from './components/login/Login'
 import { RouterMain } from './router';
 import './styles/app.scss'
+import 'mapbox-gl/dist/mapbox-gl.css';
+import '@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css'
+import PreviewMultipleImages from './components/common/PreviewMultipleImages'
+import MapModal from './components/map/map-modal/Index'
 
 function App() {
   const toast = <ToastContainer
@@ -25,6 +29,8 @@ function App() {
       {ReactDOM.createPortal(<ButtonScroll />, document.getElementById('button-scroll') as HTMLElement)}
       {ReactDOM.createPortal(<Login />, document.getElementById('popup') as HTMLElement)}
       {ReactDOM.createPortal(toast,document.getElementById('toastify') as HTMLElement)}
+      {ReactDOM.createPortal(<PreviewMultipleImages/>,document.getElementById('preview-multiple') as HTMLElement)}
+      {ReactDOM.createPortal(<MapModal/>,document.getElementById('map-modal') as HTMLElement)}
     </div>
   )
 }
