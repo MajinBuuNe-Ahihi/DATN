@@ -8,6 +8,7 @@ import {HiLocationMarker} from '../common/Icon'
 import {useAppDispatch} from '../../hooks/redux.hooks'
 import {OpenMapModalState} from '../../sliceredux/modal-map.slice'
 import Evaluate from './Evaluate'
+import DetaiInfomation from './DetaiInfomation'
 
 type Props = {}
 
@@ -34,11 +35,11 @@ export default function ShopDetail({}: Props) {
                 <ImageDetail></ImageDetail>
             </div>
         </Row>
-        <Row>
+        <Row style={{gap: '10px',alignItems:'stretch'}}>
             <Col>
                 <Evaluate/>
             </Col>
-            <Col>thong tin</Col>
+            <Col> <DetaiInfomation/> </Col>
             <Col>map</Col>
         </Row>
         <Row>

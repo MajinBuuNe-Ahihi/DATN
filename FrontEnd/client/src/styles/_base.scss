@@ -31,3 +31,15 @@
   height: 80px;
   padding: 10px;
 }
+
+.m-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 0 -12px;
+    box-shadow: $shadow-primary-card;
+    height: 100%;
+}

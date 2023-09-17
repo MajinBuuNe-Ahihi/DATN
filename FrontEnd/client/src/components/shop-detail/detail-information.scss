@@ -1,0 +1,73 @@
+@import '../../styles/varible';
+
+.detail-information {
+ gap: 10px;
+}
+
+.detail-information__title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.detail-information__main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detail-information__item{
+    @extend .detail-information__main;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.detail-information__icon{
+    font-size: 25px;
+    @extend .detail-information__item;
+}
+
+.detail-information__content{
+    .detail-information__select {
+        background-color: transparent;
+        color: $primary-color-text;
+        padding: 0;
+        border: none;
+        outline: none;
+        &:hover {
+            background-color: transparent
+        }
+    }
+    .dropdown-item {
+        color: $primary-color-text !important;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        &:active {
+            background-color: transparent;
+        }
+        span:first-child {
+            width: 80px;
+        }
+    }
+    &.time {
+        .closing {
+            color: $secondary-color;
+            font-weight: bold;
+        }
+        .closingsoon {
+            color: #ffd000;
+            font-weight: bold;
+        }
+        .opening {
+            color: #14e214;
+            font-weight: bold;
+        }
+    }
+    @extend .detail-information__item;
+    a {
+        text-transform: uppercase;
+    }
+}
