@@ -7,6 +7,7 @@ import BookMark from '../common/BookMark'
 import {HiLocationMarker} from '../common/Icon'
 import {useAppDispatch} from '../../hooks/redux.hooks'
 import {OpenMapModalState} from '../../sliceredux/modal-map.slice'
+import Evaluate from './Evaluate'
 
 type Props = {}
 
@@ -34,7 +35,9 @@ export default function ShopDetail({}: Props) {
             </div>
         </Row>
         <Row>
-            <Col>danh gia</Col>
+            <Col>
+                <Evaluate/>
+            </Col>
             <Col>thong tin</Col>
             <Col>map</Col>
         </Row>
@@ -45,9 +48,9 @@ export default function ShopDetail({}: Props) {
             <Col>
             comment
             </Col>
-            <Col>
-            <Row>
-                danh gia
+            <Col sm={4}>
+            <Row >
+                <Evaluate/>
             </Row>
             <Row>
                 advertisement

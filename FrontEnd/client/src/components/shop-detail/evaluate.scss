@@ -1,0 +1,117 @@
+@import '../../styles/varible';
+
+.evaluate {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 0 -12px;
+    box-shadow: $shadow-primary-card;
+}
+
+.evaluate__contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.evaluate__top {
+    @extend .evaluate__contain;
+    height: unset;
+    gap: 10px;
+}
+
+.evaluate__title {
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.evaluate__score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.evaluate__score-number {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: $secondary-color-hover;
+    color: $primary-color;
+
+}
+
+.evaluate__score-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    span:first-child {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    span:last-child {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}   
+
+.evaluate__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.evaluate__content-item {
+    @extend .evaluate__content;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.evaluate__content-label {
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.evaluate__content-value {
+    flex: 1;
+    height: 10px;
+    border-radius: 10px;
+    background-color: $primary-color-text-2;
+    position: relative;
+}
+
+.evaluate__content-track {
+    @extend .evaluate__content-value;
+    background-color: $secondary-color;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 10%;
+    z-index: 1;
+}
+
+.evaluate__content-score {
+    @extend .evaluate__content-label;
+    width: 30px;
+    text-align: right;
+}
