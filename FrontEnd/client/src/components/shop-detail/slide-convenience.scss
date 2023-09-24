@@ -1,0 +1,34 @@
+@import '../../styles/varible';
+
+.slide-feature {
+    height: 100px;
+    width: 100%;
+    background: $primary-color;
+    box-shadow: $shadow-primary-card;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.slide-feature__slide {
+        padding: 0 !important;
+    }
+    .context {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span {
+            color: $primary-color-text !important;
+        }
+    }
+}
+
+.slide-feature__slide 
+{ 
+    display: flex;
+    align-items: center;
+    * {
+        color: $secondary-color !important;
+        cursor: pointer;
+       
+    }
+}

@@ -1,11 +1,9 @@
-import React, { useEffect } from 'react'
-import {HiLocationMarker,FaTimes} from '../../common/Icon'
-import './map-model.scss'
 import { Resource } from '../../../constants'
+import { useAppDispatch, useAppSelector } from '../../../hooks'
+import { CloseMapModalState } from '../../../sliceredux/modal-map.slice'
+import { FaTimes, HiLocationMarker } from '../../common/Icon'
 import MapContain from './MapContain'
-import { useAppDispatch,useAppSelector } from '../../../hooks';
-import {CloseMapModalState} from '../../../sliceredux/modal-map.slice'
-import MapItemCoffee from './MapItemCoffee'
+import './map-model.scss'
 
 type Props = {}
 
@@ -15,8 +13,7 @@ export default function MapModal({}: Props) {
     const dispatch = useAppDispatch();
     const {openModal} = useAppSelector(state => state.mapmodal)
 
- useEffect(()=>console.log(open),[open])
-  return (
+     return (
    <>
     {
         openModal && <div className="map-modal">

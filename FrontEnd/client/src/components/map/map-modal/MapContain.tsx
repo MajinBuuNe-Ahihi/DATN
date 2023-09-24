@@ -153,7 +153,7 @@ useEffect(()=> {
                    >
                     <PopupPoint closeFunction={()=>setOpenPopup(false)}></PopupPoint>
                 </Popup>)}
-            </Map>
+        </Map>
         </div>
      </div>
 </div>

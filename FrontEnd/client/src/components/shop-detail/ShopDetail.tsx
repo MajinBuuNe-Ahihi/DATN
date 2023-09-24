@@ -9,6 +9,8 @@ import {useAppDispatch} from '../../hooks/redux.hooks'
 import {OpenMapModalState} from '../../sliceredux/modal-map.slice'
 import Evaluate from './Evaluate'
 import DetaiInfomation from './DetaiInfomation'
+import DetailLocation from './DetailLocation'
+import SlideConvenience from './SlideConvenience'
 
 type Props = {}
 
@@ -40,14 +42,14 @@ export default function ShopDetail({}: Props) {
                 <Evaluate/>
             </Col>
             <Col> <DetaiInfomation/> </Col>
-            <Col>map</Col>
+            <Col><DetailLocation/></Col>
         </Row>
         <Row>
-            slide
+            <SlideConvenience/>
         </Row>
         <Row>
             <Col>
-            comment
+                 comment
             </Col>
             <Col sm={4}>
             <Row >
