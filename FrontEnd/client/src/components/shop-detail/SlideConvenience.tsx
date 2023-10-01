@@ -69,7 +69,7 @@ const convertConvenienceToComponent = (convenience: number) => {
       case Enumrable.Convenience.TakeOutFood: 
       return  <div className="context">
         <MdFastfood size={40} />
-      <span> Mang đồ ăn ngo</span>
+      <span> Mang đồ ăn ngoài</span>
     </div>
       case Enumrable.Convenience.WeatherParty: 
       return <div className="context">

@@ -11,6 +11,7 @@ import Evaluate from './Evaluate'
 import DetaiInfomation from './DetaiInfomation'
 import DetailLocation from './DetailLocation'
 import SlideConvenience from './SlideConvenience'
+import CommentContainer from './comment/CommentContainer'
 
 type Props = {}
 
@@ -47,12 +48,12 @@ export default function ShopDetail({}: Props) {
         <Row>
             <SlideConvenience/>
         </Row>
-        <Row>
+        <Row style={{gap: '10px'}} >
             <Col>
-                 comment
+                <CommentContainer/>
             </Col>
             <Col sm={4}>
-            <Row >
+            <Row style={{justifyContent: 'center'}}>
                 <Evaluate/>
             </Row>
             <Row>

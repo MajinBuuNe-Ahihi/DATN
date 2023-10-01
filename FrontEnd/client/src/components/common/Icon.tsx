@@ -1,7 +1,7 @@
 export {FaWifi,FaSmoking,FaMotorcycle,FaChild,FaRegClock, FaDollarSign,FaSlackHash,FaUser,FaFacebookSquare, FaCoins, FaUserEdit, FaTimes,FaMapMarkerAlt} from 'react-icons/fa'
 export { TbAirConditioning,TbDiscount2 } from 'react-icons/tb'
 export {BsCarFrontFill, BsImages,BsFillPinMapFill,BsPencilSquare,BsFillStarFill,BsBookmark,BsBookmarkStarFill,BsCheckAll,BsThreeDots,BsFacebook, BsFillPauseFill, BsPlayFill, BsTrash, BsStarHalf} from 'react-icons/bs'
-export { AiOutlineTags,AiOutlineMinus,AiTwotoneFire,AiOutlineInstagram,AiOutlineLoading3Quarters,AiOutlinePlus,AiOutlineCamera,AiOutlineEye ,AiOutlineUser} from 'react-icons/ai'
+export {AiOutlineHeart, AiTwotoneHeart,AiOutlineTags,AiOutlineMinus,AiTwotoneFire,AiOutlineInstagram,AiOutlineLoading3Quarters,AiOutlinePlus,AiOutlineCamera,AiOutlineEye ,AiOutlineUser} from 'react-icons/ai'
 export { ImHome } from 'react-icons/im'
 export { HiLocationMarker, HiViewGrid, HiOutlineMail, HiOutlineInformationCircle} from 'react-icons/hi'
 export { SiTiktok } from 'react-icons/si'
