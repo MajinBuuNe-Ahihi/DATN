@@ -7,6 +7,11 @@ import BookMark from '../common/BookMark'
 import {HiLocationMarker} from '../common/Icon'
 import {useAppDispatch} from '../../hooks/redux.hooks'
 import {OpenMapModalState} from '../../sliceredux/modal-map.slice'
+import Evaluate from './Evaluate'
+import DetaiInfomation from './DetaiInfomation'
+import DetailLocation from './DetailLocation'
+import SlideConvenience from './SlideConvenience'
+import CommentContainer from './comment/CommentContainer'
 
 type Props = {}
 
@@ -33,21 +38,23 @@ export default function ShopDetail({}: Props) {
                 <ImageDetail></ImageDetail>
             </div>
         </Row>
-        <Row>
-            <Col>danh gia</Col>
-            <Col>thong tin</Col>
-            <Col>map</Col>
-        </Row>
-        <Row>
-            slide
-        </Row>
-        <Row>
+        <Row style={{gap: '10px',alignItems:'stretch'}}>
             <Col>
-            comment
+                <Evaluate/>
             </Col>
+            <Col> <DetaiInfomation/> </Col>
+            <Col><DetailLocation/></Col>
+        </Row>
+        <Row>
+            <SlideConvenience/>
+        </Row>
+        <Row style={{gap: '10px'}} >
             <Col>
-            <Row>
-                danh gia
+                <CommentContainer/>
+            </Col>
+            <Col sm={4}>
+            <Row style={{justifyContent: 'center'}}>
+                <Evaluate/>
             </Row>
             <Row>
                 advertisement
