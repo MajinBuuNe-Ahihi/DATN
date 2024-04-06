@@ -1,29 +1,39 @@
-# admin
+# .
 
-## Project setup
-```
-yarn install
-```
+This template should help get you started developing with Vue 3 in Vite.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Recommended IDE Setup
 
-### Compiles and minifies for production
-```
-yarn build
-```
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
+## Type Support for `.vue` Imports in TS
 
-### Lints and fixes files
-```
-yarn lint
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```

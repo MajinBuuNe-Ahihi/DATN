@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ugg7xb+/CrO7h7m8vW9RVDvpXGRRsPB+XpZPEWhtw02T/3VUKLj8+pvxTMWgFKmVxURqN7ciiI+lbs6EdT5oug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\FileServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\g\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
