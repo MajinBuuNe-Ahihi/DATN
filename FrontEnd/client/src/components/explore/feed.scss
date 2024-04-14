@@ -1,0 +1,234 @@
+@import '../../styles/varible';
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    gap: 20px;
+}
+.feed-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    padding: 10px 12px 12px;
+    box-shadow: $shadow-primary-card;
+    border-radius: 5px;
+    gap: 12px;
+}
+.feed-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    cursor: pointer;
+}
+.feed-header__left {
+    height: auto;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.feed-header__left-images {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.feed-header__left-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    span {
+        font-weight: bold;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+.feed-header__left-info-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.feed-header__left-info-bottom {
+    @extend .feed-header__left-info-top;
+}
+.feed-header__star-point {
+    @extend .feed-header__left-info-top;
+}
+.feed-header__time {
+
+}
+.feed-header__right {
+
+}
+.feed-header__options {
+
+}
+.feed-content {
+
+}
+.feed-images {
+    width: 100%;
+    height: auto !important;
+    display: grid;
+    gap: 5px;
+    &.t-1 {
+        grid-template-areas:"t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1";                                          
+    }   
+    &.t-2 {
+        grid-template-areas:"t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2"
+                            "t1 t1 t1 t1 t1 t1 t2 t2 t2 t2 t2 t2";
+                            
+    }
+    &.t-3 {
+        grid-template-areas:"t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2";
+                            grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr;
+    }
+    &.t-4 {
+        grid-template-areas:"t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t3 t3 t2 t2 t2 t2 t2 t2";
+                            
+    }
+    &.t-5 {
+        grid-template-areas:"t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t1 t1 t1 t1 t1 t1 t4 t4 t4 t4 t4 t4"
+                            "t3 t3 t3 t3 t5 t5 t5 t5 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t5 t5 t5 t5 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t5 t5 t5 t5 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t5 t5 t5 t5 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t5 t5 t5 t5 t2 t2 t2 t2"
+                            "t3 t3 t3 t3 t5 t5 t5 t5 t2 t2 t2 t2";
+                            grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr;
+    }
+    div img {
+        width: 100%;
+        height: 100%;
+    }
+    div {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.feed-handle { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 12px 0 ;
+        gap: 5px;
+        &:hover {
+            background-color: $secondary-color-hover2;
+            color:$primary-color;
+        }
+    }
+}
+.feed-comments {
+    display: flex;
+    align-items: center;
+    gap:  10px;
+    width: 100%;
+}
+
+.feed-comments__avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+.feed-comments__text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+       height: 40px;
+       width: 100%;
+       padding: 10px;
+       border-radius: 15px;
+       border: $border;
+       outline: none;
+       font-size: 14px;
+
+    }
+}
+

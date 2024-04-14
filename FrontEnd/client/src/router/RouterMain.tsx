@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import { MainLayout } from '../components/layout'
 import { Page404  } from '../components'
 
+
 const Home = React.lazy(()=>import('../components/Home'))
 const  Promo   = React.lazy(()=>import('../components/Promo'))
 const  AddPlace  = React.lazy(() => import('../components/addplace'))
@@ -12,6 +13,7 @@ const  Preview  = React.lazy(() => import('../components/preview/Preview'))
 const NearYou = React.lazy(()=> import('../components/near-you/Index'))
 const ShopDetail = React.lazy(()=> import('../components/shop-detail/ShopDetail'))
 const PhotoOfShop = React.lazy(()=> import('../components/shop-detail/PhotoOfShop'))
+const Explore = React.lazy(()=> import('../components/explore/Explore'))
 
 type Props = {}
 
@@ -20,6 +22,7 @@ export function RouterMain({}: Props) {
     <Routes>
       <Route path='/' element={<MainLayout/>}>
         <Route index element={<Home />}></Route>
+        <Route path='explore' element={<Explore />}></Route>
         <Route path='promo' element={<Promo />}></Route>
         <Route path='add-place' element={<AddPlace />}></Route>
         <Route path='about' element={<About />}></Route>

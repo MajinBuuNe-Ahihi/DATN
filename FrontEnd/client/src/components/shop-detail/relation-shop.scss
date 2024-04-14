@@ -1,0 +1,44 @@
+@import '../../styles/varible';
+
+.relation-shop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.relation-shop__container {
+    display: flex;
+    height: 300px;
+    width: calc(100% + 24px);
+    margin: 0 -12px;
+    justify-content: space-between;
+}
+
+.relation-shop__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: calc((100% / 3) - 8px);
+    overflow: hidden;
+    gap: 8px;
+    box-shadow: $shadow-primary-card;
+    padding: 5px;
+    border-radius: 5px;
+    img {
+        height: 230px;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+.relation-shop__name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.relation-shop__location {
+    font-size: 14px;
+    font-style: italic;
+}

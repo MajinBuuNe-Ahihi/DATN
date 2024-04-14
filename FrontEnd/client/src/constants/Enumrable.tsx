@@ -1,15 +1,11 @@
 
 // enums định nghĩa các type modal
-type OverlayType = {
-    Nothing: number,
-    SideBar: number,
-    MobileSearch: number,
-    DesktopSearch: number,
-    PreviewImage: number,
-    Login: number
+type Enum = {
+    [key: string]: number
 }
 
-const Overlay = Object.freeze<OverlayType>({
+
+const Overlay = Object.freeze<Enum>({
     Nothing: 0,
     SideBar: 5,
     MobileSearch: 6,
@@ -18,23 +14,16 @@ const Overlay = Object.freeze<OverlayType>({
     Login: 9
 })
 
-type  ScreenType = {
-    Mobile: {
-        Name: string,
-        Size: number
-    },
-    Tablet: {
-        Name: string,
-        Size: number
-    }, 
-    PC: {
+type  EnumObject = {
+    [key: string]: {
         Name: string,
         Size: number
     }
+
 }
 
 // Screen
-const Screen =Object.freeze<ScreenType>( {
+const Screen =Object.freeze<EnumObject>( {
     Mobile: {
         Name: "mobile",
         Size: 989
@@ -49,38 +38,15 @@ const Screen =Object.freeze<ScreenType>( {
     }
 })
 
-type SortFilterType = {
-    Correct: number,
-    Point: number,
-    NearYou: number
-}
 
-const SortFilter = Object.freeze<SortFilterType>({
+const SortFilter = Object.freeze<Enum>({
     Correct: 0,
     Point: 1,
     NearYou: 2
 })
 
-type ConvenienceType = {
-    WeatherParty: number,
-    KidsPlay: number,
-    MotoPark: number,
-    AllowPet: number,
-    CardPayment: number
-    Dessert: number,
-    CarPark: number,
-    Smoking: number,
-    Wifi: number,
-    AirConditional: number,
-    DisplayFootball:  number,
-    Shipping: number,
-    TakeOutFood: number,
-    LiveMusic: number
 
-
-}
-
-const Convenience = Object.freeze<ConvenienceType>({
+const Convenience = Object.freeze<Enum>({
     WeatherParty: 1,
     KidsPlay: 2,
     MotoPark: 3,
