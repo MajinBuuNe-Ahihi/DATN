@@ -14,6 +14,9 @@ const NearYou = React.lazy(()=> import('../components/near-you/Index'))
 const ShopDetail = React.lazy(()=> import('../components/shop-detail/ShopDetail'))
 const PhotoOfShop = React.lazy(()=> import('../components/shop-detail/PhotoOfShop'))
 const Explore = React.lazy(()=> import('../components/explore/Explore'))
+const Save = React.lazy(()=> import('../components/save/Save'))
+const MainProfile= React.lazy(()=> import('../components/profile/MainProfile'))
+const Profile = React.lazy(()=> import('../components/Profile'))
 
 type Props = {}
 
@@ -22,6 +25,7 @@ export function RouterMain({}: Props) {
     <Routes>
       <Route path='/' element={<MainLayout/>}>
         <Route index element={<Home />}></Route>
+        <Route path='save' element={<Save />}></Route>
         <Route path='explore' element={<Explore />}></Route>
         <Route path='promo' element={<Promo />}></Route>
         <Route path='add-place' element={<AddPlace />}></Route>
@@ -32,11 +36,11 @@ export function RouterMain({}: Props) {
         <Route path='place/:name' element={<ShopDetail/>}>
         </Route>
           <Route path='place/:name/photos' element={<PhotoOfShop/>}>
-          </Route>
-        {/* <Route path='profile' element={<></>}>
-          <Route path=':id' element={<></>} />
-          <Route path='settings' element={<></>} />
-        </Route> */}
+        </Route>
+        <Route path='profile' element={<MainProfile></MainProfile>}>
+          {/* <Route path=':id' element={<MainProfile></MainProfile>} />
+          <Route path='settings' element={<></>} /> */}
+        </Route>
         <Route path='*' element = {<Page404/>}></Route>
       </Route>
     </Routes>

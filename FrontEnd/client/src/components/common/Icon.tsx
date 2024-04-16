@@ -1,4 +1,4 @@
-export {FaUserCheck,FaWifi,FaSmoking,FaMotorcycle,FaChild,FaRegClock, FaDollarSign,FaSlackHash,FaUser,FaFacebookSquare, FaCoins, FaUserEdit, FaTimes,FaMapMarkerAlt} from 'react-icons/fa'
+export {FaCalendar,FaCommentDots ,FaUserCheck,FaWifi,FaSmoking,FaMotorcycle,FaChild,FaRegClock, FaDollarSign,FaSlackHash,FaUser,FaFacebookSquare, FaCoins, FaUserEdit, FaTimes,FaMapMarkerAlt} from 'react-icons/fa'
 export { TbAirConditioning,TbDiscount2 } from 'react-icons/tb'
 export {BsCarFrontFill,BsDot, BsImages,BsFillPinMapFill,BsPencilSquare,BsFillStarFill,BsBookmark,BsBookmarkStarFill,BsCheckAll,BsThreeDots,BsFacebook, BsFillPauseFill, BsPlayFill, BsTrash, BsStarHalf} from 'react-icons/bs'
 export {AiOutlineHeart, AiTwotoneHeart,AiOutlineTags,AiOutlineMinus,AiTwotoneFire,AiOutlineInstagram,AiOutlineLoading3Quarters,AiOutlinePlus,AiOutlineCamera,AiOutlineEye ,AiOutlineUser} from 'react-icons/ai'
