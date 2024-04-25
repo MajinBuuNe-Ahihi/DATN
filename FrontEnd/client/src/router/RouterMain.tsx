@@ -17,6 +17,7 @@ const Explore = React.lazy(()=> import('../components/explore/Explore'))
 const Save = React.lazy(()=> import('../components/save/Save'))
 const MainProfile= React.lazy(()=> import('../components/profile/MainProfile'))
 const Profile = React.lazy(()=> import('../components/Profile'))
+const MenuOrder = React.lazy(()=> import('../components/order-online/MenuOrder'))
 
 type Props = {}
 
@@ -35,8 +36,8 @@ export function RouterMain({}: Props) {
         <Route path='near-you' element={<NearYou/>}></Route>
         <Route path='place/:name' element={<ShopDetail/>}>
         </Route>
-          <Route path='place/:name/photos' element={<PhotoOfShop/>}>
-        </Route>
+          <Route path='place/:name/photos' element={<PhotoOfShop/>}/>
+          <Route path='place/:name/menu' element={<MenuOrder/>}/>
         <Route path='profile' element={<MainProfile></MainProfile>}>
           {/* <Route path=':id' element={<MainProfile></MainProfile>} />
           <Route path='settings' element={<></>} /> */}
