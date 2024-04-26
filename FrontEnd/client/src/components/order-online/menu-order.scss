@@ -1,0 +1,71 @@
+@import '../../styles/varible';
+
+.menu-order {
+    width: 100%;
+    padding: 30px 0 80px;
+}
+.menu-order__header {
+
+}
+.menu-order__container {
+    margin: 0 -24px ;
+    margin-top: 30px;
+}
+.menu-order__filter {
+
+}
+.menu-order__filter-contain {
+    box-shadow: $shadow-primary-card;
+    padding: 12px;
+    border-radius: 10px;
+}
+.menu-order__title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: $secondary-color;
+    margin-bottom: 10px;
+}
+.menu-order__search {
+    width: 100%;
+}
+.menu-order__item-control {
+
+}
+.menu-order__item-control-label {
+
+}
+.menu-order__item-control-button {
+
+}
+.menu-order__button-contain {
+
+}
+.menu-order__main {
+
+}
+.menu-order__grid {
+
+}
+.menu-order__grid-item {
+
+}
+
+
+.menu-order__slide  {
+    padding: 0 !important;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    .swiper-slide {
+        border-radius: 0;
+    }
+ 
+}
+.menu-order__slide-item {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

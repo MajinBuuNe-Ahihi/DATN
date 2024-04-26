@@ -12,6 +12,7 @@ import DetaiInfomation from './DetaiInfomation'
 import DetailLocation from './DetailLocation'
 import SlideConvenience from './SlideConvenience'
 import CommentContainer from './comment/CommentContainer'
+import RelationShop from './RelationShop'
 
 type Props = {}
 
@@ -56,16 +57,10 @@ export default function ShopDetail({}: Props) {
             <Row style={{justifyContent: 'center'}}>
                 <Evaluate/>
             </Row>
-            <Row>
-                advertisement
-            </Row>
             </Col>
         </Row>
         <Row>
-            map
-        </Row>
-        <Row>
-            list quan
+            <RelationShop/>
         </Row>
     </Container>
     </>

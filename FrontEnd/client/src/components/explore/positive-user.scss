@@ -1,0 +1,89 @@
+@import '../../styles/varible';
+
+.positive-user {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: $shadow-primary-card;
+    border-radius: 5px;
+}
+.positive-user__header {
+    padding: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    h4 {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    border-bottom: $border;
+}
+
+.positive-user__contain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.positive-user__item {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.positive-user__image {
+   height: 50px;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   border-radius: 50%;
+   img {
+    height: 100%;
+    width:  100%;
+   }
+}
+
+.positive-user__description {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.positive-user__name {
+    font-size: 14px;
+    font-weight: bold;
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.positive-user__location {
+    font-size: 13px;
+    display: flex;
+    gap: 20px;
+    span  {
+
+        color: $primary-color-text-2;
+    }
+    .follows {
+        background-color: $primary-color-text-3;
+        padding: 2px 4px;
+        border-radius: 5px;
+        &:hover {
+            background-color: $secondary-color;
+            color: $primary-color;
+        }
+    }
+}
