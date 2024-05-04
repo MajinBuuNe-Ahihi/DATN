@@ -31,7 +31,7 @@ export const Header = (props: Props) => {
         <div className={'header__container-left'}>
           <div className= {'header__logo'}>
           <Link to={'/'}>
-          <img src={logo} alt='' className={'header__logo-image'} /> 
+           Cafe Chill
           </Link>
           </div>
         </div>

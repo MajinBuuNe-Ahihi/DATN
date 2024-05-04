@@ -165,9 +165,9 @@ const items = reactive([
   flex-direction: row;
   width: 100%;
   height: auto;
-  justify-content: flex-start;
-  align-items: stretch;
   gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .navigation {
@@ -178,7 +178,6 @@ const items = reactive([
   align-items: flex-start;
   padding-right: 20px;
   border-right:  1px solid rgba(66, 40, 40, 0.369);
-  height: calc(100vh - 80px);
 }
 
 .navigation a {
@@ -187,9 +186,5 @@ const items = reactive([
   align-items: center;
   gap: 10px;
   color: rgb(15, 233, 161);
-}
-
-.contain {
-  flex: 1;
 }
 </style>

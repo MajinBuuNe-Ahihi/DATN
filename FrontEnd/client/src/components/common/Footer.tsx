@@ -25,7 +25,7 @@ export function Footer({ }: Props) {
             <Row className="justify-content-between footer__top-list">
             <Col lg={4} md={6}  className='footer__top-col'>
               <div className='footer__top-logo'>
-                <img src={logo} alt='toificafe' className='footer__top-logo__image' />
+               cafe chill
               </div>
               <div className='footer__top-partner'>
                 <Link to = {'/contact'} className='footer__top-footer-partner-button'>
@@ -65,7 +65,7 @@ export function Footer({ }: Props) {
           </Container>
         </Row>
         <Row className='footer__copyright'>
-            <span>Ban quyen <ICON.RiCopyrightLine size={25}/> 2022 <strong>ManhNeAhihi</strong></span>
+            <span>Ban quyen <ICON.RiCopyrightLine size={25}/> 2024 <strong>ManhNeAhihi</strong></span>
         </Row>
       </Container>
     </div>

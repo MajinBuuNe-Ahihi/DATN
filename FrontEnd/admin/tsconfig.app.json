@@ -11,6 +11,8 @@
       "@/*": ["./src/*"],
       "@src/types":["./src/types/index"],
       "@src/lib":["./src/library/index"],
+      "@src/plugin":["./src/plugin/index"],
+      "@src/views":["./src/views"],
     }
   }
 }

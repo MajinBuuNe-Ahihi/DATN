@@ -13,6 +13,7 @@ import DetailLocation from './DetailLocation'
 import SlideConvenience from './SlideConvenience'
 import CommentContainer from './comment/CommentContainer'
 import RelationShop from './RelationShop'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -31,7 +32,7 @@ export default function ShopDetail({}: Props) {
                 Có trà, có bánh, có những con cún dễ thương ❤️
                 </div>
                 <div className="detail-info__address-more-option">
-                <HiLocationMarker size={20}></HiLocationMarker>8 Ngõ 24 Đào Tấn, Ba Đình - <a onClick={()=>dispatch(OpenMapModalState())}>Hiển thị bản đồ</a> - <a href='https://www.google.com/maps/dir/?api=1&destination=21.0336724,105.8109417' target='_blank'> Xem đường đi</a> - <ViewMenuDetail></ViewMenuDetail>
+                <HiLocationMarker size={20}></HiLocationMarker>8 Ngõ 24 Đào Tấn, Ba Đình - <a onClick={()=>dispatch(OpenMapModalState())}>Hiển thị bản đồ</a> - <a href='https://www.google.com/maps/dir/?api=1&destination=21.0336724,105.8109417' target='_blank'> Xem đường đi</a> - <ViewMenuDetail></ViewMenuDetail> - <Link  to="menu" >order</Link>
                 </div>
                 <div className="detail-info__book-mark">
                     <BookMark></BookMark>

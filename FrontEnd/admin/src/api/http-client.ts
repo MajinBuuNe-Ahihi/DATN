@@ -1,8 +1,7 @@
-import axios, { type CancelTokenSource , type AxiosRequestConfig, type AxiosError} from 'axios';
+import { ACCEPT_LANGUAGE, APPLICATION_JSON, AUTHORIZATION, CONTENTTYPE, DELETE, FORMURLENDCODE, GET, PATCH, POST, PUT } from '@src/lib';
+import axios, { type AxiosError, type AxiosRequestConfig, type CancelTokenSource } from 'axios';
 import moment from 'moment';
-import  Qs from 'qs';
-import { ACCEPT_LANGUAGE, APPLICATION_JSON, AUTHORIZATION, CONTENTTYPE,GET,POST,PUT,DELETE,PATCH, FORMURLENDCODE } from '@src/lib';
-import { Axios } from 'node_modules/axios/index.cjs';
+import Qs from 'qs';
 
 type CancelRequestType = {
   Key: string
@@ -11,7 +10,7 @@ type CancelRequestType = {
   IsCancelRequest: boolean
 }
 
-class HttpClient {
+class HttpClientAxios {
 
   private cancelRequests: Array<CancelRequestType> = []
 
@@ -230,3 +229,6 @@ class HttpClient {
     }
   }
 }
+
+
+export default HttpClientAxios

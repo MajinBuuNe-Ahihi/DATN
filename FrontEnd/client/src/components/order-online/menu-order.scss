@@ -15,40 +15,69 @@
 
 }
 .menu-order__filter-contain {
-    box-shadow: $shadow-primary-card;
+    box-shadow: $shadow-second-card;
     padding: 12px;
     border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .menu-order__title {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     color: $secondary-color;
-    margin-bottom: 10px;
 }
 .menu-order__search {
     width: 100%;
+    height: 42px;
+    border: $border;
+    padding: 10px 12px;
+    outline: none;
+    border-radius: 5px;
 }
 .menu-order__item-control {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 
 }
 .menu-order__item-control-label {
-
+    font-size: 14px;
 }
 .menu-order__item-control-button {
-
+    height: 42px;
+    color: $primary-color !important;
+    border-radius: 10px !important;
 }
 .menu-order__button-contain {
-
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: $primary-color !important;
 }
 .menu-order__main {
-
+    height: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .menu-order__grid {
-
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 .menu-order__grid-item {
-
+    box-shadow: $shadow-second-card;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 
