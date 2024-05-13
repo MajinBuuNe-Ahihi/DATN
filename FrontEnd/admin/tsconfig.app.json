@@ -13,6 +13,7 @@
       "@src/lib":["./src/library/index"],
       "@src/plugin":["./src/plugin/index"],
       "@src/views":["./src/views"],
+      "@src/components":["./src/components"]
     }
   }
 }

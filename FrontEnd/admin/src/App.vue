@@ -2,143 +2,10 @@
 import { RouterLink, RouterView } from 'vue-router'
 import { reactive } from 'vue'
 
-const initiallyOpen = reactive(['public'])
-const icons = reactive({
-  report: 'mdi-chart-arc',
-  money: ' mdi-cash-multiple',
-  home: 'mdi-home-analytics',
-  users: 'mdi-account-group',
-  order: 'mdi-order-bool-ascending-variant',
-  ordershop: 'mdi-store-plus',
-  orderonline: 'mdi-web',
-  house: 'mdi-store-cog-outline',
-  orderonline2:'mdi-storefront-check',
-  export: 'mdi-store-minus',
-  menu: 'mdi-silverware',
-  promo: 'mdi-ticket-confirmation-outline',
-  cog: 'mdi-cog'
-})
-const tree = reactive([])
-const items = reactive([
- {
-    name: 'Báo cáo',
-    link: '/bao-cao-doanh-thu',
-    icon: 'report',
-    children: [
-      {
-        name: 'Báo cáo doanh thu',
-        link: '/bao-cao-doanh-thu',
-        icon: 'money'
-      },
-      {
-        name: 'Báo cáo kho',
-        link: '/bao-cao-kho',
-        icon: 'home'
-      },
-      {
-        name: 'Báo cáo nhân viên',
-        link: '/bao-cao-nhan-vien',
-        icon: 'users'
-      }
-    ]
-  },
-  {
-    name: 'Order',
-    link: '/order-tai-quan',
-    icon: 'order',
-    children: [
-      {
-        name: 'Order tại quán',
-        link: '/order-tai-quan',
-        icon: 'orderonline2',
-      },
-      {
-        name: 'Order online',
-        link: '/order-online',
-        icon: 'orderonline'
-      }
-    ]
-  },
-   {
-    name: 'Kho',
-    link: '/nhap-kho',
-    icon: 'house',
-    children: [
-      {
-        name: 'Nhập kho',
-        link: '/nhap-kho',
-        icon: 'ordershop'
-      },
-      {
-        name: 'Xuất kho',
-        link: '/xuat-kho',
-        icon: 'export'
-      }
-    ]
-  },
-   {
-    name: 'Menu',
-    link: '/menu',
-    icon:'menu',
-  },
-  {
-    name: 'Khuyến mãi',
-    link: '/khuyen-mai',
-    icon: 'promo'
-  },
-  {
-    name: 'Cài đặt',
-    link: '/cai-dat',
-    icon: 'cog'
-  },
-   {
-    name: 'Nhân viên',
-    link: '/nhân viên',
-    icon: 'users'
-  },
-])
 </script>
 
 <template>
-  <div class="main">
-    <div class="header">
-     <div class="logo">
-      Tên shop
-     </div>
-
-      <v-btn
-        class="logout"
-        text
-        @click="logout"
-      >
-        Đăng xuất
-      </v-btn>
-    </div>
-    <div class="main-content">
-    <div class="navigation">
-    <v-treeview
-      v-model="tree"
-      :open="initiallyOpen"
-      :items="items"
-      activatable
-      item-key="name"
-      open-on-click
-    >
-      <template v-slot:prepend="{ item }">
-        <router-link :to="item.link">
-          <v-icon>
-            {{ icons[item.icon] }}
-          </v-icon>
-          <span>{{ item.name }}</span>
-        </router-link>
-      </template>
-    </v-treeview>
-    </div>
-    <div class="contain">
-      <RouterView />
-    </div>
-    </div>
-  </div>
+  <router-view></router-view>
 </template>
 
 <style scoped>
@@ -167,7 +34,6 @@ const items = reactive([
   height: auto;
   justify-content: flex-start;
   align-items: stretch;
-  gap: 20px;
 }
 
 .navigation {
@@ -178,7 +44,7 @@ const items = reactive([
   align-items: flex-start;
   padding-right: 20px;
   border-right:  1px solid rgba(66, 40, 40, 0.369);
-  height: calc(100vh - 80px);
+  height: auto;
 }
 
 .navigation a {
@@ -186,7 +52,7 @@ const items = reactive([
   display: flex;
   align-items: center;
   gap: 10px;
-  color: rgb(15, 233, 161);
+  color: #1867c0;
 }
 
 .contain {

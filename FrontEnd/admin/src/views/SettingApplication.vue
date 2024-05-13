@@ -1,190 +1,300 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import { reactive } from 'vue'
+import { reactive, ref } from 'vue'
+import { PlusOutlined } from '@ant-design/icons-vue';
+import type { UploadProps } from 'ant-design-vue';
 
-const initiallyOpen = reactive(['public'])
-const icons = reactive({
-  report: 'mdi-chart-arc',
-  money: ' mdi-cash-multiple',
-  home: 'mdi-home-analytics',
-  users: 'mdi-account-group',
-  order: 'mdi-order-bool-ascending-variant',
-  ordershop: 'mdi-store-plus',
-  orderonline: 'mdi-web',
-  house: 'mdi-store-cog-outline',
-  orderonline2:'mdi-storefront-check',
-  export: 'mdi-store-minus',
-  menu: 'mdi-silverware',
-  promo: 'mdi-ticket-confirmation-outline',
-  cog: 'mdi-cog'
-})
-const tree = reactive([])
-const items = reactive([
- {
-    name: 'Báo cáo',
-    link: '/bao-cao-doanh-thu',
-    icon: 'report',
-    children: [
-      {
-        name: 'Báo cáo doanh thu',
-        link: '/bao-cao-doanh-thu',
-        icon: 'money'
-      },
-      {
-        name: 'Báo cáo kho',
-        link: '/bao-cao-kho',
-        icon: 'home'
-      },
-      {
-        name: 'Báo cáo nhân viên',
-        link: '/bao-cao-nhan-vien',
-        icon: 'users'
-      }
-    ]
+function getBase64(file: File) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = error => reject(error);
+  });
+}
+
+const previewVisible = ref(false);
+const previewImage = ref('');
+const previewTitle = ref('');
+
+const fileList = ref<UploadProps['fileList']>([
+  {
+    uid: '-1',
+    name: 'image.png',
+    status: 'done',
+    url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
   },
   {
-    name: 'Order',
-    link: '/order-tai-quan',
-    icon: 'order',
-    children: [
-      {
-        name: 'Order tại quán',
-        link: '/order-tai-quan',
-        icon: 'orderonline2',
-      },
-      {
-        name: 'Order online',
-        link: '/order-online',
-        icon: 'orderonline'
-      }
-    ]
-  },
-   {
-    name: 'Kho',
-    link: '/nhap-kho',
-    icon: 'house',
-    children: [
-      {
-        name: 'Nhập kho',
-        link: '/nhap-kho',
-        icon: 'ordershop'
-      },
-      {
-        name: 'Xuất kho',
-        link: '/xuat-kho',
-        icon: 'export'
-      }
-    ]
-  },
-   {
-    name: 'Menu',
-    link: '/menu',
-    icon:'menu',
+    uid: '-2',
+    name: 'image.png',
+    status: 'done',
+    url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
   },
   {
-    name: 'Khuyến mãi',
-    link: '/khuyen-mai',
-    icon: 'promo'
+    uid: '-3',
+    name: 'image.png',
+    status: 'done',
+    url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
   },
   {
-    name: 'Cài đặt',
-    link: '/cai-dat',
-    icon: 'cog'
+    uid: '-4',
+    name: 'image.png',
+    status: 'done',
+    url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
   },
-   {
-    name: 'Nhân viên',
-    link: '/nhân viên',
-    icon: 'users'
+  {
+    uid: '-xxx',
+    percent: 50,
+    name: 'image.png',
+    status: 'uploading',
+    url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
   },
-])
+  {
+    uid: '-5',
+    name: 'image.png',
+    status: 'error',
+  },
+]);
+
+const handleCancel = () => {
+  previewVisible.value = false;
+  previewTitle.value = '';
+};
+const handlePreview = async (file: UploadProps['fileList'][number]) => {
+  if (!file.url && !file.preview) {
+    file.preview = (await getBase64(file.originFileObj)) as string;
+  }
+  previewImage.value = file.url || file.preview;
+  previewVisible.value = true;
+  previewTitle.value = file.name || file.url.substring(file.url.lastIndexOf('/') + 1);
+};
+
+const tab = ref('one')
+const editedItem = ref(null)
 </script>
-
 <template>
-  <div class="main">
-    <div class="header">
-     <div class="logo">
-      Tên shop
-     </div>
+  <v-tabs v-model="tab" bg-color="primary">
+    <v-tab value="one">Cài đặt</v-tab>
+  </v-tabs>
 
-      <v-btn
-        class="logout"
-        text
-        @click="logout"
-      >
-        Đăng xuất
-      </v-btn>
-    </div>
-    <div class="main-content">
-    <div class="navigation">
-    <v-treeview
-      v-model="tree"
-      :open="initiallyOpen"
-      :items="items"
-      activatable
-      item-key="name"
-      open-on-click
-    >
-      <template v-slot:prepend="{ item }">
-        <router-link :to="item.link">
-          <v-icon>
-            {{ icons[item.icon] }}
-          </v-icon>
-          <span>{{ item.name }}</span>
-        </router-link>
-      </template>
-    </v-treeview>
-    </div>
-    <div class="contain">
-      <RouterView />
-    </div>
-    </div>
-  </div>
+  <v-card-text>
+    <v-tabs-window v-model="tab">
+      <v-tabs-window-item value="one">
+        <v-container>
+          <v-row>
+            <h3>Thông tin chung</h3>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Tên quán"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Khu vực"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Địa chỉ"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Chỉ đường"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Giới thiệu"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <h3>Thông tin khác</h3>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Thời gian mở"></text-custom>
+            </v-col>
+            <v-col cols="6">
+              <text-custom label="Thời gian đóng"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Khoảng giá từ"></text-custom>
+            </v-col>
+            <v-col cols="6">
+              <text-custom label="Khoảng giá đến"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Tên wifi"></text-custom>
+            </v-col>
+            <v-col cols="6">
+              <text-custom label="password wifi"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12">
+              <h4>Kiểu quán</h4>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Acoustic" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Sang trọng" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Pub" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Sách" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Vườn" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Cổ Điển" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Tone Màu" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Bình Dân" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Thú Cưng" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Ngoài Trời" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe View Đẹp" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Lounge" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Cafe Trên Cao" value="1"></v-checkbox>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12">
+              <h4>Tiện ích</h4>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Bàn ngoài trời" value="1"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Chỗ đỗ oto" value="2"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Gửi xe máy" value="3"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Máy lạnh và điều hòa" value="4"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Wifi miễn phí" value="5"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Chiếu bóng đá" value="6"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Chỗ chơi cho trẻ" value="7"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Mang đồ ăn ngoài" value="8"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Nhạc sống" value="9"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Bánh ngọt" value="10"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Mang thú cưng" value="11"></v-checkbox>
+            </v-col>
+            <v-col cols="2">
+              <v-checkbox v-model="selected" label="Thanh toán bằng thẻ" value="12"></v-checkbox>
+            </v-col>
+          </v-row>
+          <v-row>
+            <h3>Thông tin liên hệ</h3>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Điện thoại"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Email"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Facebook"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Instagram"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <text-custom label="Website"></text-custom>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <h3>Hình ảnh</h3>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12">
+              <a-upload
+                v-model:file-list="fileList"
+                action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+                list-type="picture-card"
+                @preview="handlePreview"
+              >
+                <div v-if="fileList.length < 8">
+                  <plus-outlined />
+                  <div style="margin-top: 8px">Upload</div>
+                </div>
+              </a-upload>
+              <a-modal
+                :open="previewVisible"
+                :title="previewTitle"
+                :footer="null"
+                @cancel="handleCancel"
+              >
+                <img alt="example" style="width: 100%" :src="previewImage" />
+              </a-modal>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-tabs-window-item>
+    </v-tabs-window>
+  </v-card-text>
 </template>
-
 <style scoped>
-.main {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: auto;
-  justify-content: flex-start;
-  align-content: flex-start;
-  padding: 10px 20px;
-}
-.header {
-  height: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(66, 40, 40, 0.369); 
-  align-items: center;
+/* you can make up upload button and sample style by using stylesheets */
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
 }
 
-.main-content {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
-  gap: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.navigation {
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-right: 20px;
-  border-right:  1px solid rgba(66, 40, 40, 0.369);
-}
-
-.navigation a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: rgb(15, 233, 161);
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
 }
 </style>

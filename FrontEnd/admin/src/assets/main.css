@@ -1,2 +1,19 @@
 @import './base.css';
 
+.time-picker {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+    min-width: 200px;
+}
+
+.time-picker span {
+    font-size: 14px;
+}
+
+.time-picker .v-input {
+    margin-bottom: 0 !important;
+}
+

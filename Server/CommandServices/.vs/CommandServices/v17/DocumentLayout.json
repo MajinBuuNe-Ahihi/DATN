@@ -1,12 +1,394 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\application\\publish\\publishservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:application\\publish\\publishservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\proto\\grpccommandserver.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:proto\\grpccommandserver.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\interfaces\\infrastructure\\icommandrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\interfaces\\infrastructure\\icommandrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\proto\\grpccommandclient.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:proto\\grpccommandclient.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\application\\subcrible\\subcribleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:application\\subcrible\\subcribleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\commandservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:commandservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\entity\\historyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\entity\\historyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\infrastructure\\connectprotocol\\grpcprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:infrastructure\\connectprotocol\\grpcprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\entity\\messagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\entity\\messagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\config\\grpcconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\config\\grpcconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\library\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:library\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\infrastructure\\queue\\rabbitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:infrastructure\\queue\\rabbitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\interfaces\\infrastructure\\iconnectionprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\interfaces\\infrastructure\\iconnectionprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\interfaces\\services\\ibaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\interfaces\\services\\ibaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\domain\\interfaces\\infrastructure\\iqueuebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:domain\\interfaces\\infrastructure\\iqueuebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\commandservices\\controllers\\commandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006E9E2-4440-46FC-9E3B-EA8B43775E59}|CommandServices.csproj|solutionrelative:controllers\\commandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Domain\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "Domain\\Profiles\\MapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:55:27.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublishServices.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Application\\Publish\\PublishServices.cs",
+              "RelativeDocumentMoniker": "Application\\Publish\\PublishServices.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Application\\Publish\\PublishServices.cs",
+              "RelativeToolTip": "Application\\Publish\\PublishServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:44:46.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:25:59.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T17:20:57.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GrpcCommandServer.proto",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Proto\\GrpcCommandServer.proto",
+              "RelativeDocumentMoniker": "Proto\\GrpcCommandServer.proto",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Proto\\GrpcCommandServer.proto",
+              "RelativeToolTip": "Proto\\GrpcCommandServer.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-05-13T16:05:01.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T16:09:16.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:13:26.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICommandRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Infrastructure\\ICommandRepo.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Infrastructure\\ICommandRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Infrastructure\\ICommandRepo.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Infrastructure\\ICommandRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:51:57.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GrpcCommandClient.proto",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Proto\\GrpcCommandClient.proto",
+              "RelativeDocumentMoniker": "Proto\\GrpcCommandClient.proto",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Proto\\GrpcCommandClient.proto",
+              "RelativeToolTip": "Proto\\GrpcCommandClient.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-05-13T17:30:38.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubcribleServices.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Application\\Subcrible\\SubcribleServices.cs",
+              "RelativeDocumentMoniker": "Application\\Subcrible\\SubcribleServices.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Application\\Subcrible\\SubcribleServices.cs",
+              "RelativeToolTip": "Application\\Subcrible\\SubcribleServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:45:02.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MessageQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Entity\\MessageQueue.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\MessageQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Entity\\MessageQueue.cs",
+              "RelativeToolTip": "Domain\\Entity\\MessageQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:47:10.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommandServices",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\CommandServices.csproj",
+              "RelativeDocumentMoniker": "CommandServices.csproj",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\CommandServices.csproj",
+              "RelativeToolTip": "CommandServices.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T16:00:36.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GrpcProtocol.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Infrastructure\\connectprotocol\\GrpcProtocol.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\connectprotocol\\GrpcProtocol.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Infrastructure\\connectprotocol\\GrpcProtocol.cs",
+              "RelativeToolTip": "Infrastructure\\connectprotocol\\GrpcProtocol.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:20:48.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HistoryEntity.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Entity\\HistoryEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\HistoryEntity.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Entity\\HistoryEntity.cs",
+              "RelativeToolTip": "Domain\\Entity\\HistoryEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:48:44.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GrpcConfig.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Config\\GrpcConfig.cs",
+              "RelativeDocumentMoniker": "Domain\\Config\\GrpcConfig.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Config\\GrpcConfig.cs",
+              "RelativeToolTip": "Domain\\Config\\GrpcConfig.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:13:07.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Library\\Utilities.cs",
+              "RelativeDocumentMoniker": "Library\\Utilities.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Library\\Utilities.cs",
+              "RelativeToolTip": "Library\\Utilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:14:41.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RabbitMQQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Infrastructure\\queue\\RabbitMQQueue.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\queue\\RabbitMQQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Infrastructure\\queue\\RabbitMQQueue.cs",
+              "RelativeToolTip": "Infrastructure\\queue\\RabbitMQQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:21:20.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IConnectionProtocol.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Infrastructure\\IConnectionProtocol.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Infrastructure\\IConnectionProtocol.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Infrastructure\\IConnectionProtocol.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Infrastructure\\IConnectionProtocol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:18:58.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBaseServices.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Services\\IBaseServices.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Services\\IBaseServices.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Services\\IBaseServices.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Services\\IBaseServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:46:50.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IQueueBase.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Infrastructure\\IQueueBase.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Infrastructure\\IQueueBase.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Domain\\Interfaces\\Infrastructure\\IQueueBase.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Infrastructure\\IQueueBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:46:28.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:43:10.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CommandController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Controllers\\CommandController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommandController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Controllers\\CommandController.cs",
+              "RelativeToolTip": "Controllers\\CommandController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:43:31.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

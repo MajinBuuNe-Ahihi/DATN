@@ -1,0 +1,19 @@
+syntax = "proto3";
+option csharp_namespace = "CommandServices";
+
+
+service CommandClientProtocol {
+  rpc PushCommands (GrpcCommandPushModel) returns (GrpcCommandPushModelResponse);
+}
+
+
+message GrpcCommandPushModel {
+	     string ID = 1;
+         int32 Action = 2;
+         string Message = 3;
+         int32 Destination  =4;
+}
+
+message GrpcCommandPushModelResponse {
+         int32 respone = 1;
+}

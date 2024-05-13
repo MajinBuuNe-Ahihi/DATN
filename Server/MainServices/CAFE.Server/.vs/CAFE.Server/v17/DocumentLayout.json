@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD324D6-C4F7-40C4-B011-D20C6604072D}|CAFE.Server.Library\\CAFE.Server.Library.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.library\\commonfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADD324D6-C4F7-40C4-B011-D20C6604072D}|CAFE.Server.Library\\CAFE.Server.Library.csproj|solutionrelative:cafe.server.library\\commonfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56F2DAB-5992-4964-9D56-F62D844A2DA6}|CAFE.Server.HostBase\\CAFE.Server.HostBase.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.hostbase\\cafe.server.hostbase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B56F2DAB-5992-4964-9D56-F62D844A2DA6}|CAFE.Server.HostBase\\CAFE.Server.HostBase.csproj|solutionrelative:cafe.server.hostbase\\cafe.server.hostbase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|solutionrelative:cafe.server.register.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|solutionrelative:cafe.server.register.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\cafe.server.register.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|solutionrelative:cafe.server.register.api\\cafe.server.register.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommonFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Library\\CommonFunctions.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Library\\CommonFunctions.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Library\\CommonFunctions.cs",
+              "RelativeToolTip": "CAFE.Server.Library\\CommonFunctions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:24:04.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CAFE.Server.HostBase",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.HostBase\\CAFE.Server.HostBase.csproj",
+              "RelativeDocumentMoniker": "CAFE.Server.HostBase\\CAFE.Server.HostBase.csproj",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.HostBase\\CAFE.Server.HostBase.csproj",
+              "RelativeToolTip": "CAFE.Server.HostBase\\CAFE.Server.HostBase.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T16:24:00.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Program.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\Program.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Program.cs",
+              "RelativeToolTip": "CAFE.Server.Register.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:30:27.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\WeatherForecast.cs",
+              "RelativeToolTip": "CAFE.Server.Register.API\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:30:21.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CAFE.Server.Register.API",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj",
+              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj",
+              "RelativeToolTip": "CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T15:29:42.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

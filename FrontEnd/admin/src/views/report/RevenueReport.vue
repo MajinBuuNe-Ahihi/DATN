@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive, computed, ref, watch } from 'vue'
-import { LineChart, useLineChart, DoughnutChart, useDoughnutChart } from 'vue-chart-3'
+import { LineChart, useLineChart, DoughnutChart, useDoughnutChart,RadarChart } from 'vue-chart-3'
 import { ChartOptions } from 'chart.js'
 import moment from 'moment'
 import { format, parseISO } from 'date-fns'
@@ -101,6 +101,140 @@ const optionsUser = computed<ChartOptions<'doughnut'>>(() => ({
   }
 }))
 
+const orderQuantityData = {
+  labels: ['Order tại bàn', 'Orderonline', 'Mang đi'],
+  datasets: [
+    {
+      data: [30, 40, 90],
+      backgroundColor: ['#83b6b8', '#94c0c1', '#b4d3d4']
+    }
+  ]
+}
+
+const orderQuantity = computed<ChartOptions<'doughnut'>>(() => ({
+  plugins: {
+    legend: {
+      display: false
+    },
+    title: {
+      display: true,
+      text: 'Thống kê order trong ngày'
+    }
+  }
+}))
+
+const orderRevenueData = {
+  labels: ['Order tại bàn', 'Orderonline', 'Mang đi'],
+  datasets: [
+    {
+      data: [30, 40, 90],
+      backgroundColor: ['#83b6b8', '#94c0c1', '#b4d3d4']
+    }
+  ]
+}
+
+const orderRevenue = computed<ChartOptions<'doughnut'>>(() => ({
+  plugins: {
+    legend: {
+      display: false
+    },
+    title: {
+      display: true,
+      text: 'Thống kê doanh thu theo order trong ngày'
+    }
+  }
+}))
+
+const foodSellerData = {
+  labels: ['cafe trứng', 'cafe sữa', 'cafe đen'],
+  datasets: [
+    {
+      data: [30, 40, 90],
+      backgroundColor: ['#83b6b8', '#94c0c1', '#b4d3d4']
+    }
+  ]
+}
+
+const foodSeller = computed<ChartOptions<'doughnut'>>(() => ({
+  plugins: {
+    legend: {
+      display: false
+    },
+    title: {
+      display: true,
+      text: 'Thống kê số lượng món đã bán'
+    }
+  }
+}))
+
+const emotionData = {
+  labels: [
+    'Quá tệ',
+    'Trung bình',
+    'Bình thường',
+    'Tốt',
+    'Quá tốt',
+  ],
+  datasets: [
+    {
+      label: 'Vị trí',
+      backgroundColor: 'rgba(179,181,198,0.2)',
+      borderColor: 'rgba(179,181,198,1)',
+      pointBackgroundColor: 'rgba(179,181,198,1)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(179,181,198,1)',
+      data: [10, 20, 30, 10, 30]
+    },
+    {
+      label: 'Không gian',
+      backgroundColor: 'rgba(44, 156, 248,0.2)',
+      borderColor: 'rgba(44, 156, 248,1)',
+      pointBackgroundColor: 'rgba(44, 156, 248,1)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(44, 156, 248,1)',
+      data: [7, 6, 27, 50, 10]
+    },
+      {
+      label: 'Đồ uống',
+      backgroundColor: 'rgba(255,99,132,0.2)',
+      borderColor: 'rgba(255,99,132,1)',
+      pointBackgroundColor: 'rgba(255,99,132,1)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(255,99,132,1)',
+      data: [28, 22, 40, 5, 5]
+    },
+      {
+      label: 'Phục vụ',
+      backgroundColor: 'rgba(13, 216, 213,0.2)',
+      borderColor: 'rgba(13, 216, 213,1)',
+      pointBackgroundColor: 'rgba(13, 216, 213,1)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(13, 216, 213,1)',
+      data: [12, 28, 36, 14, 10]
+    },
+      {
+      label: 'Giá cả',
+      backgroundColor: 'rgba(13, 216, 47,0.2)',
+      borderColor: 'rgba(13, 216, 47,1)',
+      pointBackgroundColor: 'rgba(13, 216, 47,1)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(13, 216, 47,1)',
+      data: [28, 48, 32,13,15]
+    }
+  ]
+}
+
+const optionsEmotion = {
+  responsive: true,
+  maintainAspectRatio: false
+}
+
+
 const dateFrom = ref(new Date())
 const dateTo = ref(new Date())
 
@@ -115,11 +249,11 @@ const changValueRevanueTime = (value) => {
   selectRevanueTime.value = value.raw.value
 }
 
-watch(dateFrom,  (value, value2) => {
+watch(dateFrom, (value, value2) => {
   open1.value = false
 })
 
-watch(dateTo,  (value, value2) => {
+watch(dateTo, (value, value2) => {
   open2.value = false
 })
 </script>
@@ -130,17 +264,52 @@ watch(dateTo,  (value, value2) => {
     <v-row>
       <v-col cols="12" sm="6" md="3" class="d-flex align-center ga-1">
         <span>Từ</span>
-        <text-custom :value="dateFromFormatter"   @focus="open1 = true; open2 = false" readonly></text-custom>
-        <v-date-picker v-if="open1" v-model="dateFrom"  style="position: fixed; top:50%; left: 50%; transform: translate(-50%,-50%); z-index: 9999;border: 1px solid black;"> </v-date-picker>
-      </v-col>
-      <v-col cols="12" sm="6" md="3" class="d-flex align-center ga-1">
-         <span>Đến</span>
         <text-custom
-          v-model="dateToFormatter"
-          @focus="open2 = true; open1 = false"
+          :value="dateFromFormatter"
+          @focus="
+            open1 = true;
+            open2 = false
+          "
           readonly
         ></text-custom>
-        <v-date-picker style="position: fixed; top:50%; left: 50%; transform: translate(-50%,-50%); z-index: 9999; border: 1px solid black;" v-if="open2" @change="open2 = false" v-model="dateTo"> </v-date-picker>
+        <v-date-picker
+          v-if="open1"
+          v-model="dateFrom"
+          style="
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            border: 1px solid black;
+          "
+        >
+        </v-date-picker>
+      </v-col>
+      <v-col cols="12" sm="6" md="3" class="d-flex align-center ga-1">
+        <span>Đến</span>
+        <text-custom
+          v-model="dateToFormatter"
+          @focus="
+            open2 = true;
+            open1 = false
+          "
+          readonly
+        ></text-custom>
+        <v-date-picker
+          style="
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            border: 1px solid black;
+          "
+          v-if="open2"
+          @change="open2 = false"
+          v-model="dateTo"
+        >
+        </v-date-picker>
       </v-col>
       <v-col cols="1" lg="2">
         <select-custom
@@ -197,28 +366,57 @@ watch(dateTo,  (value, value2) => {
         /></v-card>
       </v-col>
       <v-col cols="12" sm="4">
-        <v-card class="pa-4 card" outlined> báo cáo order </v-card>
+        <v-card class="pa-4 card" outlined>
+          <DoughnutChart :chartData="orderRevenueData" :options="orderRevenue"
+        /></v-card>
       </v-col>
     </v-row>
     <v-row> Đặt hàng </v-row>
     <v-row>
       <v-col cols="12" sm="6">
-        <v-card class="pa-4" outlined> tại bàn mang đi vận chuyển </v-card>
+        <v-card class="pa-4 card" outlined>
+          <DoughnutChart
+            :width="200"
+            :height="200"
+            :chartData="orderQuantityData"
+            :options="orderQuantity"
+          />
+        </v-card>
       </v-col>
       <v-col cols="12" sm="6">
-        <v-card class="pa-4" outlined> các món đã đặt hàng </v-card>
+        <v-card class="pa-4" outlined>
+            <DoughnutChart
+              :width="200"
+              :height="200"
+              :chartData="foodSellerData"
+              :options="foodSeller"
+            />
+        </v-card>
       </v-col>
     </v-row>
     <v-row>
       <v-col cols="12" sm="6" class="pa-0"> Món bán chạy </v-col>
       <v-col cols="12" sm="6" class="pa-0"> Đánh giá </v-col>
     </v-row>
-    <v-row>
-      <v-col cols="12" sm="6">
-        <v-card class="pa-4" outlined> sản phẩm bán chạy nhất </v-card>
+    <v-row  align="stretch">
+      <v-col cols="12" sm="6"  class="d-flex align-stretch">
+        <v-card class="pa-4" style="width:100%" outlined > 
+          <span>Top sản phẩm bán chạy</span>
+          <div class="list-product">
+          <template v-for="i in 5" :key="i">
+          <div class="top-product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFtvU8yh8U9I1allLDfFG6AsUlngOP_NdaQ&s" alt="">
+            <div class="name">
+              món abc
+            </div>
+            <div class="quantity">100</div>
+          </div>
+          </template>
+          </div>
+         </v-card>
       </v-col>
-      <v-col cols="12" sm="6">
-        <v-card class="pa-4" outlined> đánh giá </v-card>
+      <v-col cols="12" sm="6" class="d-flex align-stretch">
+        <v-card class="pa-4" style="width:100%" outlined> <RadarChart :chartData="emotionData" :options="optionsEmotion"/> </v-card>
       </v-col>
     </v-row>
   </v-container>
@@ -231,5 +429,37 @@ watch(dateTo,  (value, value2) => {
 
 .font-1 {
   font-size: 10px;
+}
+.list-product {
+  margin-top: 20px;
+}
+.top-product {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
+
+.top-product:last-child {
+  border-bottom: none !important;
+}
+.top-product img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.top-product .name {
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.top-product .quantity {
+  font-size: 14px;
+  font-weight: bold;
 }
 </style>

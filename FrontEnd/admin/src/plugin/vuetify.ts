@@ -35,7 +35,9 @@ export function installVuetify (app: App) {
       PrimaryBtn: components.VBtn,
       SettingsSwitch: components.VSwitch,
       SelectCustom: components.VSelect,
-      TextCustom: components.VTextField
+      TextCustom: components.VTextField,
+      TableCustom: components.VDataTable,
+      AutoCompleteCustom: components.VAutocomplete
 
     },
     components: {
@@ -109,6 +111,13 @@ export function installVuetify (app: App) {
         hideDetails: true,
       },
       TextCustom: {
+        class: 'ps-1 mb-2',
+        color: 'primary',
+        density: 'compact',
+        maxHeight: '40',
+        variant:'outlined',
+        hideDetails: true,
+      },AutoCompleteCustom: {
         class: 'ps-1 mb-2',
         color: 'primary',
         density: 'compact',
