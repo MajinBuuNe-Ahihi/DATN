@@ -71,13 +71,13 @@ const router = createRouter({
       ]
     },
     {
-      path: '/login',
+      path: '/',
       component: MainLogin,
       children: [
         {
-          path: '/hi',
+          path: '/login',
           name: 'login',
-          component: () => import('../views/LoginMain.vue')
+          component: () => import('../views/SignIN.vue')
         },
         {
           path: '/register',

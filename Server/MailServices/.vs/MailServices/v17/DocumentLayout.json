@@ -1,12 +1,270 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\infrastructure\\mailtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:infrastructure\\mailtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\infrastructure\\rabitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:infrastructure\\rabitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\application\\worker\\workerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:application\\worker\\workerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\application\\bussinesssendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:application\\bussinesssendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\core\\interfaces\\imailcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:core\\interfaces\\imailcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\core\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:core\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\application\\interfaces\\ibussinesssendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:application\\interfaces\\ibussinesssendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\controllers\\mailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:controllers\\mailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\core\\config\\queueconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:core\\config\\queueconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\application\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:application\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\core\\entity\\mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:core\\entity\\mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\mailservices\\core\\dto\\mailparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0DE887-F680-4B64-B253-23B29CF8FE1E}|MailServices.csproj|solutionrelative:core\\dto\\mailparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-14T18:56:43.565Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMailCore.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\Interfaces\\IMailCore.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IMailCore.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\Interfaces\\IMailCore.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IMailCore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:49:26.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MailTrap.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Infrastructure\\MailTrap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MailTrap.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Infrastructure\\MailTrap.cs",
+              "RelativeToolTip": "Infrastructure\\MailTrap.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:05:43.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FactoryInfrastructure.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Infrastructure\\FactoryInfrastructure.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\FactoryInfrastructure.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Infrastructure\\FactoryInfrastructure.cs",
+              "RelativeToolTip": "Infrastructure\\FactoryInfrastructure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:05:03.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\Interfaces\\IQueue.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\Interfaces\\IQueue.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:49:41.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RabitmqQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Infrastructure\\RabitmqQueue.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\RabitmqQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Infrastructure\\RabitmqQueue.cs",
+              "RelativeToolTip": "Infrastructure\\RabitmqQueue.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwDEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:06:04.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkerServices.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\Worker\\WorkerServices.cs",
+              "RelativeDocumentMoniker": "Application\\Worker\\WorkerServices.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\Worker\\WorkerServices.cs",
+              "RelativeToolTip": "Application\\Worker\\WorkerServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:25:37.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BussinessSendMail.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\BussinessSendMail.cs",
+              "RelativeDocumentMoniker": "Application\\BussinessSendMail.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\BussinessSendMail.cs",
+              "RelativeToolTip": "Application\\BussinessSendMail.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:09:10.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:53:45.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Mail.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\Entity\\Mail.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\Mail.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\Entity\\Mail.cs",
+              "RelativeToolTip": "Core\\Entity\\Mail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:54:57.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MailController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Controllers\\MailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MailController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Controllers\\MailController.cs",
+              "RelativeToolTip": "Controllers\\MailController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:59:23.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBussinessSendMail.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\Interfaces\\IBussinessSendMail.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBussinessSendMail.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\Interfaces\\IBussinessSendMail.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBussinessSendMail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:08:39.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MailParam.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\DTO\\MailParam.cs",
+              "RelativeDocumentMoniker": "Core\\DTO\\MailParam.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\DTO\\MailParam.cs",
+              "RelativeToolTip": "Core\\DTO\\MailParam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:57:55.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\Factory.cs",
+              "RelativeDocumentMoniker": "Application\\Factory.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Application\\Factory.cs",
+              "RelativeToolTip": "Application\\Factory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:02:10.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QueueConfig.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\config\\QueueConfig.cs",
+              "RelativeDocumentMoniker": "Core\\config\\QueueConfig.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MailServices\\Core\\config\\QueueConfig.cs",
+              "RelativeToolTip": "Core\\config\\QueueConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:02:30.331Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

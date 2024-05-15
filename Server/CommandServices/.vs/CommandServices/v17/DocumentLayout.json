@@ -110,8 +110,7 @@
               "RelativeToolTip": "Domain\\Profiles\\MapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T17:55:27.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T17:55:27.28Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "Application\\Publish\\PublishServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:44:46.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:44:46.026Z"
             },
             {
               "$type": "Document",
@@ -134,7 +132,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAiwCQAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T16:25:59.89Z",
               "EditorCaption": ""
@@ -149,8 +147,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T17:20:57.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T17:20:57.151Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "Proto\\GrpcCommandServer.proto",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2024-05-13T16:05:01.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:05:01.397Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T16:09:16.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:09:16.104Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T18:13:26.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:13:26.326Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Infrastructure\\ICommandRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T17:51:57.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T17:51:57.75Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "Proto\\GrpcCommandClient.proto",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2024-05-13T17:30:38.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T17:30:38.053Z"
             },
             {
               "$type": "Document",
@@ -227,8 +219,7 @@
               "RelativeToolTip": "Application\\Subcrible\\SubcribleServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:45:02.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:45:02.57Z"
             },
             {
               "$type": "Document",
@@ -240,21 +231,19 @@
               "RelativeToolTip": "Domain\\Entity\\MessageQueue.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:47:10.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:47:10.629Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CommandServices",
+              "Title": "CommandServices.csproj",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\CommandServices.csproj",
               "RelativeDocumentMoniker": "CommandServices.csproj",
               "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\CommandServices\\CommandServices.csproj",
               "RelativeToolTip": "CommandServices.csproj",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-13T16:00:36.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:00:36.022Z"
             },
             {
               "$type": "Document",
@@ -266,8 +255,7 @@
               "RelativeToolTip": "Infrastructure\\connectprotocol\\GrpcProtocol.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAuwBUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:20:48.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:20:48.607Z"
             },
             {
               "$type": "Document",
@@ -279,8 +267,7 @@
               "RelativeToolTip": "Domain\\Entity\\HistoryEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:48:44.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:48:44.317Z"
             },
             {
               "$type": "Document",
@@ -292,8 +279,7 @@
               "RelativeToolTip": "Domain\\Config\\GrpcConfig.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:13:07.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:13:07.144Z"
             },
             {
               "$type": "Document",
@@ -305,8 +291,7 @@
               "RelativeToolTip": "Library\\Utilities.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:14:41.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:14:41.743Z"
             },
             {
               "$type": "Document",
@@ -318,8 +303,7 @@
               "RelativeToolTip": "Infrastructure\\queue\\RabbitMQQueue.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:21:20.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:21:20.058Z"
             },
             {
               "$type": "Document",
@@ -331,8 +315,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Infrastructure\\IConnectionProtocol.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:18:58.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:18:58.452Z"
             },
             {
               "$type": "Document",
@@ -344,8 +327,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Services\\IBaseServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:46:50.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:46:50.43Z"
             },
             {
               "$type": "Document",
@@ -357,8 +339,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Infrastructure\\IQueueBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:46:28.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:46:28.023Z"
             },
             {
               "$type": "Document",
@@ -370,8 +351,7 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:43:10.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:43:10.073Z"
             },
             {
               "$type": "Document",
@@ -383,8 +363,7 @@
               "RelativeToolTip": "Controllers\\CommandController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:43:31.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:43:31.667Z"
             }
           ]
         }
