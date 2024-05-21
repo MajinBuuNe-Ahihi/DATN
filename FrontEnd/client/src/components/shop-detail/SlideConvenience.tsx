@@ -6,77 +6,67 @@ import {BsCarFrontFill, FaChild, FaMotorcycle, FaSmoking, FaWifi, GiCakeSlice, G
 import './slide-convenience.scss'
 
 type Props = {
-  conveniences?: Array<number>
+  conveniences?: Array<any>
 }
 
-const convertConvenienceToComponent = (convenience: number) => {
+const convertConvenienceToComponent = (convenience: string) => {
   switch(convenience) {
-    case Enumrable.Convenience.AirConditional:
+    case "42880498-DFF5-4FB7-9267-39C51018B3EA":
       return  <div className="context">
         <TbAirConditioning size={40} />
       <span> Có điều hòa</span>
     </div>
-    case Enumrable.Convenience.AllowPet:
+    case "14AE3767-CA9F-4C73-A55E-5B02537C6002":
       return  <div className="context">
         <MdPets size={40} />
       <span> Mang thú cưng</span>
     </div>
-    case Enumrable.Convenience.CarPark: 
+    case "69C44411-8340-4D03-963E-BC6C59651D5B": 
       return  <div className="context">
         <BsCarFrontFill size={40} />
-      <span> Chỗ đỗ otô</span>
+      <span> Chỗ đỗ ô tô</span>
     </div>
-      case Enumrable.Convenience.CardPayment: 
+      case "14C2DB29-53FF-4B08-A2EE-1E51C352A35F": 
       return  <div className="context">
         <MdPayment size={40} />
       <span> Chấp nhận thanh toán thẻ</span>
     </div>
-      case Enumrable.Convenience.Dessert: 
+      case"ABB06119-0D7C-406C-AF35-87C83E61310B": 
       return  <div className="context">
        <GiCakeSlice size={40} />
       <span> Bánh ngọt</span>
     </div>
-      case Enumrable.Convenience.DisplayFootball: 
+      case "ED67CE7D-A5FC-4EE2-A7AF-6465810CC89C": 
       return  <div className="context">
         <GiSoccerBall size={40} />
       <span> Chiếu bóng đá</span>
     </div>
-      case Enumrable.Convenience.KidsPlay: 
+      case "DE808EA0-E6AE-443D-9B33-2E4DC6FA0202": 
       return  <div className="context">
        <FaChild size={40} />
       <span> Sân chơi cho trẻ</span>
     </div>
-      case Enumrable.Convenience.LiveMusic: 
+      case "CDBCD51A-0C50-4EF0-A5FF-AB80FA5F04E5": 
       return  <div className="context">
        <GiGuitar size={40} /> 
       <span> Nhạc sống</span>
     </div>
-      case Enumrable.Convenience.MotoPark: 
+      case "8D274479-2E71-4231-B648-D5D65A14171B": 
       return  <div className="context">
         <FaMotorcycle size={40} />
       <span>Trông xe máy</span>
     </div>
-      case Enumrable.Convenience.Shipping: 
-      return  <div className="context">
-       <LiaShippingFastSolid size={40} />
-      <span> Giao tận nơi</span>
-    </div>
-      case Enumrable.Convenience.Smoking: 
-      return <div className="context">
-      <FaSmoking size={40} />
-     <span> Khu vực hút thuốc</span>
-   </div> 
-      case Enumrable.Convenience.TakeOutFood: 
+      case "768E9805-D103-4F20-92C0-2C4A1FF3C0B0": 
       return  <div className="context">
         <MdFastfood size={40} />
       <span> Mang đồ ăn ngoài</span>
     </div>
-      case Enumrable.Convenience.WeatherParty: 
+      case "1702C5E8-0437-4A93-B0BE-C4F594DBF265": 
       return <div className="context">
         <TiWeatherPartlySunny size={40} />
         <span> Ngoài trời</span>
       </div>
-      case Enumrable.Convenience.Wifi: 
+      case "B0BA038D-E016-43D3-ADF7-9DBF6ED5D76B": 
       return <div className="context">
         <FaWifi size={40}/> 
         <span> Có Wifi</span>
@@ -84,12 +74,12 @@ const convertConvenienceToComponent = (convenience: number) => {
   }
 }
 
-const sliceItemsConvenience = (conveniences: Array<number>)=> {
+const sliceItemsConvenience = (conveniences: Array<any>)=> {
   return conveniences.map((convenience, index) => {
     return (
       <SwiperSlide key={index} >
           {
-            convertConvenienceToComponent(convenience)
+            convertConvenienceToComponent(convenience?.convenientID as string)
           }
       </SwiperSlide>
     )
@@ -97,7 +87,7 @@ const sliceItemsConvenience = (conveniences: Array<number>)=> {
 }
 
 export default function SlideConvenience({conveniences}: Props) {
-  const temp = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+  
   return (
     <div className="slide-feature">
         <Swiper
@@ -111,7 +101,7 @@ export default function SlideConvenience({conveniences}: Props) {
             className={`slide-feature__slide`}
             >
             {
-              sliceItemsConvenience(temp)
+              sliceItemsConvenience(conveniences || [])
             }
         </Swiper>
     </div>

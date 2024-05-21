@@ -1,6 +1,8 @@
 import React from 'react'
 import './evaluate.scss'
-type Props = {}
+type Props = {
+    data: any
+}
 
 export default function Evaluate(props:Props) {
   return (
@@ -30,7 +32,7 @@ export default function Evaluate(props:Props) {
                         </div>
                     </div>
                     <div className="evaluate__content-score">
-                        5.0
+                        {props.data.score}
                     </div>
                 </div>
                 <div className="evaluate__content-item">

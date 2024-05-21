@@ -30,16 +30,16 @@ const items = reactive([
         link: '/bao-cao-doanh-thu',
         icon: 'money'
       },
-      {
-        name: 'Báo cáo kho',
-        link: '/bao-cao-kho',
-        icon: 'home'
-      },
-      {
-        name: 'Báo cáo nhân viên',
-        link: '/bao-cao-nhan-vien',
-        icon: 'users'
-      }
+      // {
+      //   name: 'Báo cáo kho',
+      //   link: '/bao-cao-kho',
+      //   icon: 'home'
+      // },
+      // {
+      //   name: 'Báo cáo nhân viên',
+      //   link: '/bao-cao-nhan-vien',
+      //   icon: 'users'
+      // }
     ]
   },
   {
@@ -91,11 +91,11 @@ const items = reactive([
      link: '/cai-dat',
     icon: 'cog'
   },
-   {
-    name: 'Nhân viên',
-    link: '/nhan-vien',
-    icon: 'users'
-  },
+  //  {
+  //   name: 'Nhân viên',
+  //   link: '/nhan-vien',
+  //   icon: 'users'
+  // },
 ])
 </script>
 

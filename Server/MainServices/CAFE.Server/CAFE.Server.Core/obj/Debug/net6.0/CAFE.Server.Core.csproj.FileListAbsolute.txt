@@ -1,0 +1,13 @@
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\bin\Debug\net6.0\CAFE.Server.Core.deps.json
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\bin\Debug\net6.0\CAFE.Server.Core.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\bin\Debug\net6.0\CAFE.Server.Core.pdb
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.AssemblyInfoInputs.cache
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.AssemblyInfo.cs
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.csproj.CoreCompileInputs.cache
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.sourcelink.json
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\refint\CAFE.Server.Core.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.pdb
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\ref\CAFE.Server.Core.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Core\obj\Debug\net6.0\CAFE.Server.Core.csproj.AssemblyReference.cache

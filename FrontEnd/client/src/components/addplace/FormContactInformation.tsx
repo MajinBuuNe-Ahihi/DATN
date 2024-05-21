@@ -13,11 +13,11 @@ type Props = {
   }>
 }
 
-let arrField = [{ name: 'phone', label: 'Điện thoại', placeholder: 'Nhap so dien thoai' },
-  { name: 'email', label: 'Email', placeholder: 'Nhap dia chi email' },
-  { name: 'facebook_url', label: 'Facebook', placeholder: 'Nhap link facebook' },
-  { name: 'instagram_url', label: 'Instagram', placeholder: 'Nhap link instagram' },
-  { name: 'website', label:'Website',placeholder: 'Nhap link website'}]
+let arrField = [{ name: 'phone', label: 'Điện thoại', placeholder: 'Nhập số điện thoại' },
+  { name: 'email', label: 'Email', placeholder: 'Nhập email' },
+  { name: 'facebook_url', label: 'Facebook', placeholder: 'Nhập link facebook' },
+  { name: 'instagram_url', label: 'Instagram', placeholder: 'Nhập link instagram' },
+  { name: 'website', label:'Website',placeholder: 'Nhập website'}]
 
 export default function FormcontacttInformation({errors,touched }: Props) {
   return (

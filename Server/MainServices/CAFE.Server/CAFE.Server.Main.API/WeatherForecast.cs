@@ -1,4 +1,4 @@
-namespace CAFE.Server.Main.API
+namespace CAFE.Server.Infrastructure.Server.Main.API
 {
     public class WeatherForecast
     {

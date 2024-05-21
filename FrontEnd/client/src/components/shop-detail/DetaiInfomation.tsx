@@ -5,7 +5,10 @@ import { Dropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import Utility from '../../utility/Index';
 
-type Props = {}
+type Props = {
+    data: any,
+    typeShop: any
+}
 
 type TimeOpenClose = {
     type: number,
@@ -15,58 +18,58 @@ type TimeOpenClose = {
     closetime: number
 }
 
-const timeOpen:Array<TimeOpenClose> = [
-    {
-        type: 1,
-        label: '7:00 AM - 11:00 PM',
-        date: 'Thứ 2',
-        opentime: 7,
-        closetime: 23
-    },
-    {
-        type: 2,
-        label: '7:00 AM - 11:00 PM',
-        date: 'Thứ 3',
-        opentime: 7,
-        closetime: 23
-    },
-    {
-        type: 3,
-        label: '7:00 AM - 11:00 PM',
-        date: 'Thứ 4',
-        opentime: 7,
-        closetime: 23
-    },
-    {
-        type: 4,
-        label: '7:00 AM - 11:00 PM',
-        date: 'Thứ 5',
-        opentime: 7,
-        closetime: 23
-    },{
-        type: 5,
-        label: '7:00 AM - 11:00 PM',
-        date: 'Thứ 6',
-        opentime: 7,
-        closetime: 23
-    },
-    {
-        type: 6,
-        label: '7:00 AM - 11:00 PM',
-        date: 'Thứ 7',
-        opentime: 7,
-        closetime: 23
-    },
-    {
-        type: 0,
-        label: '7:00 AM - 11:00 PM',
-        date: 'Chủ nhật',
-        opentime: 7,
-        closetime: 23
-    },
-]
 
-export default function DetaiInfomation({}: Props) {
+export default function DetaiInfomation({data,typeShop}: Props) {
+    const timeOpen:Array<TimeOpenClose> = [
+        {
+            type: 1,
+            label: `${data.openTime} AM - ${data.closeTime} PM `,
+            date: 'Thứ 2',
+            opentime: 7,
+            closetime: 23
+        },
+        {
+            type: 2,
+            label: `${data.openTime} AM - ${data.closeTime} PM `,
+            date: 'Thứ 3',
+            opentime: 7,
+            closetime: 23
+        },
+        {
+            type: 3,
+            label: `${data.openTime} AM - ${data.closeTime} PM `,
+            date: 'Thứ 4',
+            opentime: 7,
+            closetime: 23
+        },
+        {
+            type: 4,
+            label: `${data.openTime} AM - ${data.closeTime} PM `,
+            date: 'Thứ 5',
+            opentime: 7,
+            closetime: 23
+        },{
+            type: 5,
+            label: `${data.openTime} AM - ${data.closeTime} PM `,
+            date: 'Thứ 6',
+            opentime: 7,
+            closetime: 23
+        },
+        {
+            type: 6,
+            label: `${data.openTime} AM - ${data.closeTime} PM `,
+            date: 'Thứ 7',
+            opentime: 7,
+            closetime: 23
+        },
+        {
+            type: 0,
+            label: `${data.openTime} AM - ${data.closeTime} PM `,
+            date: 'Chủ nhật',
+            opentime: 7,
+            closetime: 23
+        },
+    ]
     const currentTime = new Date();
     const currentDate = timeOpen.filter((item:TimeOpenClose)=> item.type == currentTime.getDay())[0]
     const statusClosing = Utility.CheckClosingTimes(currentTime,currentDate.opentime,currentDate.closetime)
@@ -83,7 +86,7 @@ export default function DetaiInfomation({}: Props) {
                     <FaDollarSign/>
                 </div>
                  <div className="detail-information__content">
-                    350000 đ - 20000 đ
+                    {data.fromPrice} đ - {data.toPrice} đ
                  </div>
             </div>
             <div className="detail-information__item">
@@ -113,16 +116,20 @@ export default function DetaiInfomation({}: Props) {
                     <BiEnvelope/>
                 </div>
                  <div className="detail-information__content">
-                   <span>hoangvmanh10.qn@gmail.com</span>
+                   <span>{data.email}</span>
                  </div>
             </div>
             <div className="detail-information__item">
                 <div className="detail-information__icon">
                     <AiOutlineTags/>
                 </div>
-                 <div className="detail-information__content">
-                    <Link to={'sang'}>Sang chảnh</Link>
+                {
+                    Array.from(typeShop).map((item:any) => <>
+                 <div className="detail-information__content" >
+                    <Link to={item?.shopTypeID} style={{fontSize: '10px'}}>{item?.shopTypeName}</Link>
                  </div>
+                    </>)
+                }
             </div>
         </div>
     </div>

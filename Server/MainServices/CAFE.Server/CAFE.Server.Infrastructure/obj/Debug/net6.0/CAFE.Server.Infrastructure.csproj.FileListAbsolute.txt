@@ -1,0 +1,16 @@
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\bin\Debug\net6.0\CAFE.Server.Infrastructure.deps.json
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\bin\Debug\net6.0\CAFE.Server.Infrastructure.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\bin\Debug\net6.0\CAFE.Server.Infrastructure.pdb
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\bin\Debug\net6.0\CAFE.Server.Core.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\bin\Debug\net6.0\CAFE.Server.Core.pdb
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.AssemblyInfo.cs
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.sourcelink.json
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Ser.4619CCDE.Up2Date
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\refint\CAFE.Server.Infrastructure.dll
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\CAFE.Server.Infrastructure.pdb
+C:\Users\g\3D Objects\DATN\Server\MainServices\CAFE.Server\CAFE.Server.Infrastructure\obj\Debug\net6.0\ref\CAFE.Server.Infrastructure.dll

@@ -75,8 +75,8 @@ const editedItem = ref(null)
 <template>
   <v-tabs v-model="tab" bg-color="primary">
     <v-tab value="one">Đăng kí thông tin</v-tab>
-    <v-tab value="two">Thông tin đăng nhập</v-tab>
-    <v-tab value="three">Xác thực</v-tab>
+    <!-- <v-tab value="two">Thông tin đăng nhập</v-tab> -->
+    <v-tab value="two">Xác Thực</v-tab>
   </v-tabs>
   <v-card-text>
     <v-tabs-window v-model="tab">
@@ -290,7 +290,7 @@ const editedItem = ref(null)
         </v-container>
       </v-tabs-window-item>
     </v-tabs-window>
-    <v-tabs-window v-model="tab">
+    <!-- <v-tabs-window v-model="tab">
       <v-tabs-window-item value="two">
         <v-card>
           <v-container>
@@ -327,9 +327,9 @@ const editedItem = ref(null)
           </v-container>
         </v-card>
       </v-tabs-window-item>
-    </v-tabs-window>
+    </v-tabs-window> -->
     <v-tabs-window v-model="tab">
-      <v-tabs-window-item value="three">
+      <v-tabs-window-item value="two">
         <v-container>
           <v-row >
             <v-col cols="12" class="d-flex justify-start">

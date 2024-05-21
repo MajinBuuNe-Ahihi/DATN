@@ -1,8 +1,16 @@
+using FileServices.Application;
+using FileServices.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
+// add injection
+FactoryApplication.RegisterDependencyInjection(builder.Services);
+FactoryInfrastructure.RegisterDependencyInjection(builder.Services);
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

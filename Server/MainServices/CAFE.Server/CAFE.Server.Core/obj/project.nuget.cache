@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "g19ocllFdUrg/tw+nOImExgBQmFyEnFjFKe05noWM3C8JU4hEOGCZEqltTM+GgtBL/adkNsbHofqHfcNIy6hpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\CAFE.Server.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\g\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\g\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
