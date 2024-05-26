@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Proto/GrpcCommandClient.cs \
+obj\Debug\net6.0\Proto/GrpcCommandClientGrpc.cs: Proto/GrpcCommandClient.proto

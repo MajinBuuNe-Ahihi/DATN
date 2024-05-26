@@ -1,0 +1,18 @@
+syntax = "proto3";
+option csharp_namespace = "CommandServices";
+
+
+service CommandServicesProtocol {
+  rpc RegisterCommand (GrpcCommandModel) returns (GrpcCommandModelResponse);
+}
+
+message GrpcCommandModel {
+	     string ID = 1;
+         int32 Action = 2;
+         string Message = 3;
+         int32 Destination  =4;
+}
+
+message GrpcCommandModelResponse {
+    int32 respone = 1;
+}

@@ -1,6 +1,13 @@
+
+using CAFE.Server.Application;
+using CAFE.Server.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+FactoryMainApplication.Injection(builder.Services);
+FactoryMainInfrastructure.Injection(builder.Services);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

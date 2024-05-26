@@ -1,17 +1,23 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {BsFillStarFill} from './Icon'
 
 type Props = {
   type: boolean,
-  value: number
+  value: number,
+  setStar?: React.Dispatch<React.SetStateAction<number>>
 }
 
-export function VoteRate({type,value }: Props) {
+export function VoteRate({type,value,setStar }: Props) {
   const defaultColor = '#5a565631';
   const activeColor = '#ee0033';
   const defaultTags = ['Qúa tệ', 'Trung bình', 'Bình Thường', 'Tốt', 'Rất Tốt'];
   const [index, setIndex] = useState<number>(value);
   const [pick, setPick] = useState<number>(value);
+  useEffect(()=> {
+    if(setStar) {
+      setStar(pick)
+    }
+  }, [pick])
   const star = [0, 1, 2, 3, 4];
   return (
     <div className='vote-component'>

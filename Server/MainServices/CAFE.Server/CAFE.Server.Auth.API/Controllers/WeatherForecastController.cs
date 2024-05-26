@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CAFE.Server.Auth.API.Controllers
+namespace CAFE.Server.Infrastructure.Server.Auth.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -5,9 +5,10 @@ import {Overlay } from '../../sliceredux'
 import FormLogin from './FormLogin'
 import { FaTimes } from '../common'
 import '../../styles/login.scss'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import ForgetPassword from './ForgetPassword'
 import Register from './Register'
+
 
 type Props = {}
 
@@ -17,7 +18,15 @@ export default function Login({ }: Props) {
   const { deviceCurrent } = useCheckpoint('');
   const dispatch = useAppDispatch();
   const [currentPage, setCurrenrPage] = useState<number>(0);
+
   /* 0: current 1: forget 2: signup */
+
+  useEffect(() => {
+    if(currentPage == -1) {
+      dispatch(Overlay())
+    }
+  },[currentPage])
+
 
   return (
     <>

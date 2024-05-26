@@ -24,38 +24,38 @@ export function Footer({ }: Props) {
             </div>
             <Row className="justify-content-between footer__top-list">
             <Col lg={4} md={6}  className='footer__top-col'>
-              <div className='footer__top-logo'>
-                <img src={logo} alt='toificafe' className='footer__top-logo__image' />
+              <div className='footer__top-logo' style={{fontFamily:"Brush Script MT",fontWeight: "bold",color: "#ee0033",fontSize: "35px"}}>
+               CafeChill
               </div>
               <div className='footer__top-partner'>
                 <Link to = {'/contact'} className='footer__top-footer-partner-button'>
                   <img src={partnericon} alt='tro thanh doi tac' />
-                  <span>Hop tac voi chung toi</span>
+                  <span>Hợp tác với chúng tôi</span>
                 </Link>
               </div>
             </Col>
             <Col lg={4}  md={6} className='footer__top-col'>
               <h3 className='footer__top-about'>
-                Ve chung toi
+                Về chúng tôi
               </h3>
               <ul className='footer__top-info'>
                 <li className='footer__top-info-element'>
-                  <Link to={'/about'}>Gioi thieu</Link>
+                  <Link to={'/about'}>Giới thiệu</Link>
                 </li>
                 <li className='footer__top-info-element'>
-                  <Link to={'/'}>Giai dap thac mac</Link>
+                  <Link to={'/'}>Giải đáp thắc mắc</Link>
                 </li>
                 <li className='footer__top-info-element'>
-                  <Link to={'/contact'}>Lien he - gop y</Link>
+                  <Link to={'/contact'}>Liên hệ góp ý</Link>
                 </li>
                 <li className='footer__top-info-element'>
-                  <Link to={'/'}>Dieu khoan su dung</Link>
+                  <Link to={'/'}>Điều khoản sử dụng</Link>
                 </li>
               </ul>
             </Col>
             <Col lg={4}  md={6} className='footer__top-col'>
               <h3 className='footer__top-follow-us'>
-                Theo doi chung toi tren 
+                Theo dõi chúng tôi trên
               </h3>
               <ul className='footer__top-follow-social'>
                 <Social/>
@@ -65,7 +65,7 @@ export function Footer({ }: Props) {
           </Container>
         </Row>
         <Row className='footer__copyright'>
-            <span>Ban quyen <ICON.RiCopyrightLine size={25}/> 2022 <strong>ManhNeAhihi</strong></span>
+            <span>Ban quyen <ICON.RiCopyrightLine size={25}/> 2024 <strong>ManhNeAhihi</strong></span>
         </Row>
       </Container>
     </div>

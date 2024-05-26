@@ -1,0 +1,292 @@
+scalar DateTime
+
+### TYPES ###
+
+type User {
+  userID: String
+  userName: String!
+  password: String!
+  fullName: String!
+  email: String!
+  createBy: String
+  createDate: DateTime
+  modifiedBy: String
+  modifiedDate: DateTime
+}
+
+type Review {
+  reviewID: String
+  userID: String
+  storeID: String
+  title : String
+  description: String
+  locationRate: Float
+  placeRate: Float
+  serviceRate: Float
+  foodRate: Float
+  priceRate: Float
+  like: Int
+  view: Int
+  createBy: String
+  createDate: DateTime
+  modifiedBy: String
+  modifiedDate: DateTime
+}
+
+
+type Comment {
+  commentID: String!
+  userID: String
+  reviewID: String
+  content: String!
+  commentLike: Int
+  createBy: String
+  createDate: DateTime
+  modifiedBy: String
+  modifiedDate: DateTime
+}
+
+type Store {
+  storeID: String
+  storeName: String
+  areaID: String
+  storeAddress: String
+  longtitude: Float
+  latitude: Float
+  directInfo: String
+  openTime: String
+  closeTime: String
+  toPrice: String
+  fromPrice: String
+  wifiName: String
+  wifiPassword: String
+  types:[String]
+  convenients: [String]
+  phoneNumber: String
+  email: String
+  facebookLink: String
+  instagramLink: String
+  website: String
+  createBy: String
+  createDate: DateTime
+  modifiedBy: String
+  modifiedDate: DateTime
+}
+
+type Catalog {
+  catalogID: String
+  catalogName: String
+}
+
+type ShopType {
+  shopTypeID: String
+  shopTypeName: String
+}
+
+type ReviewPaging {
+review: Review
+store: Store
+user: User
+}
+
+type Convenient {
+  convenientID: String
+  convenientName: String
+}
+
+type Area {
+  areaID: String
+  areaName: String
+  areaParent: String
+}
+
+
+type UserGenreMovieCountRecResult {
+  genreName: String!
+  movieCount: Int!
+}
+
+type MovieRatingCountRecResult {
+  title: String!
+  popularity: Int!
+}
+
+type StoreDetailResult {
+  store: Store
+  convenients: [Convenient]
+  shopType: [ShopType]
+}
+
+type ReviewedResult {
+  user: User
+  review: Review
+}
+
+
+### INPUTS ###
+input UserInput {
+  userID: String
+  userName: String
+  password: String
+  fullName: String
+  email: String
+}
+
+input ReviewPagingInput {
+  skip: Int
+  limit: Int
+}
+
+input ReviewInput {
+  reviewID: String
+  userID: String
+  storeID: String
+  title : String
+  description: String
+  locationRate: Float
+  placeRate: Float
+  serviceRate: Float
+  foodRate: Float
+  priceRate: Float
+  like: Int
+  view: Int
+  createBy: String
+  createDate: DateTime
+  modifiedBy: String
+  modifiedDate: DateTime
+}
+
+input CommentInput {
+  commentID: String
+  userID: String
+  reviewID: String
+  content: String
+  commentLike: Int
+  createBy: String
+  createDate: DateTime
+  modifiedBy: String
+  modifiedDate: DateTime
+}
+
+input StoreInput {
+  storeID: String
+  storeName: String
+  areaID: String
+  storeAddress: String
+  longtitude: Float
+  latitude: Float
+  directInfo: String
+  openTime: String
+  closeTime: String
+  toPrice: String
+  fromPrice: String
+  wifiName: String
+  wifiPassword: String
+  types:[String]
+  convenients: [String]
+  phoneNumber: String
+  email: String
+  facebookLink: String
+  instagramLink: String
+  website: String
+  }
+
+input AreaInput {
+  areaID: String
+  areaName: String
+  areaParent: String
+}
+
+input CatalogInput {
+  catalogID: String
+  catalogName: String
+}
+
+input ShopTypeInput {
+  shopTypeID: String
+  shopTypeName: String
+}
+
+input ConvenientInput {
+  convenientID: String
+  convenientName: String
+}
+
+input FilterInput {
+  action: Int
+  value: String
+  relation: String
+}
+
+
+### ENUMS ###
+#Entities
+enum Entities {
+  User
+  Review
+  Comment
+  Store
+  Catalog
+  ShopType
+  Convenient
+  Area
+}
+
+#Relations
+enum Relations {
+  REVIEW_TO
+  IN_CATALOG
+  IN_CONVENIENCE
+  IN_SHOP_TYPE
+  REVIEW_BY
+  COMMENT_BY
+  COMMENT_TO
+  OF_AREA
+  IN_AREA
+}
+
+### QUERIES ###
+type Query {
+  helloWorld: String
+  login(email: String,password: String): User
+  getUser(id: String): User
+  getStoreByNameFilter(filter: [FilterInput], offset: Int,limit: Int): Store
+  getReviewByStore(storeID: String, offset: Int, limit: Int): Review
+  getCommentByReview(reviewID: String, offset: Int, limit: Int): Comment
+  getReviewByFilter(filter: [FilterInput], offset: Int,limit: Int): Review
+  getStore(id: String): StoreDetailResult
+  searchStore(search:String):[Store]
+  getReviewedByUser(userId: String): [ReviewedResult]
+  getReviewedByStore(storeID: String):[Review]
+  pagingReviews(
+    skip: Int,limit: Int
+  ): [ReviewPaging]
+  #Reccomendations
+  movieRatingCountRec(
+    movieName: String!
+    limit: Int
+  ): [MovieRatingCountRecResult]
+  userGenreMovieCountRec(
+    userName: String!
+    limit: Int
+  ): [UserGenreMovieCountRecResult]
+}
+
+### MUTATIONS ###
+type Mutation {
+  createUser(user: UserInput): User!
+  deleteUser(id: String!): Boolean!
+  updateUser(id: String!, user: UserInput!): User!
+
+  createReview(review: ReviewInput): Review!
+  deleteReview(id: String!): Boolean!
+  updateReview(id: String!, review: ReviewInput!): Review!
+
+  createComment(comment: CommentInput): Comment!
+  deleteComment(id: String!): Boolean!
+  updateComment(id: String!, comment: CommentInput!): Comment!
+ 
+  createStore(store: StoreInput): Store!
+  deleteStore(id: String!): Boolean!
+  updateStore(id: String!, store: StoreInput!): Store!
+}

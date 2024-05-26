@@ -3,7 +3,7 @@ import {HiLocationMarker} from '../../common/Icon'
 import ChoosePlaceFormSearch from './ChoosePlaceFormSearch'
 
 type Props = {
-  openCard: React.Dispatch<React.SetStateAction<boolean>>
+  openCard: React.Dispatch<React.SetStateAction<any>>
 }
 
 export default function ChoosePreViewButton({openCard}: Props) {
@@ -15,7 +15,7 @@ export default function ChoosePreViewButton({openCard}: Props) {
         <span>Nhấn vào đây để chọn địa điểm</span>
       </div>
       {
-        openFormSearch && <ChoosePlaceFormSearch isOpen={openFormSearch} setClose={setOpenFormSearch}></ChoosePlaceFormSearch>
+        openFormSearch && <ChoosePlaceFormSearch isOpen={openFormSearch} setClose={setOpenFormSearch} openCard={openCard}></ChoosePlaceFormSearch>
       }
     </>
   )

@@ -5,11 +5,15 @@ import { Link } from 'react-router-dom'
 import SearchHistory from './SearchHistory'
 import { SearchResultElement } from './SearchResultElement'
 
+
 type Props = {
-  value:any
+  value:any,
+  keySearch :string
 }
 
-export default function({value}: Props) {
+
+
+export default function({value,keySearch}: Props) {
   return (
     <div className='search-result-wrapper'>
       <div className='search-result-container'>
@@ -19,11 +23,11 @@ export default function({value}: Props) {
         <div className='search-result-near-you'>
           <Link to={'/near-you'} className='search-result-near-you__link'>
             <span><ICON.TiLocationArrowOutline size={25} /></span>
-            <span>Tim dia diem quanh ban</span>
+            <span>Tìm địa điểm quanh bạn</span>
           </Link>
         </div>
-        <div className='search-result-title'>
-          De xuat
+        {/* <div className='search-result-title'>
+          Đề xuất
         </div>
         <div className='search-result-element'>
           <Link to={'/'} className='search-result-element-link'>
@@ -40,26 +44,32 @@ export default function({value}: Props) {
             <ICON.AiTwotoneFire size={25} />
           </span>
           </Link>
-        </div>
+        </div> */}
         <div className='search-result-title'>
-          Da xem gan day
+          Đã xem gần đây
         </div>
-        <SearchHistory />
+          {
+            Array.from(JSON.parse(localStorage.getItem('history') ?localStorage.getItem('history') as string:"[]")).map((item) => (
+              <SearchResultElement data={item} />
+            ))   
+          }
         </>
         :
         <>
-        <SearchResultElement />
-        <SearchResultElement />
-        <SearchResultElement />
+        {
+          Array.from(value).map((item) =>
+            <>
+             <SearchResultElement data={item} />
+            </>)
+        }
         <div className='more-search-result'>
           <Link to={'/'}  className='more-search-result-link'>
             <span className='more-search-result-icon'>
               <ICON.GrSearchAdvanced size={25} />
             </span>
             <span className='more-search-result-text'>
-            xem tat ca ket qua cho:
-            <span className='more-search-result-text__value'>{value.toString()}</span>
-            </span>
+            Xem tất cả kết quả cho: <b>{keySearch}</b>
+          </span>
           </Link>
         </div>
         </>

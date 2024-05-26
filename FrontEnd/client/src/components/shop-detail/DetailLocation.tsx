@@ -6,6 +6,7 @@ import { StateMap } from '../map/types'
 import './detail-location.scss'
 import { Link } from 'react-router-dom'
 type Props = {
+  data: any,
   map?: StateMap
 }
 

@@ -42,7 +42,7 @@ export default function HeaderEXPRO({ trigger,setTrigger}: Props) {
           <ICON.FaSlackHash size={25}/>
         </span>
         <span className={'header-explore__text'}>
-          Kham pha
+          Khám phá
         </span>
         </NavLink>
       </div>
@@ -52,7 +52,7 @@ export default function HeaderEXPRO({ trigger,setTrigger}: Props) {
             <ICON.TbDiscount2 size={25}/>
           </span>
           <span className={'header__discount-text'}>
-            Khuyen mai
+            Khuyến mãi
           </span>
         </NavLink>
       </div>
@@ -74,7 +74,7 @@ export default function HeaderEXPRO({ trigger,setTrigger}: Props) {
               <ICON.FaSlackHash size={18}/>
             </span>
             <span className={'header__menu-dropdown-explore-text'}>
-              Kham pha
+              Khám phá
             </span>
           </NavLink>
         </div>
@@ -84,7 +84,7 @@ export default function HeaderEXPRO({ trigger,setTrigger}: Props) {
               <ICON.TbDiscount2 size={18}/>
             </span>
             <span className={'header__menu-dropdown-discount-text'}>
-              Khuyen mai
+             Khuyến mãi
             </span>
           </NavLink>
         </div>

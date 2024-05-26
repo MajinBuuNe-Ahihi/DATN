@@ -3,7 +3,19 @@ import * as Yup from 'yup'
 import '../../styles/login.scss'
 import { AiOutlineEye, HiOutlineMail } from '../common'
 import SocialLogin from './SocialLogin'
+import { gql, useQuery } from "@apollo/client";
+import { v4 as uuidv4 } from "uuid";
 
+const LOGIN_USER = gql`
+query Login($email: String, $password: String) {
+  login(email: $email, password: $password) {
+    email
+    password
+    userName
+    userID
+  }
+}
+`;
 type Props = {
   changePage: React.Dispatch<React.SetStateAction<number>>;
 }
@@ -14,6 +26,7 @@ const SignupSchema = Yup.object().shape({
 });
  
 export default function FormLogin({changePage}: Props) {
+  const { loading, error, data ,refetch } = useQuery(LOGIN_USER);
   return (
     <div className="login__form">
       <div className="login__heading">
@@ -25,8 +38,15 @@ export default function FormLogin({changePage}: Props) {
           password: ''
       }}
       validationSchema={SignupSchema}
-      onSubmit={values => {
-        // same shape as initial values
+      onSubmit={async (values) => {
+       await refetch({
+           email: values.email,
+           password:  values.password    
+       }).then((data) => {
+        localStorage.setItem("user", JSON.stringify(data.data.login));
+        values = { email: "",  password: "" };
+        (() => changePage(-1))()
+       })
 
       }}
       >

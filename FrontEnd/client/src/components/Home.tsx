@@ -113,8 +113,8 @@ export default function Home({ }: Props) {
         <HomeSection subclass='famous-destination' title='Địa điểm nổi bật' children={<ListItemFamous />} /> 
         <div className='home-section-suggest-place'>
           <img className='home-section-suggest-place__img' src={image} alt='suggest place' />
-          <span className='home-section-suggest-place__text' >Chung toi co bo lo dia diem nao ma ban biet</span>
-          <Button onClick = {()=>redrictAddplace()} className={'home-section-suggest-place__button-suggest-palace'} type={2} bg={1} children={<>Dong Gop Dia Diem</>} ></Button>
+          <span className='home-section-suggest-place__text' >Chúng tôi có bỏ lỡ địa điểm nào mà bạn biết</span>
+          <Button onClick = {()=>redrictAddplace()} className={'home-section-suggest-place__button-suggest-palace'} type={2} bg={1} children={<>Đóng góp địa điểm</>} ></Button>
         </div>
      </Container>
     </div>

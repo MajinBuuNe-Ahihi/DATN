@@ -13,7 +13,7 @@ type Props = {
 export function UserHeader({trigger,setTrigger }: Props) {
   const [open, setOpen] = useState<boolean>(false);
   const { deviceCurrent } = useCheckpoint('')
-
+  const user = JSON.parse(localStorage.getItem("user") || "{}")
   let openDropDown = () => {
     setOpen(pre => !pre);
     setTrigger(3)
@@ -34,7 +34,7 @@ export function UserHeader({trigger,setTrigger }: Props) {
         unmountOnExit
         classNames='modal-dropdown'
       >
-        <UserDropDown/>
+        <UserDropDown user/>
       </CSSTransition>
     </div>
   )

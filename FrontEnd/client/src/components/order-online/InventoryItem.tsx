@@ -1,5 +1,5 @@
 import React from "react";
-
+import './inventory-item.scss'
 type Props = {
   name?: string;
   img?: string;
@@ -15,7 +15,7 @@ export default function InventoryItem(props: Props) {
   return (
     <div className="inventory-item">
       <div className="inventory-item__imagew">
-        <img src="" alt="" />
+        <img src={props.img} alt="" />
        {
          (props.promotionPercent !== undefined && props.promotionPercent > 0) && <div className="inventory-item__promotion">
          {`Khuyến mãi ${props.promotionPercent} %`}

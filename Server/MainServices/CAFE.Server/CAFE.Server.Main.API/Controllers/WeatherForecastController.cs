@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CAFE.Server.Main.API.Controllers
+namespace CAFE.Server.Infrastructure.Server.Main.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

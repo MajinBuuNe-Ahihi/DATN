@@ -15,7 +15,7 @@ export function HandleUpload({ }: Props) {
       }
       <ButtonLoad setBlob={setBlob} />
       </div>
-      <span className='upload-caution'>* them toi da 20 anh</span>
+      <span className='upload-caution'>* thêm tối đa 20 ảnh</span>
     </>
   )
 }

@@ -22,7 +22,7 @@ export default function TitleAndSearch({ }: Props) {
       <h3 className='banner-slogan-desktop__title'>
        Mang đến cho bạn những sự lựa chọn tốt nhất cho điểm hẹn cafe
       </h3>
-      <SearchComponent placeholder='Tim quan, ten quan, kieu quan' type={deviceCurrent == 'mobile'?'home-search-mobile':'home-search'} currentPath={'/'} />
+      <SearchComponent placeholder='Tìm quán cafe, kiểu quán, khu vực' type={deviceCurrent == 'mobile'?'home-search-mobile':'home-search'} currentPath={'/'} />
     </div>
   )
 }

@@ -1,25 +1,37 @@
+using CommandServices;
+using CommandServices.Application.Publish;
+using CommandServices.Library;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
+using System.Net;
+
 var builder = WebApplication.CreateBuilder(args);
 
+Utilities.ConfigureServices(builder);
+
+
 // Add services to the container.
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.Limits.MaxConcurrentConnections = 100;
+});
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+builder.Services.AddGrpc();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+app.UseRouting();
+app.UseEndpoints(endpoints =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    endpoints.MapGrpcService<PublishServices>();
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
+    endpoints.MapGet("/Proto/GrpcCommandServer.proto", async context =>
+    {
+        await context.Response.WriteAsync(File.ReadAllText("Proto/GrpcCommandServer.proto"));
+    });
+});
 
 app.Run();

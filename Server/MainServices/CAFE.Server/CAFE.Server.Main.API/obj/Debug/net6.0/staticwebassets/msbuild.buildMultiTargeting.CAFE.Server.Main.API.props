@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CAFE.Server.Main.API.props" />
+</Project>

@@ -1,12 +1,60 @@
-import React from "react";
+import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Autoplay, Navigation, Pagination } from "swiper";
+import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Button, CardItem, Input } from "../common";
-import {BiSearch} from "../common";
+import { BiSearch, Button, Input } from "../common";
+import Paging from "../common/Paging";
 import CheckBox from "../common/check-box/CheckBox";
 import InventoryItem from "./InventoryItem";
-import './menu-order.scss'
+import './menu-order.scss';
+
+type InventoryItemEntity =  {
+    name?: string;
+    img?: string;
+    description?: string;
+    price?: string;
+    promotionPercent?: number;
+    id?: string;
+};
+
+const ListInventoryItems:Array<InventoryItemEntity> = [
+  {
+    name: "món 1",
+    img:  "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description: "món 1 ddiwuowcj nấu từ abc xzzy",
+    price: "12000-33000",
+    promotionPercent: 10,
+    id: "12321123112"
+  },
+  {
+    name: "món 2",
+    img:  "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description: "món 2 được nấu từ abc xzzy",
+    price: "12000-34000",
+    promotionPercent: 10,
+    id: "1232112312"
+  },
+  
+  {
+    name: "món 1",
+    img:  "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description: "món 1 ddiwuowcj nấu từ abc xzzy",
+    price: "12000-33000",
+    promotionPercent: 10,
+    id: "123211112"
+  },
+  
+  {
+    name: "món 1",
+    img:  "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description: "món 1 ddiwuowcj nấu từ abc xzzy",
+    price: "12000-33000",
+    promotionPercent: 14,
+    id: "123123112"
+  },
+  
+  
+]
 
 type Props = {};
 
@@ -17,6 +65,7 @@ const imgBanner = [
 ];
 
 export default function MenuOrder({}: Props) {
+  const [paging,setPaging] = useState<number>(1)
   return (
     <Container className="menu-order">
       <Row className="menu-order__header">
@@ -76,32 +125,22 @@ export default function MenuOrder({}: Props) {
             >
               <div className="menu-order__button-contain">
                 <BiSearch size={20} ></BiSearch>
-                <div>Tìm kiếm</div>
+                <span>Tìm kiếm</span>
               </div>
             </Button>
           </div>
         </Col>
         <Col className="menu-order__main">
             <div className="menu-order__grid">
-                <div className="menu-order__grid-item">
-                    <InventoryItem />
+              {
+                ListInventoryItems.map((item:InventoryItemEntity) =>(
+                  <div className="menu-order__grid-item" key={item.id} >
+                    <InventoryItem  id={item.id} description={item.description} img={item.img} price={item.price} promotionPercent={item.promotionPercent} />
                 </div>
-                <div className="menu-order__grid-item">
-                    <InventoryItem />
-                </div>
-                <div className="menu-order__grid-item">
-                    <InventoryItem />
-                </div>
-                <div className="menu-order__grid-item">
-                    <InventoryItem />
-                </div>
-                <div className="menu-order__grid-item">
-                    <InventoryItem />
-                </div>
-                <div className="menu-order__grid-item">
-                    <InventoryItem />
-                </div>
+                ))
+              }
             </div>
+            <Paging index={paging} setPaging={setPaging} total={40}></Paging>
         </Col>
       </Row>
     </Container>
