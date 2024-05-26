@@ -11,7 +11,7 @@ namespace CAFE.Server.Infrastructure
         readonly SqlConnection _connection;
         public SQLServerRepository(IConfiguration configuration)
         {
-            _connection = new SqlConnection(configuration.GetConnectionString("SQLServer"));
+            _connection = new SqlConnection(configuration.GetConnectionString("SQLServer2"));
         }
         public void Close()
         {

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\repo\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\repo\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\repo\\registerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\repo\\registerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,28 +11,12 @@
       "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\register\\registerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|solutionrelative:cafe.server.register.api\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\repo\\iregisterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\repo\\iregisterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\sql\\sqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\sql\\sqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\sql\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\sql\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\profile\\profilecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\profile\\profilecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\modal\\registermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\modal\\registermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|solutionrelative:cafe.server.register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,12 +27,16 @@
       "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\queue\\rabitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|solutionrelative:cafe.server.register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\queue\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\queue\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\library\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\library\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\repo\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\repo\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\interface\\register\\iregisterbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,20 +47,167 @@
       "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\factoryapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\queue\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\queue\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\factorymainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\factorymainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\modal\\registermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\modal\\registermodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\repo\\iregisterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\repo\\iregisterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\library\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\library\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\enum\\enumeditmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\enum\\enumeditmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\repo\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\repo\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\sql\\sqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\sql\\sqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\sql\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\sql\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.register.api\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA374BDB-E0EA-4081-BB94-38EB1C052B57}|CAFE.Server.Register.API\\CAFE.Server.Register.API.csproj|solutionrelative:cafe.server.register.api\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\inventoryingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\inventoryingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.main.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|solutionrelative:cafe.server.main.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\repo\\inventoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\repo\\inventoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\inventorybusiness\\inventoryitembusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\inventorybusiness\\inventoryitembusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.main.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|solutionrelative:cafe.server.main.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\factorymaininfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\factorymaininfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\interface\\repo\\iinventoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\interface\\repo\\iinventoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\interface\\inventoryitem\\iinventoryitembusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\interface\\inventoryitem\\iinventoryitembusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\g\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.main.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|solutionrelative:cafe.server.main.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.main.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|solutionrelative:cafe.server.main.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\warehousedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\warehousedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\tableorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\tableorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\shoptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\shoptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.core\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA3FB27-C112-49F3-B607-6C8691C010D2}|CAFE.Server.Core\\CAFE.Server.Core.csproj|solutionrelative:cafe.server.core\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A316DDA-AE42-4E9A-AF96-E78C8C95F1CB}|CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.business.api\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A316DDA-AE42-4E9A-AF96-E78C8C95F1CB}|CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj|solutionrelative:cafe.server.business.api\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\modal\\inventorymodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\modal\\inventorymodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.application\\profile\\profilecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC903A7-1B23-40F1-B9DF-145F7F49F7DE}|CAFE.Server.Application\\CAFE.Server.Application.csproj|solutionrelative:cafe.server.application\\profile\\profilecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB233CE-4264-470B-85CB-15E33DD04D31}|CAFE.Server.Auth.API\\CAFE.Server.Auth.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.auth.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB233CE-4264-470B-85CB-15E33DD04D31}|CAFE.Server.Auth.API\\CAFE.Server.Auth.API.csproj|solutionrelative:cafe.server.auth.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A316DDA-AE42-4E9A-AF96-E78C8C95F1CB}|CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.business.api\\cafe.server.business.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A316DDA-AE42-4E9A-AF96-E78C8C95F1CB}|CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj|solutionrelative:cafe.server.business.api\\cafe.server.business.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.main.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCEB85C-720E-4C19-8142-653DF2C2BAA5}|CAFE.Server.Main.API\\CAFE.Server.Main.API.csproj|solutionrelative:cafe.server.main.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|c:\\users\\g\\3d objects\\datn\\server\\mainservices\\cafe.server\\cafe.server.infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2DF299-514D-4FE8-9189-678BE5B16C20}|CAFE.Server.Infrastructure\\CAFE.Server.Infrastructure.csproj|solutionrelative:cafe.server.infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,24 +217,629 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Program.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\Program.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Program.cs",
+              "RelativeToolTip": "CAFE.Server.Register.API\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:26:31.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:05:51.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RabitmqQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:40:17.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\appsettings.json",
+              "RelativeToolTip": "CAFE.Server.Register.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-17T11:49:55.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RegisterRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwFAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:34:32.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Register\\RegisterBusiness.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\Register\\RegisterBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Register\\RegisterBusiness.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\Register\\RegisterBusiness.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwBoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:21:47.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRegisterRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:32:46.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRegisterBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:27:16.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Library\\Utilities.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Library\\Utilities.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Library\\Utilities.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Library\\Utilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:55:26.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BaseRepo.cs",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\BaseRepo.cs",
               "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Repo\\BaseRepo.cs",
               "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\BaseRepo.cs",
               "RelativeToolTip": "CAFE.Server.Infrastructure\\Repo\\BaseRepo.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEUAAAAUAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T13:48:28.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FactoryApplication.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\FactoryApplication.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\FactoryApplication.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\FactoryApplication.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\FactoryApplication.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADgvxAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:20:47.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FactoryMainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\FactoryMainApplication.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\FactoryMainApplication.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\FactoryMainApplication.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\FactoryMainApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIAwwBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:36:23.301Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Register.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Register.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Register.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Register.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:18:21.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterModal.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Modal\\RegisterModal.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\Modal\\RegisterModal.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Modal\\RegisterModal.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\Modal\\RegisterModal.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:19:02.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mail.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Mail.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Mail.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Mail.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Mail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:46:57.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\BaseEntity.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:12:23.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EnumEditMode.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Enum\\EnumEditMode.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Enum\\EnumEditMode.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Enum\\EnumEditMode.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Enum\\EnumEditMode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:48:40.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBaseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IBaseRepo.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\Repo\\IBaseRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IBaseRepo.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\Repo\\IBaseRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:32:02.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\IBaseEntity.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\IBaseEntity.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\IBaseEntity.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\IBaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:12:57.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SQLServerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:06:50.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:48:44.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Store.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Store.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Store.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Store.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:15:09.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:17:15.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Order.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Order.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Order.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:14:11.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Promotion.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Promotion.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Promotion.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Promotion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:14:36.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\OrderDetail.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:14:22.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InventoryIngredient.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\InventoryIngredient.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\InventoryIngredient.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\InventoryIngredient.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\InventoryIngredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:33:39.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Inventory.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Inventory.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Inventory.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:32:45.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CAFE.Server.Main.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\appsettings.json",
+              "RelativeToolTip": "CAFE.Server.Main.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T22:05:09.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InventoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\InventoryRepo.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Repo\\InventoryRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\InventoryRepo.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Repo\\InventoryRepo.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:34:39.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InventoryItemBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\InventoryBusiness\\InventoryItemBusiness.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\InventoryBusiness\\InventoryItemBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\InventoryBusiness\\InventoryItemBusiness.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\InventoryBusiness\\InventoryItemBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:00:07.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IInventoryItemBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Interface\\InventoryItem\\IInventoryItemBusiness.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\Interface\\InventoryItem\\IInventoryItemBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Interface\\InventoryItem\\IInventoryItemBusiness.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\Interface\\InventoryItem\\IInventoryItemBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:57:23.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IInventoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IInventoryRepo.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\Repo\\IInventoryRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IInventoryRepo.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\Repo\\IInventoryRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:35:27.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Program.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Main.API\\Program.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Program.cs",
+              "RelativeToolTip": "CAFE.Server.Main.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:36:55.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FactoryMainInfrastructure.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\FactoryMainInfrastructure.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\FactoryMainInfrastructure.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\FactoryMainInfrastructure.cs",
+              "RelativeToolTip": "CAFE.Server.Infrastructure\\FactoryMainInfrastructure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:38:43.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\g\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\g\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAEwNYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-23T21:53:32.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Main.API\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "CAFE.Server.Main.API\\Controllers\\InventoryController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:22:29.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Main.API\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Controllers\\MainController.cs",
+              "RelativeToolTip": "CAFE.Server.Main.API\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:26:28.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Employee.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Employee.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Employee.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:13:32.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WareHouse.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\WareHouse.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\WareHouse.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\WareHouse.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\WareHouse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:15:35.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WareHouseDetail.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\WareHouseDetail.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\WareHouseDetail.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\WareHouseDetail.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\WareHouseDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:15:50.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Unit.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Unit.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Unit.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Unit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:15:23.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TableOrder.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\TableOrder.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\TableOrder.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\TableOrder.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\TableOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:15:16.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ShopType.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\ShopType.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\ShopType.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\ShopType.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\ShopType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:15:03.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Role.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Role.cs",
+              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:14:57.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BusinessController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Business.API\\Controllers\\BusinessController.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Business.API\\Controllers\\BusinessController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Business.API\\Controllers\\BusinessController.cs",
+              "RelativeToolTip": "CAFE.Server.Business.API\\Controllers\\BusinessController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:20:24.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "InventoryModal.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Modal\\InventoryModal.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\Modal\\InventoryModal.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Modal\\InventoryModal.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\Modal\\InventoryModal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:58:02.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProfileCore.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Profile\\ProfileCore.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Application\\Profile\\ProfileCore.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Profile\\ProfileCore.cs",
+              "RelativeToolTip": "CAFE.Server.Application\\Profile\\ProfileCore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:25:27.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Auth.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Auth.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Auth.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CAFE.Server.Auth.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:25:38.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CAFE.Server.Business.API.csproj",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj",
+              "RelativeDocumentMoniker": "CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj",
+              "RelativeToolTip": "CAFE.Server.Business.API\\CAFE.Server.Business.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T20:25:14.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "CAFE.Server.Main.API\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Main.API\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "CAFE.Server.Main.API\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:22:06.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "FactoryInfrastructure.cs",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\FactoryInfrastructure.cs",
               "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\FactoryInfrastructure.cs",
@@ -111,229 +847,7 @@
               "RelativeToolTip": "CAFE.Server.Infrastructure\\FactoryInfrastructure.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAADgvwwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:28:32.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "CAFE.Server.Register.API\\Controllers\\RegisterController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAlwBYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:17:15.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Register\\RegisterBusiness.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Application\\Register\\RegisterBusiness.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Register\\RegisterBusiness.cs",
-              "RelativeToolTip": "CAFE.Server.Application\\Register\\RegisterBusiness.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAlwCMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:21:47.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Register.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Register.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Register.cs",
-              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Register.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:18:21.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SQLServerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
-              "RelativeToolTip": "CAFE.Server.Infrastructure\\SQL\\SQLServerRepository.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAkwBcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:06:50.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
-              "RelativeToolTip": "CAFE.Server.Infrastructure\\Repo\\RegisterRepo.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAFcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:34:32.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RabitmqQueue.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
-              "RelativeToolTip": "CAFE.Server.Infrastructure\\Queue\\RabitmqQueue.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAlwD8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:40:17.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Mail.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Mail.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Core\\Entity\\Mail.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Entity\\Mail.cs",
-              "RelativeToolTip": "CAFE.Server.Core\\Entity\\Mail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:46:57.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProfileCore.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Profile\\ProfileCore.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Application\\Profile\\ProfileCore.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Profile\\ProfileCore.cs",
-              "RelativeToolTip": "CAFE.Server.Application\\Profile\\ProfileCore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:25:27.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
-              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\SQL\\IDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBcAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:48:44.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IQueue.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
-              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\Queue\\IQueue.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAYwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:05:51.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Utilities.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Library\\Utilities.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Core\\Library\\Utilities.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Core\\Library\\Utilities.cs",
-              "RelativeToolTip": "CAFE.Server.Core\\Library\\Utilities.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:55:26.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\appsettings.json",
-              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\appsettings.json",
-              "RelativeToolTip": "CAFE.Server.Register.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-17T11:49:55.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IRegisterRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
-              "RelativeToolTip": "CAFE.Server.Infrastructure\\Interface\\Repo\\IRegisterRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:32:46.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IRegisterBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
-              "RelativeToolTip": "CAFE.Server.Application\\Interface\\Register\\IRegisterBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADgvwsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:27:16.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Program.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Register.API\\Program.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Register.API\\Program.cs",
-              "RelativeToolTip": "CAFE.Server.Register.API\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADgvw4AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:26:31.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FactoryApplication.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\FactoryApplication.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Application\\FactoryApplication.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\FactoryApplication.cs",
-              "RelativeToolTip": "CAFE.Server.Application\\FactoryApplication.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAADgvw8AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:20:47.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterModal.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Modal\\RegisterModal.cs",
-              "RelativeDocumentMoniker": "CAFE.Server.Application\\Modal\\RegisterModal.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\MainServices\\CAFE.Server\\CAFE.Server.Application\\Modal\\RegisterModal.cs",
-              "RelativeToolTip": "CAFE.Server.Application\\Modal\\RegisterModal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:19:02.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T12:28:32.844Z"
             }
           ]
         }

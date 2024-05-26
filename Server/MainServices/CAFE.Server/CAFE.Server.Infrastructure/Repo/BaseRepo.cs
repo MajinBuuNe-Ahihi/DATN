@@ -24,7 +24,7 @@ namespace CAFE.Server.Infrastructure.Repo
 
             }
 
-            public virtual bool Submit(IBaseEntity item)
+            public virtual bool Submit<T>(IBaseEntity<T> item)
             {
                 _database.Open();
                 // lấy thực hiện tạo transaction
@@ -45,7 +45,7 @@ namespace CAFE.Server.Infrastructure.Repo
 
                 return true;
             }
-        public bool Submit(IBaseEntity item, DbTransaction ts)
+        public bool Submit<T>(IBaseEntity<T> item, DbTransaction ts)
         {
             var result = 0;
             try
@@ -71,7 +71,7 @@ namespace CAFE.Server.Infrastructure.Repo
                 }
                 if (result > 0 && item.UpdateScoped != null && item.UpdateScoped.Count > 0)
                 {
-                    item.UpdateScoped.ForEach(i => Submit((IBaseEntity)i, ts));
+                    item.UpdateScoped.ForEach(i => Submit((IBaseEntity<T>)i, ts));
                 }
             }
             catch (Exception ex)

@@ -3,7 +3,7 @@
 namespace CAFE.Server.Core.Entity
 {
     
-    public class Register : BaseEntity
+    public class Register : BaseEntity<Register>
     {
         public Guid RegisterID { get; set; }
         public string? StoreName { get; set; }

@@ -3,8 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\iimagerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\iimagerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\entity\\imagetemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\entity\\imagetemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\entity\\imageusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\entity\\imageusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\dto\\fileparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\dto\\fileparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\config\\queueconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\config\\queueconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\config\\connectiondatabaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\config\\connectiondatabaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\config\\bugetconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\config\\bugetconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\application\\imagebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:application\\imagebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\application\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:application\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:application\\interfaces\\iimagetempbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\application\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:application\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\config\\bugetconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\config\\bugetconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\application\\interfaces\\iimagebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:infrastructure\\imagerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\iimagerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\iimagerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\iimagetemprepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\iimagetemprepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,20 +111,12 @@
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\application\\imagebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:application\\imagebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\infrastructure\\imageusingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:infrastructure\\imageusingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\infrastructure\\imagetemprepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:infrastructure\\imagetemprepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,26 +143,6 @@
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:library\\editmodeenumration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\config\\connectiondatabaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\config\\connectiondatabaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\entity\\imageusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\entity\\imageusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\entity\\imagetemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\entity\\imagetemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\entity\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|c:\\users\\g\\3d objects\\datn\\server\\fileservices\\core\\interfaces\\ifileservicesstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0AA68D-61C8-4019-A414-ED0BD4119A9F}|FileServices.csproj|solutionrelative:core\\interfaces\\ifileservicesstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -142,307 +154,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAvwAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T06:03:27.643Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T03:47:27.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "Controllers\\ImageController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAvwCkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:08.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IImageTempBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageTempBusiness.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IImageTempBusiness.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageTempBusiness.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IImageTempBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:07.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ImageUsingBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageUsingBusiness.cs",
-              "RelativeDocumentMoniker": "Application\\ImageUsingBusiness.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageUsingBusiness.cs",
-              "RelativeToolTip": "Application\\ImageUsingBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:08.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImageTempBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageTempBusiness.cs",
-              "RelativeDocumentMoniker": "Application\\ImageTempBusiness.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageTempBusiness.cs",
-              "RelativeToolTip": "Application\\ImageTempBusiness.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAqwCsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:08.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Factory.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Factory.cs",
-              "RelativeDocumentMoniker": "Application\\Factory.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Factory.cs",
-              "RelativeToolTip": "Application\\Factory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:08.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\appsettings.json*",
-              "RelativeToolTip": "appsettings.json*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-17T02:39:01.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\BaseRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\BaseRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\BaseRepo.cs",
-              "RelativeToolTip": "Infrastructure\\BaseRepo.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAvwBsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:20:32.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BugetConfig.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\BugetConfig.cs",
-              "RelativeDocumentMoniker": "Core\\config\\BugetConfig.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\BugetConfig.cs",
-              "RelativeToolTip": "Core\\config\\BugetConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T06:08:28.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IImageBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageBusiness.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IImageBusiness.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageBusiness.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IImageBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:11:08.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IImageRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageRepo.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IImageRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageRepo.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IImageRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:08.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ImageRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ImageRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageRepo.cs",
-              "RelativeToolTip": "Infrastructure\\ImageRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:08.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IImageUsingRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageUsingRepo.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IImageUsingRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageUsingRepo.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IImageUsingRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:08.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FileServices",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\FileServices.csproj",
-              "RelativeDocumentMoniker": "FileServices.csproj",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\FileServices.csproj",
-              "RelativeToolTip": "FileServices.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-17T05:44:09.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WorkerServices.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Worker\\WorkerServices.cs",
-              "RelativeDocumentMoniker": "Application\\Worker\\WorkerServices.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Worker\\WorkerServices.cs",
-              "RelativeToolTip": "Application\\Worker\\WorkerServices.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAswCEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:59:43.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IImageTempRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageTempRepo.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IImageTempRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageTempRepo.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IImageTempRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:07.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ImageBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageBusiness.cs",
-              "RelativeDocumentMoniker": "Application\\ImageBusiness.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageBusiness.cs",
-              "RelativeToolTip": "Application\\ImageBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:07.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ImageUsingRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageUsingRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ImageUsingRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageUsingRepo.cs",
-              "RelativeToolTip": "Infrastructure\\ImageUsingRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:07.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ImageTempRepo.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageTempRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ImageTempRepo.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageTempRepo.cs",
-              "RelativeToolTip": "Infrastructure\\ImageTempRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:44:00.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SQLServerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\SQLServerRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\SQLServerRepository.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\SQLServerRepository.cs",
-              "RelativeToolTip": "Infrastructure\\SQLServerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T03:09:32.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IDatabase.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IDatabase.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IDatabase.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T03:06:11.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FactoryInfrastructure.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\FactoryInfrastructure.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\FactoryInfrastructure.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\FactoryInfrastructure.cs",
-              "RelativeToolTip": "Infrastructure\\FactoryInfrastructure.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:51:43.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Utility.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Library\\Utility.cs",
-              "RelativeDocumentMoniker": "Library\\Utility.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Library\\Utility.cs",
-              "RelativeToolTip": "Library\\Utility.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:47:55.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "IBaseRepo.cs",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IBaseRepo.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IBaseRepo.cs",
@@ -455,7 +184,380 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 0,
+              "Title": "IQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IQueue.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IQueue.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:31:15.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileParams.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\DTO\\FileParams.cs",
+              "RelativeDocumentMoniker": "Core\\DTO\\FileParams.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\DTO\\FileParams.cs",
+              "RelativeToolTip": "Core\\DTO\\FileParams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:47:06.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QueueConfig.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\QueueConfig.cs",
+              "RelativeDocumentMoniker": "Core\\config\\QueueConfig.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\QueueConfig.cs",
+              "RelativeToolTip": "Core\\config\\QueueConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:47:05.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImageUsing.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageUsing.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\ImageUsing.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageUsing.cs",
+              "RelativeToolTip": "Core\\Entity\\ImageUsing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:26:15.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\Image.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\Image.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\Image.cs",
+              "RelativeToolTip": "Core\\Entity\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:24:20.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageTemp.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageTemp.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\ImageTemp.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageTemp.cs",
+              "RelativeToolTip": "Core\\Entity\\ImageTemp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:26:07.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-17T02:39:01.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ImageBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageBusiness.cs",
+              "RelativeDocumentMoniker": "Application\\ImageBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageBusiness.cs",
+              "RelativeToolTip": "Application\\ImageBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:07.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Factory.cs",
+              "RelativeDocumentMoniker": "Application\\Factory.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Factory.cs",
+              "RelativeToolTip": "Application\\Factory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:08.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IImageRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageRepo.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IImageRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageRepo.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IImageRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:08.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Controllers\\ImageController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAvwCkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:08.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\BaseRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\BaseRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\BaseRepo.cs",
+              "RelativeToolTip": "Infrastructure\\BaseRepo.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAvwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:20:32.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ImageTempBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageTempBusiness.cs",
+              "RelativeDocumentMoniker": "Application\\ImageTempBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageTempBusiness.cs",
+              "RelativeToolTip": "Application\\ImageTempBusiness.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:08.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BugetConfig.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\BugetConfig.cs",
+              "RelativeDocumentMoniker": "Core\\config\\BugetConfig.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\BugetConfig.cs",
+              "RelativeToolTip": "Core\\config\\BugetConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T06:08:28.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionDataBaseConfig.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\ConnectionDataBaseConfig.cs",
+              "RelativeDocumentMoniker": "Core\\config\\ConnectionDataBaseConfig.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\ConnectionDataBaseConfig.cs",
+              "RelativeToolTip": "Core\\config\\ConnectionDataBaseConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:41:25.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ImageUsingBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageUsingBusiness.cs",
+              "RelativeDocumentMoniker": "Application\\ImageUsingBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\ImageUsingBusiness.cs",
+              "RelativeToolTip": "Application\\ImageUsingBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:08.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IImageTempBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageTempBusiness.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IImageTempBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageTempBusiness.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IImageTempBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:07.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAvwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T06:03:27.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IImageBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageBusiness.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IImageBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Interfaces\\IImageBusiness.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IImageBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:11:08.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ImageRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ImageRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageRepo.cs",
+              "RelativeToolTip": "Infrastructure\\ImageRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:08.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IImageUsingRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageUsingRepo.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IImageUsingRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageUsingRepo.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IImageUsingRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:08.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FileServices.csproj",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\FileServices.csproj",
+              "RelativeDocumentMoniker": "FileServices.csproj",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\FileServices.csproj",
+              "RelativeToolTip": "FileServices.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-17T05:44:09.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WorkerServices.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Worker\\WorkerServices.cs",
+              "RelativeDocumentMoniker": "Application\\Worker\\WorkerServices.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Application\\Worker\\WorkerServices.cs",
+              "RelativeToolTip": "Application\\Worker\\WorkerServices.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:59:43.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IImageTempRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageTempRepo.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IImageTempRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IImageTempRepo.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IImageTempRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:07.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ImageUsingRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageUsingRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ImageUsingRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageUsingRepo.cs",
+              "RelativeToolTip": "Infrastructure\\ImageUsingRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:07.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ImageTempRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageTempRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ImageTempRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\ImageTempRepo.cs",
+              "RelativeToolTip": "Infrastructure\\ImageTempRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:44:00.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SQLServerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\SQLServerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\SQLServerRepository.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\SQLServerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\SQLServerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T03:09:32.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IDatabase.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IDatabase.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IDatabase.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T03:06:11.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FactoryInfrastructure.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\FactoryInfrastructure.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\FactoryInfrastructure.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Infrastructure\\FactoryInfrastructure.cs",
+              "RelativeToolTip": "Infrastructure\\FactoryInfrastructure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:51:43.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Library\\Utility.cs",
+              "RelativeDocumentMoniker": "Library\\Utility.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Library\\Utility.cs",
+              "RelativeToolTip": "Library\\Utility.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:47:55.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "EditModeEnumration.cs",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Library\\EditModeEnumration.cs",
               "RelativeDocumentMoniker": "Library\\EditModeEnumration.cs",
@@ -467,19 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ConnectionDataBaseConfig.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\ConnectionDataBaseConfig.cs",
-              "RelativeDocumentMoniker": "Core\\config\\ConnectionDataBaseConfig.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\config\\ConnectionDataBaseConfig.cs",
-              "RelativeToolTip": "Core\\config\\ConnectionDataBaseConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:41:25.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "IBaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\interface\\IBaseEntity.cs",
               "RelativeDocumentMoniker": "Core\\Entity\\interface\\IBaseEntity.cs",
@@ -491,55 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ImageUsing.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageUsing.cs",
-              "RelativeDocumentMoniker": "Core\\Entity\\ImageUsing.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageUsing.cs",
-              "RelativeToolTip": "Core\\Entity\\ImageUsing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:26:15.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ImageTemp.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageTemp.cs",
-              "RelativeDocumentMoniker": "Core\\Entity\\ImageTemp.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\ImageTemp.cs",
-              "RelativeToolTip": "Core\\Entity\\ImageTemp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:26:07.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\Image.cs",
-              "RelativeDocumentMoniker": "Core\\Entity\\Image.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\Image.cs",
-              "RelativeToolTip": "Core\\Entity\\Image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:24:20.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IQueue.cs",
-              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IQueue.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IQueue.cs",
-              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IQueue.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IQueue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:31:15.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "IFileServicesStore.cs",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Interfaces\\IFileServicesStore.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IFileServicesStore.cs",
@@ -551,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\FileServices\\Core\\Entity\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Core\\Entity\\BaseEntity.cs",
@@ -559,8 +601,7 @@
               "RelativeToolTip": "Core\\Entity\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:23:17.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T02:23:17.309Z"
             }
           ]
         }

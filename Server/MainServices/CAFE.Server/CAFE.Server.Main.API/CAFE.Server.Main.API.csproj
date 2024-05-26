@@ -20,4 +20,9 @@
     <Folder Include="Model\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CAFE.Server.Application\CAFE.Server.Application.csproj" />
+    <ProjectReference Include="..\CAFE.Server.Infrastructure\CAFE.Server.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

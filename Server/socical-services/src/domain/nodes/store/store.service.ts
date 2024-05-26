@@ -19,4 +19,8 @@ export class StoreService {
   async getStore(id: string): Promise<StoreDetailResult> {
     return await this.storeRepository.getStore(id);
   }
+
+  async searchStore(search: string): Promise<Array<Store>> {
+    return await this.storeRepository.searchStore(search);
+  }
 }

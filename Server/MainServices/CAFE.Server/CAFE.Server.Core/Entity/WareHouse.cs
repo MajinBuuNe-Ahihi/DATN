@@ -1,6 +1,6 @@
 ﻿namespace CAFE.Server.Core.Entity
 {
-    public class WareHouse : BaseEntity
+    public class WareHouse : BaseEntity<WareHouseDetail>
     {
         public Guid warehouseID { get; set; }
         public string warehouseNo { get; set; }

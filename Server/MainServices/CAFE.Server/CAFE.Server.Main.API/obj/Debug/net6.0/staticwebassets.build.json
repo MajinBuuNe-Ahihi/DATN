@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cnTEPouVRMqwlzpuH8egTinZrzsmZ0D8hO34CVo1onE=",
+  "Source": "CAFE.Server.Main.API",
+  "BasePath": "_content/CAFE.Server.Main.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

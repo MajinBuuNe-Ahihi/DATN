@@ -7,27 +7,84 @@ import AnonymousButton from './form-preview/AnonymousButton';
 import * as Yup from 'yup';
 import { Col, Container, Row } from 'react-bootstrap';
 import ChooosePreviewPlace from './addplacepreview/ChoosePreviewPlace';
+import { useState } from 'react';
+import { gql, useMutation } from "@apollo/client";
+import { v4 as uuidv4 } from "uuid";
 
+const ADD_REVIEW= gql`
+mutation CreateReview($review: ReviewInput) {
+  createReview(review: $review) {
+    reviewID
+    userID
+    storeID
+    title
+    description
+    locationRate
+    placeRate
+    serviceRate
+    foodRate
+    priceRate
+    like
+    view
+    createBy
+    createDate
+    modifiedBy
+    modifiedDate
+  }
+}
+
+`;
 
 type Props = {}
 
 const SignupSchema = Yup.object().shape({
-  title: Yup.string().required('title is not blank'),
-  content: Yup.string().required().min(10,'content length must more than 10')
+  title: Yup.string().required('Tiêu đề không được bỏ trống'),
+  content: Yup.string().required().min(10,'không được nhỏ hơn 10 ký tự')
 });
 
 export default function AddPlaceForm({}: Props) {
+  const [mutateFunction, { data, loading, error }] = useMutation(ADD_REVIEW);
+  const [storeID, setStoreID] = useState<string>(""); 
+  const user = JSON.parse(localStorage.getItem("user")|| "{}");
   return (
       <Formik
         initialValues={{
           title: '',
           content: '',
           anonymous: false,
-          start:[]
+          locationRate: '',
+          placeRate: '',
+          serviceRate: '',
+          foodRate:'',
+          priceRate: ''
+          
         }}
         validationSchema={SignupSchema}
-        onSubmit={values => {
-            console.log(values.content)
+        onSubmit={async(values) => {
+          if(storeID && user.userID) {
+            await mutateFunction({
+              variables: {
+                "review": {
+                  "view": 0,
+                  "userID": user.userID,
+                  "title": values.title,
+                  "storeID": storeID,
+                  "serviceRate": Number(values.serviceRate) + 1,
+                  "reviewID": uuidv4(),
+                  "priceRate": Number(values.priceRate) + 1,
+                  "placeRate": Number(values.placeRate) +1,
+                  "modifiedDate": Date.now(),
+                  "modifiedBy": user.userName,
+                  "locationRate": Number(values.locationRate) + 1,
+                  "like": 0,
+                  "foodRate": Number(values.foodRate) + 1,
+                  "createDate": Date.now(),
+                  "description": values.content,
+                  "createBy": user.userName
+                }
+              }
+            })
+          }
         }}
         >
         {({ errors, touched, handleChange }) => (
@@ -36,10 +93,10 @@ export default function AddPlaceForm({}: Props) {
             <Row className='justify-content-between'>
               <Col md={6} xs={12}>
                 <div className="preview__form-left">
-                  <Rates></Rates>
+                  <Rates handleChange={handleChange}></Rates>
                   <YourReview handleChange={handleChange} touched={touched} errors={errors}></YourReview>
                   <HandleUpload></HandleUpload>
-                  <AnonymousButton handleChange={handleChange} ></AnonymousButton>
+                  {/* <AnonymousButton handleChange={handleChange} ></AnonymousButton> */}
                     <Button typefunc={{ type: 'submit' }} className='preview__submit' type={2}
                     bg={1} children={
                       <span>
@@ -49,7 +106,7 @@ export default function AddPlaceForm({}: Props) {
                 </div>
               </Col>
               <Col md={6} xs={12}>
-                <ChooosePreviewPlace/>
+                <ChooosePreviewPlace setStoreID={setStoreID}/>
               </Col>
             </Row>
           </Container>

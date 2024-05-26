@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace CAFE.Server.Core.Entity
 {
-    public class Inventory:BaseEntity
+    public class Inventory:BaseEntity<InventoryIngredient>
     {
-        public Guid inventoryID { get; set; }
-         public string  inventoryName { get; set; }
-        public Guid unitID { get; set; }
-        public decimal total { get; set; }
-        public int quantity { get; set; }
-        public int inventoryType { get; set; }
-        public int active { get; set; }
-        public decimal priceS { get; set; }
-        public decimal priceM { get; set; }
-        public decimal priceL { get; set; }
-        public decimal priceXL { get; set; }
-        public string note { get; set; }
+        public Guid InventoryID { get; set; }
+        public string InventoryName { get; set; }
+        public Guid UnitID { get; set; }
+        public decimal Total { get; set; }
+        public int Quantity { get; set; }
+        public int InventoryType { get; set; }
+        public int Active { get; set; }
+        public decimal PriceS { get; set; }
+        public decimal PriceM { get; set; }
+        public decimal PriceL { get; set; }
+        public decimal PriceXL { get; set; }
+        public string Note { get; set; }
     }
 }

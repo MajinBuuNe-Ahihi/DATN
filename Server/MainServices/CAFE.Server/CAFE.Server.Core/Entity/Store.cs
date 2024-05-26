@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAFE.Server.Core.Entity
 {
-    public class Store : BaseEntity
+    public class Store : BaseEntity<Store>
     {
         public Guid StoreID { get; set; }
         public string? StoreName { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAFE.Server.Core.Entity
 {
-    public class Promotion:BaseEntity
+    public class Promotion:BaseEntity<Promotion>
     {
         public Guid PromotionID { get; set; }
         public string PromotionName { get; set; }

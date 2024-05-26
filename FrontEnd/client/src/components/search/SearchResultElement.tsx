@@ -3,19 +3,36 @@ import { Link } from 'react-router-dom'
 import * as ICON from '../common'
 import '../../styles/search.scss'
 import image from '../../assets/element-search.webp'
-type Props = {}
+type Props = {
+  data: any,
+}
 
-export  function SearchResultElement({}: Props) {
+export  function SearchResultElement({data}: Props) {
+  const addHistory = () => {
+    let searchHistory = JSON.parse((localStorage.getItem('history') || "[]"))
+
+      let index = searchHistory.findIndex((item:any) => item.storeID == data.storeID)
+      if(index !== -1) {
+        searchHistory.splice(index, 1)
+      }else {
+        if(searchHistory.length > 5) {
+          searchHistory.splice(0,1)
+        }
+      }
+      searchHistory.push(data)
+      localStorage.setItem('history', JSON.stringify(searchHistory))
+    
+  }
   return (
-      <div className='search-result-element'>
-        <Link to={'/'} className='search-result-element-link'>
+      <div className='search-result-element' onClick={()=> addHistory()}>
+        <Link to={`/place/${data.storeID}`} className='search-result-element-link'>
         <img src={image} alt='shopname' className='search-result-element__image' />
         <div className='search-result-element-info'>
           <span className='search-result-element-info__name'>
-            Manh CoffeeShop
+            {data.storeName}
           </span>
           <span className='search-result-element-info__address'>
-            so nha 10, ngach 134 ngo 48, minh khai, bac tu liem, ha noi
+            {data.directInfo + " " + data.storeAddress}
           </span>
         </div>
         <span className='search-result-element-icon'>

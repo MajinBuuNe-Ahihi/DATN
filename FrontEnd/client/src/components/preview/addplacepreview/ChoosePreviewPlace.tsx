@@ -1,13 +1,20 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import ChoosePreViewButton from './ChoosePreViewButton';
 
 import ChoosePreviewPlaceCard from './ChoosePreviewPlaceCard'
 import Previewed from './Previewed'
 
-type Props = {}
+type Props = {
+  setStoreID: React.Dispatch<React.SetStateAction<string>>
+}
 
-export default function ChoosePreviewPlace({}: Props) {
-  const [place,setPlace] = useState<boolean>(false);
+export default function ChoosePreviewPlace({setStoreID}: Props) {
+  const [place,setPlace] = useState<any>({});
+  useEffect(()=> {
+    if(place && place?.storeName?.length > 0) {
+      setStoreID(place.storeID || "");
+    }
+  },[place]);
   return (
     <div className="preview__review-place">
       <div className="preview__section-name">
@@ -15,8 +22,8 @@ export default function ChoosePreviewPlace({}: Props) {
       </div>
       <div className="preview__review-place-row">
         {
-          place?
-          <ChoosePreviewPlaceCard  closeCard={setPlace}></ChoosePreviewPlaceCard>
+          place && place.storeName?
+          <ChoosePreviewPlaceCard value={place} closeCard={setPlace}></ChoosePreviewPlaceCard>
           :<ChoosePreViewButton openCard={setPlace}></ChoosePreViewButton>
         }
       </div>

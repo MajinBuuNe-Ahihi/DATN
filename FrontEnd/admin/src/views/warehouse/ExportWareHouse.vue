@@ -12,6 +12,7 @@ import {
 } from '@src/types'
 import { v4 as uuidv4 } from 'uuid';
 
+
 const search = ref('')
 const items: Array<WareHouseDTOType> = reactive([
   {
@@ -502,6 +503,9 @@ watch(
         <v-icon class="me-2" size="small" @click="view(item)"> mdi-eye </v-icon>
         <v-icon class="me-2" size="small" @click="editItem(item)"> mdi-pencil </v-icon>
         <v-icon size="small" @click="deleteItem(item)"> mdi-delete </v-icon>
+      </template>
+      <template v-slot:item.modifiedDate="{item}">
+        <span>{{moment(item.modifiedDate).format('YYYY-MM-DD')}}</span>
       </template>
       <template v-slot:no-data>
         <v-btn color="primary" @click="initialize"> Tải lại </v-btn>

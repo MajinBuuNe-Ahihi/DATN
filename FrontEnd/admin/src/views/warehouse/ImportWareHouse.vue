@@ -341,6 +341,7 @@ watch(
             <template v-slot:activator="{ props }">
               <v-btn class="mb-2" color="primary" dark v-bind="props"> Thêm phiếu nhập </v-btn>
             </template>
+            
             <v-card>
               <v-card-title>
                 <span class="text-h5">{{ formTitle }}</span>
@@ -497,6 +498,9 @@ watch(
             </v-card>
           </v-dialog>
         </v-toolbar>
+      </template>
+       <template v-slot:item.modifiedDate="{item}">
+        <span>{{moment(item.modifiedDate).format('YYYY-MM-DD')}}</span>
       </template>
       <template v-slot:item.actions="{ item }">
         <v-icon class="me-2" size="small" @click="view(item)"> mdi-eye </v-icon>

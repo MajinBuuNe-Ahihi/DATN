@@ -23,14 +23,31 @@ export class CommentRepository {
     const result = await query
       .raw(
         `
-    MATCH (u:${Entities.User} {userID:"${userID}" })
-    MATCH( r:${Entities.Review} {reviewID:"${reviewID}")
     CREATE (c:${Entities.Comment} {commentID:"${commentID}",content:"${content}",commentLike:${commentLike}
         ,createBy:${createBy},createDate:${createDate},userID: :, reviewID:"${reviewID}",modifiedBy:${modifiedBy}, modifiedDate: ${modifiedDate}})
-    CREATE (c)-[:${Relations.COMMENT_TO} {createdDate: ${createDate}]->(r)
-    CREATE (c)<-[:${Relations.COMMENT_BY} {createdDate: ${createDate}]->(u)
     RETURN C
         `,
+      )
+      .run();
+    await this.queryRepository
+      .initQuery()
+      .raw(
+        `
+      MATCH( r:${Entities.Review} {reviewID:"${reviewID}")
+        MATCH (c:${Entities.Comment} {commentID:"${commentID}"})
+        CREATE (c)-[:${Relations.COMMENT_TO} {createdDate: ${createDate}]->(r)
+      `,
+      )
+      .run();
+
+    await this.queryRepository
+      .initQuery()
+      .raw(
+        `
+      MATCH (u:${Entities.User} {userID:"${userID}" })
+      MATCH (c:${Entities.Comment} {commentID:"${commentID}"})
+      CREATE (c)<-[:${Relations.COMMENT_BY} {createdDate: ${createDate}]-(u)
+    `,
       )
       .run();
 

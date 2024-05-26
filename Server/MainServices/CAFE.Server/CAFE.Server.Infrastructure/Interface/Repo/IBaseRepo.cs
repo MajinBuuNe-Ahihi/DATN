@@ -7,7 +7,7 @@ namespace CAFE.Server.Infrastructure
 {
     public interface IBaseRepo
     {
-        bool Submit(IBaseEntity item);
-        bool Submit(IBaseEntity item, DbTransaction ts);
+        bool Submit<T>(IBaseEntity<T> item);
+        bool Submit<T>(IBaseEntity<T> item, DbTransaction ts);
     }
 }

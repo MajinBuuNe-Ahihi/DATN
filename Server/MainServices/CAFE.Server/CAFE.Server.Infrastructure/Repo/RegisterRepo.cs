@@ -83,7 +83,7 @@ namespace CAFE.Server.Infrastructure.Repo
             return true;
         }
 
-        public override bool Submit(IBaseEntity item)
+        public override bool Submit<T>(IBaseEntity<T> item)
         {
             var result = base.Submit(item);
             return true;

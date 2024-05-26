@@ -88,8 +88,6 @@ namespace FileServices.Controllers
         {
             try
             {
-
-
                 var image = new MemoryStream();
                 return File(image, "image/jpeg");
             }

@@ -8,9 +8,11 @@ import '../../styles/userdropdown.scss'
 import user from '../../assets/unnamed.jpg'
 import level from '../../assets/level.png'
 
-type Props = {}
+type Props = {
+  user: any;
+}
 
-export function UserDropDown({ }: Props) {
+export function UserDropDown({ user}: Props) {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
 
@@ -22,7 +24,7 @@ export function UserDropDown({ }: Props) {
         <div className='header-user-drop-down-top-profile' onClick={()=>directUser()}>
           <img src={user} alt='HoangVanManh' className='header-user-drop-down-top-profile__avatar' />
           <div className='header-user-drop-down-top-profile__info'>
-            <span>Hoang Van Manh</span>
+            <span>{user.userName}</span>
             <img src={level} alt='#' />
           </div>
         </div>
@@ -31,25 +33,25 @@ export function UserDropDown({ }: Props) {
         <li className='header-user-drop-down-list-element'>
           <Link className='header-user-drop-down-list-element__link' to='/'>
             <span><ICON.FaUserEdit size={25}/></span>
-            <span>Chinh sua ho so</span>
+            <span>Chỉnh sửa hồ sơ</span>
           </Link>
         </li>
         <li className='header-user-drop-down-list-element'>
           <Link className='header-user-drop-down-list-element__link' to='/'>
             <span><ICON.FaCoins size={25}/></span>
-            <span>Diem thuong</span>
+            <span>Điểm thưởng</span>
           </Link>
         </li>
         <li className='header-user-drop-down-list-element'>
           <Link className='header-user-drop-down-list-element__link' to='/'>
             <span><ICON.HiOutlineMail size={25}/></span>
-            <span>Lien he-Gop y</span>
+            <span>Liên hệ - Góp ý</span>
           </Link>
         </li>
         <li className='header-user-drop-down-list-element'>
-          <Link className='header-user-drop-down-list-element__link' to='/' onClick={()=>dispatch(logout())}>
+          <Link className='header-user-drop-down-list-element__link' to='/' onClick={()=>{dispatch(logout()); localStorage.removeItem("user")}}>
             <span><ICON.BiPowerOff size={25}/></span>
-            <span>Dang xuat</span>
+            <span>Đăng xuất</span>
           </Link>
         </li>
       </ul>

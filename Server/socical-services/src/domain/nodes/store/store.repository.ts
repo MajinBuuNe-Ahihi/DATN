@@ -106,6 +106,7 @@ export class StoreRepository {
       )
       .run();
     if (result.length > 0) {
+      console.log(result[0].s.properties)
       return result[0].s.properties as Store;
     }
     return null;
@@ -179,6 +180,33 @@ export class StoreRepository {
             ? result2.map((i) => i.Convenient.properties)
             : null,
       } as StoreDetailResult;
+    }
+    return null;
+  }
+
+  async searchStore(search: string): Promise<Array<Store>> {
+    const result = await this.queryRepository
+      .initQuery()
+      .raw(
+        `      
+        MATCH (n:Store)
+        MATCH (n) <- [:IN_AREA] - (a:Area)
+        MATCH (c:Catalog) - [:CONVINIENT_HAS] -> (b:Convenient) - [:IN_CONVENIENCE] -> (n)
+        MATCH (c:Catalog) - [:TYPE_HAS] -> (d:ShopType) - [:IN_SHOP_TYPE] -> (n)
+        WHERE 
+        toLower(n.storeName) CONTAINS  toLower("${search}") or
+        toLower(n.storeAddress) CONTAINS   toLower("${search}") or
+        toLower(c.catalogName) contains    toLower("${search}") or
+        toLower(a.areaName) contains  toLower("${search}")
+        RETURN DISTINCT  n
+        skip 0
+        limit 5
+      `,
+      )
+      .run();
+
+    if (result.length > 0) {
+      return result.map((item) => item.n.properties) as [Store];
     }
     return null;
   }

@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\rabitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\rabitmqqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\application\\registerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:application\\registerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\entity\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\entity\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\interfaces\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\registerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\registerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\sqlserverregisterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\sqlserverregisterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\entity\\databasefilelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\entity\\databasefilelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\registerserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:registerserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\interfaces\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\interfaces\\ireporegister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\interfaces\\ireporegister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\sqlserverrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\sqlserverrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\factoryinfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\entity\\mailentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\entity\\mailentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\entity\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\entity\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\config\\queueconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\config\\queueconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\lib\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\lib\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\application\\factoryapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:application\\factoryapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\application\\interfaces\\iregisterbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:application\\interfaces\\iregisterbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\core\\enum\\enumeditmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:core\\enum\\enumeditmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\interfaces\\idatabaseregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\interfaces\\idatabaseregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|c:\\users\\g\\3d objects\\datn\\server\\registerserver\\infrastructure\\interfaces\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC3FE58-278D-4215-B1FD-9F8983B6595C}|RegisterServer.csproj|solutionrelative:infrastructure\\interfaces\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RabitmqQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\RabitmqQueue.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\RabitmqQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\RabitmqQueue.cs",
+              "RelativeToolTip": "Infrastructure\\RabitmqQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:32:46.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Application\\RegisterBusiness.cs",
+              "RelativeDocumentMoniker": "Application\\RegisterBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Application\\RegisterBusiness.cs",
+              "RelativeToolTip": "Application\\RegisterBusiness.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAvwEwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:52:31.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBaseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IBaseRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\interfaces\\IBaseRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IBaseRepo.cs",
+              "RelativeToolTip": "Infrastructure\\interfaces\\IBaseRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:46:35.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepoRegister.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IRepoRegister.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\interfaces\\IRepoRegister.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IRepoRegister.cs",
+              "RelativeToolTip": "Infrastructure\\interfaces\\IRepoRegister.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:53:43.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\RegisterRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\RegisterRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\RegisterRepo.cs",
+              "RelativeToolTip": "Infrastructure\\RegisterRepo.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAvwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:54:13.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\Register.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\Register.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\Register.cs",
+              "RelativeToolTip": "Core\\Entity\\Register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:36:53.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IQueue.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IQueue.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\interfaces\\IQueue.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IQueue.cs",
+              "RelativeToolTip": "Infrastructure\\interfaces\\IQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:32:08.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLServerRegisterRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\SQLServerRegisterRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\SQLServerRegisterRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\SQLServerRegisterRepo.cs",
+              "RelativeToolTip": "Infrastructure\\SQLServerRegisterRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:42:24.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseFileList.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\DatabaseFileList.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\DatabaseFileList.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\DatabaseFileList.cs",
+              "RelativeToolTip": "Core\\Entity\\DatabaseFileList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:11:10.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterServer.csproj",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\RegisterServer.csproj",
+              "RelativeDocumentMoniker": "RegisterServer.csproj",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\RegisterServer.csproj",
+              "RelativeToolTip": "RegisterServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-25T10:47:50.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\BaseRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\BaseRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\BaseRepo.cs",
+              "RelativeToolTip": "Infrastructure\\BaseRepo.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:46:48.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FactoryInfrastructure.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\FactoryInfrastructure.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\FactoryInfrastructure.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\FactoryInfrastructure.cs",
+              "RelativeToolTip": "Infrastructure\\FactoryInfrastructure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:34:36.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SQLServerRepo.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\SQLServerRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\SQLServerRepo.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\SQLServerRepo.cs",
+              "RelativeToolTip": "Infrastructure\\SQLServerRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:40:39.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T04:27:09.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-25T04:55:47.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:29:30.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-25T04:56:00.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MailEntity.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\MailEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\MailEntity.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\MailEntity.cs",
+              "RelativeToolTip": "Core\\Entity\\MailEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T04:22:15.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\IBaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\IBaseEntity.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\IBaseEntity.cs",
+              "RelativeToolTip": "Core\\Entity\\IBaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:47:39.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Entity\\BaseEntity.cs",
+              "RelativeToolTip": "Core\\Entity\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:49:27.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QueueConfig.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\config\\QueueConfig.cs",
+              "RelativeDocumentMoniker": "Core\\config\\QueueConfig.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\config\\QueueConfig.cs",
+              "RelativeToolTip": "Core\\config\\QueueConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:35:25.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\lib\\Utilities.cs",
+              "RelativeDocumentMoniker": "Core\\lib\\Utilities.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\lib\\Utilities.cs",
+              "RelativeToolTip": "Core\\lib\\Utilities.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvyYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T04:30:23.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FactoryApplication.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Application\\FactoryApplication.cs",
+              "RelativeDocumentMoniker": "Application\\FactoryApplication.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Application\\FactoryApplication.cs",
+              "RelativeToolTip": "Application\\FactoryApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T04:26:34.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRegisterBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Application\\interfaces\\IRegisterBusiness.cs",
+              "RelativeDocumentMoniker": "Application\\interfaces\\IRegisterBusiness.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Application\\interfaces\\IRegisterBusiness.cs",
+              "RelativeToolTip": "Application\\interfaces\\IRegisterBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:51:12.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EnumEditMode.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Enum\\EnumEditMode.cs",
+              "RelativeDocumentMoniker": "Core\\Enum\\EnumEditMode.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Core\\Enum\\EnumEditMode.cs",
+              "RelativeToolTip": "Core\\Enum\\EnumEditMode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:48:28.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IDatabaseRegister.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IDatabaseRegister.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\interfaces\\IDatabaseRegister.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IDatabaseRegister.cs",
+              "RelativeToolTip": "Infrastructure\\interfaces\\IDatabaseRegister.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:44:19.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IDatabase.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\interfaces\\IDatabase.cs",
+              "ToolTip": "C:\\Users\\g\\3D Objects\\DATN\\Server\\RegisterServer\\Infrastructure\\interfaces\\IDatabase.cs",
+              "RelativeToolTip": "Infrastructure\\interfaces\\IDatabase.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:38:37.882Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

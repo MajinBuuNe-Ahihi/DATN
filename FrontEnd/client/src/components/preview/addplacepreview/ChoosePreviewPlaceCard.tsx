@@ -2,14 +2,15 @@ import React from 'react'
 import QuantityStarVote from '../../common/QuantityStarVote';
 import {FaTimes, BsFillStarFill} from '../../common';
 type Props = {
-  closeCard: React.Dispatch<React.SetStateAction<boolean>>
+  closeCard: React.Dispatch<React.SetStateAction<any>>
+  value: any
 }
 
-export default function ChoosePreviewPlaceCard({closeCard}: Props) {
+export default function ChoosePreviewPlaceCard({closeCard,value}: Props) {
 
   return (
     <div className="preview__place-card">
-      <div className="preview__place-card-close " onClick={() => closeCard(pre=>!pre)}>
+      <div className="preview__place-card-close " onClick={() => closeCard({})}>
         <FaTimes size={15}></FaTimes>
       </div>
       <div className="preview__place-card-contain">
@@ -17,10 +18,10 @@ export default function ChoosePreviewPlaceCard({closeCard}: Props) {
         </div>
         <div className="preview__place-card-main">
           <div className="preview__place-card-name">
-            7th Heaven Cafe & Brunch
+           {value.storeName}
           </div>
           <div className="preview__place-card-address">
-            1, Ngõ 84 Chùa Láng, Đống Đa
+            {value.directInfo + " " + value.storeAddress}
           </div>
           <div className="preview__place-card-info">
             {

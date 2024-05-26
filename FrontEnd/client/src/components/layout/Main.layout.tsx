@@ -30,7 +30,7 @@ export function MainLayout({ }: Props) {
         timeout={500}
         unmountOnExit
         classNames='sidebar'>
-          <SearchComponent type='sidebar-search' placeholder='Nhap ten quan, khu vuc, kieu quan' /> 
+          <SearchComponent type='sidebar-search' placeholder='Nhập tên quán, khu vực, kiểu quán' /> 
         </CSSTransition>
       }
       {

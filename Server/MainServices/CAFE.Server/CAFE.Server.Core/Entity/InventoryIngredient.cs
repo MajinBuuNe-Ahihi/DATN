@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CAFE.Server.Core.Entity
 {
-    public class InventoryIngredient:BaseEntity
+    public class InventoryIngredient:BaseEntity<InventoryIngredient>
     {
-        public  Guid inventoryID { get; set; }
-        public Guid inventoryIngredientID { get; set; }
-        public int amount { get; set; }
+        public  Guid InventoryID { get; set; }
+        public Guid InventoryIngredientID { get; set; }
+        public int Amount { get; set; }
     }
 }

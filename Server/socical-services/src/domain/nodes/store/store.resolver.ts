@@ -25,4 +25,9 @@ export class StoreResolver {
   async getStore(@Args('id') id: string): Promise<StoreDetailResult> {
     return await this.storeService.getStore(id);
   }
+
+  @Query()
+  async searchStore(@Args('search') search: string): Promise<Array<Store>> {
+    return await this.storeService.searchStore(search);
+  }
 }

@@ -29,8 +29,8 @@ export const Header = (props: Props) => {
     <div className='header'> 
       <div className= {'header__container'}>
         <div className={'header__container-left'}>
-          <div className= {'header__logo'}>
-          <Link to={'/'}>
+          <div className= {'header__logo'} style={{fontFamily:"monospace", fontSize:"30",fontWeight: "bold",color: "#ee0033"}}>
+          <Link to={'/'} style={{color: "#ee0033", fontSize:"45px",fontFamily:"Brush Script MT"}}>
            Cafe Chill
           </Link>
           </div>
@@ -38,7 +38,7 @@ export const Header = (props: Props) => {
         <div className={'header__container-right'}>
           <div className='header__container-right-1'>
             {
-              url.pathname !== '/' && <SearchComponent trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger} type='header-search' placeholder='tim kiem quan cafe' currentPath={url.pathname} />  
+              url.pathname !== '/' && <SearchComponent trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger} type='header-search' placeholder='tìm kiếm quán cafe' currentPath={url.pathname} />  
             }
             <HeaderEXPRO trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger} />  
           </div>
@@ -51,7 +51,7 @@ export const Header = (props: Props) => {
                   <ICON.BsPencilSquare size={25}/>
                   </span>
                   <span>
-                    Viet review
+                   Viết review
                   </span>
                   </>
                 </Button>
@@ -63,7 +63,7 @@ export const Header = (props: Props) => {
                   <div className={'header__login-button'}>
                       <Button type={1} bg={2} padding={'10px 12px'} onClick={() => { dispatch(Popup()); dispatch(login()) }}>
                       <span>
-                        Dang nhap
+                        Đăng nhập
                       </span>
                   </Button>
                   </div>
@@ -75,7 +75,9 @@ export const Header = (props: Props) => {
                         </Link>
                       </div>
                       <Notification trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger}/>
-                      <UserHeader trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger}/>
+                      {
+                        localStorage.getItem("user") &&   <UserHeader trigger={triggerOpenModal} setTrigger={handleChangeKeyTrigger}/>
+                      }
                   </div>
               }
               </div>

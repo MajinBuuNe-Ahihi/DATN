@@ -128,16 +128,31 @@ let dialogDelete = ref(false)
 let viewMode = ref(0)
 let units: Array<UnitType> = reactive([
   {
-    id: uuidv4(),
-    unitName: 'Cốc'
+    id: "36A698AD-9EE2-4801-BB4D-34DE5CFE898E",
+    unitName: 'Túi'
   },
   {
-    id: uuidv4(),
-    unitName: 'Lọ'
+    id: "4BAD3C69-295C-497D-AE98-620D918B4314",
+    unitName: 'KG'
   },
   {
-    id: uuidv4(),
-    unitName: 'Chai'
+    id: "56C54BCD-7F5C-4EA4-90D3-869E200445EB",
+    unitName: 'Gram'
+  },
+  {
+    id: "DB7F4527-739F-4080-B31B-88A55C9E5DC6",
+    unitName: 'Bát'
+  },
+  {
+    id: "5D590FD7-6354-4963-9622-CD69EB95B635",
+    unitName: "Ly"
+  },
+  {
+    id:"A2EC94BA-7B5F-4D50-8571-DB21094ECAA7",
+    unitName: "ml"
+  },{
+    id: "0FC6AF6B-82BD-4BFC-AA06-F6B03EF24D55",
+    unitName: "Cốc"
   }
 ] as Array<UnitType>)
 let unit = ref(units[0])
@@ -151,49 +166,49 @@ let dialogInventory = ref(false)
 let editMode = ref(false)
 
 let saveInventory = () => {
-  // if (ingredient.value && ingredient.value.quantity) {
-  //   let currentInventory = inventories.value.find(
-  //     (item) => item.id == ingredient.value.inventory
-  //   )
-  //   let oExists = ingredients.items.find(
-  //     (item) => item.inventoryItem == currentInventory.id
-  //   )
-  //   if (oExists) {
-  //     let index = ingredients.items.findIndex((item) => item.id == oExists.id)
-  //     let value =
-  //       (editMode.value ? 0 : Number(ingredients.items[index].quantity)) +
-  //       Number(ingredient.value.quantity)
-  //     ingredients.items[index].quantity = value
-  //   } else {
-  //     ingredients.items.push({
-  //       id: uuidv4(),
-  //       quantity: ingredient.value.quantity,
-  //       inventoryItem: currentInventory.id,
-  //       name: currentInventory.name
-  //     } as WareHouseDetailType)
-  //   }
-  // }
-  // ingredient.value = {}
-  // dialogInventory.value = false
-  // editMode.value = false
+  debugger
+  if (ingredient.value && ingredient.value.quantity) {
+    let currentInventory = ingredientsInventory.find(
+      (item) => item.id == ingredient.value.inventory
+    )
+    let oExists = ingredients.items.find(
+      (item) => item.inventoryItem == currentInventory.id
+    )
+    if (oExists) {
+      let index = ingredients.items.findIndex((item) => item.id == oExists.id)
+      let value =
+        (editMode.value ? 0 : Number(ingredients.items[index].quantity)) +
+        Number(ingredient.value.quantity)
+      ingredients.items[index].quantity = value
+    } else {
+      ingredients.items.push({
+        id: uuidv4(),
+        quantity: ingredient.value.quantity,
+        inventoryItem: currentInventory.id,
+        name: currentInventory.name
+      })
+    }
+  }
+  ingredient.value = {}
+  dialogInventory.value = false
+  editMode.value = false
 }
 
 let editInventory = (item) => {
-  // editMode.value = true
-  // let currentValue = ingredients.items.find((i) => item.id == i.id)
-  // ingredient.value = {
-  //   inventory: currentValue.inventoryItem,
-  //   quantity: currentValue.quantity
-  // }
-  // dialogInventory.value = true
+  editMode.value = true
+  let currentValue = ingredients.items.find((i) => item.id == i.id)
+  ingredient.value = {
+    inventory: currentValue.inventoryItem,
+    quantity: currentValue.quantity
+  }
+  dialogInventory.value = true
 }
 
 let deleteInventory = (item) => {
-  // debugger
-  // ingredients.items.splice(
-  //   ingredients.items.findIndex((i) => i.id == item.id),
-  //   1
-  // )
+  ingredients.items.splice(
+    ingredients.items.findIndex((i) => i.id == item.id),
+    1
+  )
 }
 
 let headerIngredient = [
@@ -260,87 +275,82 @@ function getBase64(img: Blob, callback: (base64Url: string) => void) {
 
 
 const editItem = (item) => {
-  // ingredients.items = [...item.details]
-  // editedIndex.value = items.findIndex((i) => i.id == item.id)
-  // editedItem = { ...item }
-  // dialog.value = true
-  // viewMode.value = 2
+  ingredients.items = [...item.details]
+  editedIndex.value = items.findIndex((i) => i.id == item.id)
+  editedItem = { ...item }
+  dialog.value = true
+  viewMode.value = 2
 }
 
 const deleteItem = (item) => {
-  // editedIndex.value = items.findIndex((i) => i.id == item.id)
-  // editedItem = Object.assign({}, item)
-  // dialogDelete.value = true
+  editedIndex.value = items.findIndex((i) => i.id == item.id)
+  editedItem = Object.assign({}, item)
+  dialogDelete.value = true
 }
 
 const view = async (item) => {
-  // ingredients.items = item.details
-  // await nextTick(function () {
-  //   editedIndex.value = items.indexOf(item)
-  //   editedItem = { ...item }
-  //   dialog.value = true
-  //   viewMode.value = 1
-  // })
+  ingredients.items = item.details
+  await nextTick(function () {
+    editedIndex.value = items.indexOf(item)
+    editedItem = { ...item }
+    dialog.value = true
+    viewMode.value = 1
+  })
 }
 
 const deleteItemConfirm = () => {
-  // items.splice(editedIndex.value, 1)
-  // closeDelete()
+  items.splice(editedIndex.value, 1)
+  closeDelete()
 }
 
 const close = async () => {
-  // dialog.value = false
-  // await nextTick(() => {
-  //   ingredient.value = {}
-  //   ingredients.items.splice(0, ingredients.items.length - 1)
-  //   editedItem = { ...defaultItem }
-  //   editedIndex.value = -1
-  // })
-  // viewMode.value = 0
+  dialog.value = false
+  await nextTick(() => {
+    ingredient.value = {}
+    ingredients.items.splice(0, ingredients.items.length - 1)
+    editedItem = { ...defaultItem }
+    editedIndex.value = -1
+  })
+  viewMode.value = 0
 }
 
 const closeDelete = async () => {
-  // dialogDelete.value = false
-  // await nextTick(() => {
-  //   editedItem = { ...defaultItem }
-  //   editedIndex.value = -1
-  // })
+  dialogDelete.value = false
+  await nextTick(() => {
+    editedItem = { ...defaultItem }
+    editedIndex.value = -1
+  })
 }
 
 const save = () => {
-  // if (editedItem) {
-  //   let sumQuantity = 0
-  //   ingredients.items.forEach((item) => {
-  //     sumQuantity += Number(item.quantity)
-  //   })
-  //   if (viewMode.value == 2) {
-  //     debugger
-  //     let index = items.findIndex((item) => item.id == editedItem.id)
-  //     items[index] = {
-  //       ...items[index],
-  //       quantity: sumQuantity,
-  //       details: [...ingredients.items],
-  //       modifiedBy: user.value.fullName,
-  //       modifiedDate: editedItem.createdDate,
-  //       idUserCreated: user.value.id,
-  //       user: user.value
-  //     }
-  //   } else {
-  //     items.push({
-  //       id: uuidv4(),
-  //       refNo: editedItem.refNo,
-  //       quantity: sumQuantity,
-  //       details: [...ingredients.items],
-  //       createdBy: user.value.fullName,
-  //       createdDate: ingredient.value.createdDate,
-  //       modifiedBy: user.value.fullName,
-  //       modifiedDate: editedItem.createdDate,
-  //       idUserCreated: user.value.id,
-  //       user: user.value
-  //     } as WareHouseType)
-  //   }
-  // }
-  // close()
+  debugger
+  if (editedItem) {
+    editedItem.img = imageUrl.value
+    editedItem.unit = unit.value.id
+    editedItem.unitName = unit.value.unitName
+    editedItem.details = [...ingredients.items]
+    items.push(editedItem)
+  }
+
+  editedItem = {...{
+    id: '',
+    iNo: '',
+    name: '',
+    img: '',
+    unit: '',
+    description: '',
+    priceS:0 ,
+    priceM: 0,
+    priceL: 0,
+    priceXL: 0,
+    type: 0,
+    active: 0,
+    ingredients: [
+     
+    ],
+    unitName: ''
+  }}
+  close()
 }
 </script>
 <template>
@@ -378,11 +388,11 @@ const save = () => {
             </template>
             <v-card>
               <v-toolbar>
-                <v-btn icon="mdi-close" @click="dialog = false"></v-btn>
+                <v-btn icon="mdi-close" @click="()=>{dialog = false}"></v-btn>
                 <v-toolbar-title>Thêm món</v-toolbar-title>
                 <v-spacer></v-spacer>
                 <v-toolbar-items>
-                  <v-btn text="Thêm" variant="text" @click="dialog = false"></v-btn>
+                  <v-btn text="Thêm" variant="text" @click="()=>{dialog = false;save()}"></v-btn>
                 </v-toolbar-items>
               </v-toolbar>
               <v-container>
@@ -393,10 +403,10 @@ const save = () => {
                 </v-row>
                 <v-row>
                   <v-col cols="12" sm="6">
-                    <text-custom v-model="editedItem.refNo" label="Tên món"></text-custom>
+                    <text-custom v-model="editedItem.name" label="Tên món"></text-custom>
                   </v-col>
                   <v-col cols="12" sm="6">
-                    <text-custom v-model="editedItem.refNo" label="Mã món"></text-custom>
+                    <text-custom v-model="editedItem.iNo" label="Mã món"></text-custom>
                   </v-col>
                 </v-row>
                 <v-row>
@@ -411,7 +421,7 @@ const save = () => {
                     </auto-complete-custom>
                   </v-col>
                   <v-col cols="12" sm="6">
-                    <v-radio-group v-model="ex7" inline>
+                    <v-radio-group v-model="editedItem.type" inline>
                       <v-radio color="red" label="Món" :value="0"></v-radio>
                       <v-radio color="red" label="Nguyên vật liệu" :value="1"></v-radio>
                     </v-radio-group>
@@ -419,18 +429,18 @@ const save = () => {
                 </v-row>
                  <v-row>
                   <v-col cols="12" sm="6">
-                    <text-custom v-model="editedItem.refNo" label="Giá size X"></text-custom>
+                    <text-custom v-model="editedItem.priceS" label="Giá size S"></text-custom>
                   </v-col>
                     <v-col cols="12" sm="6">
-                    <text-custom v-model="editedItem.refNo" label="Giá size M"></text-custom>
+                    <text-custom v-model="editedItem.priceM" label="Giá size M"></text-custom>
                   </v-col>
                 </v-row>
                  <v-row>
                   <v-col cols="12" sm="6">
-                    <text-custom v-model="editedItem.refNo" label="Giá size L"></text-custom>
+                    <text-custom v-model="editedItem.priceL" label="Giá size L"></text-custom>
                   </v-col>
                     <v-col cols="12" sm="6">
-                    <text-custom v-model="editedItem.refNo" label="Giá size XL"></text-custom>
+                    <text-custom v-model="editedItem.priceXL" label="Giá size XL"></text-custom>
                   </v-col>
                 </v-row>
                 <v-row>
@@ -564,10 +574,30 @@ const save = () => {
           </v-dialog>
         </v-toolbar>
       </template>
-      <template v-slot:item.actions="{ item }">
-        <v-icon class="me-2" size="small" @click="view(item)"> mdi-eye </v-icon>
-        <v-icon class="me-2" size="small" @click="editItem(item)"> mdi-pencil </v-icon>
-        <v-icon size="small" @click="deleteItem(item)"> mdi-delete </v-icon>
+      <template v-slot:item.active="{ item }">
+         <div v-if="item.active">
+          Ngưng bán
+         </div>
+         <div v-else>
+          Đang bán
+         </div>
+      </template>
+      <template v-slot:item.type="{ item }">
+         <div v-if="!item.type">
+          Món ăn
+         </div>
+         <div v-else>
+          Nguyên Vật Liệu
+         </div>
+      </template>
+        <template v-slot:item.img="{ item }">
+        <v-card class="my-2" elevation="2" rounded>
+          <v-img
+            :src="`${item.img}`"
+            height="64"
+            cover
+          ></v-img>
+        </v-card>
       </template>
       <template v-slot:no-data>
         <v-btn color="primary" @click="initialize"> Tải lại </v-btn>

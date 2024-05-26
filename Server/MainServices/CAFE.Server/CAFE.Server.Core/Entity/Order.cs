@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace CAFE.Server.Core.Entity
 {
-    public class Order:BaseEntity
+    public class Order:BaseEntity<OrderDetail>
     {
-        public Guid orderID { get; set; }
-        public string orderNo { get; set; }
-        public Guid tableID { get; set; }
-        public decimal total { get; set; }
-        public int paymentType { get; set; }
-        public DateTime orderDate { get; set; }
-        public int orderType { get; set; }
-        public string note { get; set; }
+        public Guid OrderID { get; set; }
+        public string OrderNo { get; set; }
+        public Guid TableID { get; set; }
+        public decimal Total { get; set; }
+        public int PaymentType { get; set; }
+        public DateTime OrderDate { get; set; }
+        public int OrderType { get; set; }
+        public string Note { get; set; }
     }
 }

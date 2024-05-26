@@ -1,6 +1,6 @@
 ﻿namespace CAFE.Server.Core.Entity
 {
-    internal class WareHouseDetail
+    public class WareHouseDetail
     {
         public Guid warehouseDetailID{ get; set; }
         public Guid warehouseID { get; set; }

@@ -38,10 +38,15 @@ export class UserInput {
   email?: Nullable<string>;
 }
 
+export class ReviewPagingInput {
+  skip?: Nullable<number>;
+  limit?: Nullable<number>;
+}
+
 export class ReviewInput {
   reviewID?: Nullable<string>;
-  userID?: Nullable<number>;
-  storeID?: Nullable<number>;
+  userID?: Nullable<string>;
+  storeID?: Nullable<string>;
   title?: Nullable<string>;
   description?: Nullable<string>;
   locationRate?: Nullable<number>;
@@ -133,10 +138,10 @@ export class User {
 
 export class Review {
   reviewID?: Nullable<string>;
-  userID: number;
-  storeID: number;
-  title: string;
-  description: string;
+  userID?: Nullable<string>;
+  storeID?: Nullable<string>;
+  title?: Nullable<string>;
+  description?: Nullable<string>;
   locationRate?: Nullable<number>;
   placeRate?: Nullable<number>;
   serviceRate?: Nullable<number>;
@@ -199,6 +204,12 @@ export class ShopType {
   shopTypeName?: Nullable<string>;
 }
 
+export class ReviewPaging {
+  review?: Nullable<Review>;
+  store?: Nullable<Store>;
+  user?: Nullable<User>;
+}
+
 export class Convenient {
   convenientID?: Nullable<string>;
   convenientName?: Nullable<string>;
@@ -224,6 +235,11 @@ export class StoreDetailResult {
   store?: Nullable<Store>;
   convenients?: Nullable<Nullable<Convenient>[]>;
   shopType?: Nullable<Nullable<ShopType>[]>;
+}
+
+export class ReviewedResult {
+  user?: Nullable<User>;
+  review?: Nullable<Review>;
 }
 
 export abstract class IQuery {
@@ -265,6 +281,27 @@ export abstract class IQuery {
   abstract getStore(
     id?: Nullable<string>,
   ): Nullable<StoreDetailResult> | Promise<Nullable<StoreDetailResult>>;
+
+  abstract searchStore(
+    search?: Nullable<string>,
+  ): Nullable<Nullable<Store>[]> | Promise<Nullable<Nullable<Store>[]>>;
+
+  abstract getReviewedByUser(
+    userId?: Nullable<string>,
+  ):
+    | Nullable<Nullable<ReviewedResult>[]>
+    | Promise<Nullable<Nullable<ReviewedResult>[]>>;
+
+  abstract getReviewedByStore(
+    storeID?: Nullable<string>,
+  ): Nullable<Nullable<Review>[]> | Promise<Nullable<Nullable<Review>[]>>;
+
+  abstract pagingReviews(
+    skip?: Nullable<number>,
+    limit?: Nullable<number>,
+  ):
+    | Nullable<Nullable<ReviewPaging>[]>
+    | Promise<Nullable<Nullable<ReviewPaging>[]>>;
 
   abstract movieRatingCountRec(
     movieName: string,

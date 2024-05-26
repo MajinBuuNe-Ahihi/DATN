@@ -186,7 +186,7 @@
     top: 40px;
     transform: translateY(-50%);
     color: $secondary-color;
-    right: calc(20% + 5px);
+    right: calc( 5px);
     cursor: pointer;
   }
 }
@@ -203,7 +203,7 @@
     top: 50%;
     transform: translateY(-50%);
     color: $secondary-color;
-    right: 205px;
+    right: 0px;
     cursor: pointer;
   }
 }
@@ -264,7 +264,7 @@
     align-content: center;
     justify-content: flex-start;
     background-color: $primary-color;
-    width: calc(100% - 200px);
+    width: calc(100%);
   }
 }
 

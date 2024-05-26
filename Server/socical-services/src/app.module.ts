@@ -9,6 +9,7 @@ import { ApolloDriver } from '@nestjs/apollo';
 import { ReviewModule } from './domain/nodes/review/review.module';
 import { StoreModule } from './domain/nodes/store/store.module';
 import { CommentModule } from './domain/nodes/comment/comment.module';
+import { RabbitmqModule } from './rabbitmq/rabbitmq.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { CommentModule } from './domain/nodes/comment/comment.module';
       },
     }),
     Neo4jModule.forRootAsync(),
+    RabbitmqModule,
     UserModule,
     ReviewModule,
     StoreModule,

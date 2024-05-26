@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAFE.Server.Core.Entity
 {
-    internal class TableOrder:BaseEntity
+    internal class TableOrder:BaseEntity<TableOrder>
     {
         public Guid tableID { get; set; }
         public string tableName { get; set; }
