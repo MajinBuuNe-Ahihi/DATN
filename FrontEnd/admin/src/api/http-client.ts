@@ -1,4 +1,4 @@
-import { ACCEPT_LANGUAGE, APPLICATION_JSON, AUTHORIZATION, CONTENTTYPE, DELETE, FORMURLENDCODE, GET, PATCH, POST, PUT } from '@src/lib';
+import { ACCEPT_LANGUAGE, APPLICATION_JSON, AUTHORIZATION, CONTENTTYPE, DELETE, FORMURLENDCODE, GET, PATCH, POST, PUT } from '../library';
 import axios, { type AxiosError, type AxiosRequestConfig, type CancelTokenSource } from 'axios';
 import moment from 'moment';
 import Qs from 'qs';

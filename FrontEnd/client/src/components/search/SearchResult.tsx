@@ -57,9 +57,9 @@ export default function({value,keySearch}: Props) {
         :
         <>
         {
-          Array.from(value).map((item) =>
+          Array.from(value).map((item:any) =>
             <>
-             <SearchResultElement data={item} />
+             <SearchResultElement data={item?.store} />
             </>)
         }
         <div className='more-search-result'>

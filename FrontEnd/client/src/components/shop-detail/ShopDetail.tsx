@@ -31,6 +31,7 @@ query GetStore($getStoreId: String) {
         openTime
         closeTime
         toPrice
+        description
         fromPrice
         wifiName
         wifiPassword
@@ -69,7 +70,12 @@ export default function ShopDetail({}: Props) {
     useEffect(()=> {
         console.log(data);
     },[data])
-    if (loading) return <p>Loading...</p>;
+    if (loading) return <> {( loading) && (
+        <div className="loader-overlay">
+          {" "}
+          <div className="loader"></div>{" "}
+        </div>
+      )}</>;
   return (
     <>
     <Container className='detail-info'>
@@ -79,7 +85,7 @@ export default function ShopDetail({}: Props) {
                     {data.getStore.store.storeName}
                 </div>
                 <div className="detail-info__slogan">
-                {data.getStore.store.storeName}
+                {data.getStore.store.description}
                 </div>
                 <div className="detail-info__address-more-option">
                 <HiLocationMarker size={20}></HiLocationMarker>{ data.getStore.store.directInfo +" " + data.getStore.store.storeAddress}- <a onClick={()=>dispatch(OpenMapModalState())}>Hiển thị bản đồ</a> - <a href={`https://www.google.com/maps/dir/?api=1&destination=${data.getStore.store.latitude},${data.getStore.store.longtitude}`} target='_blank'> Xem đường đi</a> - <ViewMenuDetail></ViewMenuDetail> - <Link  to="menu" >order</Link>

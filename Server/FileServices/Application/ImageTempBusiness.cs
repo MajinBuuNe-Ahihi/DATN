@@ -33,7 +33,7 @@ namespace FileServices.Application
                 ImageID = fileName,
                 ImageExtension = extension,
                 ImageLocation = path,
-                EditMode = Library.EditModeEnumration.Add,
+                EditMode = Core.Enum.EnumEditMode.Add,
                 CreatedBy = "hvmanh",
                 CreatedDate = DateTime.Now,
                 ModifiedBy = "hvmanh",
@@ -41,7 +41,6 @@ namespace FileServices.Application
             };
             //save vao serve
 
-            _repo.Submit(image);
             return fileName.ToString("n");
         }
     }

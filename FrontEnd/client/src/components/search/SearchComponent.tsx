@@ -8,34 +8,55 @@ import '../../styles/search.scss'
 import { useQuery,gql } from '@apollo/client'
 
 const SEARCH = gql `
-query SearchStore($search: String) {
-  searchStore(search: $search) {
-    storeID
-    storeName
-    areaID
-    storeAddress
-    longtitude
-    latitude
-    directInfo
-    openTime
-    closeTime
-    toPrice
-    fromPrice
-    wifiName
-    wifiPassword
-    types
-    convenients
-    phoneNumber
-    email
-    facebookLink
-    instagramLink
-    website
-    createBy
-    createDate
-    modifiedBy
-    modifiedDate
+query Query($search: String) {
+    searchStore(search: $search) {
+      store {
+        storeID
+        storeName
+        areaID
+        storeAddress
+        longtitude
+        latitude
+        directInfo
+        openTime
+        closeTime
+        toPrice
+        fromPrice
+        wifiName
+        wifiPassword
+        types
+        convenients
+        phoneNumber
+        email
+        facebookLink
+        instagramLink
+        website
+        createBy
+        createDate
+        modifiedBy
+        modifiedDate
+      }
+      reviews {
+        reviewID
+        userID
+        storeID
+        title
+        description
+        locationRate
+        placeRate
+        serviceRate
+        foodRate
+        priceRate
+        like
+        view
+        createBy
+        createDate
+        modifiedBy
+        modifiedDate
+      }
+    }
   }
-}
+  
 `
 
 
@@ -140,7 +161,7 @@ export function SearchComponent(props: Props) {
         unmountOnExit
         classNames='modal-dropdown'
       >
-        <SearchResult keySearch={value} value={data?.searchStore} />
+        <SearchResult keySearch={value} value={data?.searchStore}/>
       </CSSTransition>
       {
         triggerSidebar == 6 && props.type != 'home-search-mobile' &&<>

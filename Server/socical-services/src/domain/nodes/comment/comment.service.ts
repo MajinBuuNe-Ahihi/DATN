@@ -15,4 +15,12 @@ export class CommentService {
   async deleteComment(id: string): Promise<boolean> {
     return await this.commentRepository.deleteComment(id);
   }
+
+  async getCommentByReview(
+    id: string,
+    offset: number,
+    limit: number,
+  ): Promise<Array<Comment>> {
+    return await this.commentRepository.getCommentByReview(id, offset, limit);
+  }
 }

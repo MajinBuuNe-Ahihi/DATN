@@ -81,6 +81,7 @@ export class StoreInput {
   storeAddress?: Nullable<string>;
   longtitude?: Nullable<number>;
   latitude?: Nullable<number>;
+  description?: Nullable<string>;
   directInfo?: Nullable<string>;
   openTime?: Nullable<string>;
   closeTime?: Nullable<string>;
@@ -172,11 +173,12 @@ export class Store {
   storeName?: Nullable<string>;
   areaID?: Nullable<string>;
   storeAddress?: Nullable<string>;
-  longtitude?: Nullable<number>;
-  latitude?: Nullable<number>;
   directInfo?: Nullable<string>;
   openTime?: Nullable<string>;
   closeTime?: Nullable<string>;
+  longtitude?: Nullable<number>;
+  latitude?: Nullable<number>;
+  description?: Nullable<string>;
   toPrice?: Nullable<string>;
   fromPrice?: Nullable<string>;
   wifiName?: Nullable<string>;
@@ -242,6 +244,11 @@ export class ReviewedResult {
   review?: Nullable<Review>;
 }
 
+export class StorePagingResult {
+  reviews?: Nullable<Nullable<Review>[]>;
+  store?: Nullable<Store>;
+}
+
 export abstract class IQuery {
   abstract helloWorld(): Nullable<string> | Promise<Nullable<string>>;
 
@@ -270,7 +277,7 @@ export abstract class IQuery {
     reviewID?: Nullable<string>,
     offset?: Nullable<number>,
     limit?: Nullable<number>,
-  ): Nullable<Comment> | Promise<Nullable<Comment>>;
+  ): Nullable<Nullable<Comment>[]> | Promise<Nullable<Nullable<Comment>[]>>;
 
   abstract getReviewByFilter(
     filter?: Nullable<Nullable<FilterInput>[]>,
@@ -284,7 +291,9 @@ export abstract class IQuery {
 
   abstract searchStore(
     search?: Nullable<string>,
-  ): Nullable<Nullable<Store>[]> | Promise<Nullable<Nullable<Store>[]>>;
+  ):
+    | Nullable<Nullable<StorePagingResult>[]>
+    | Promise<Nullable<Nullable<StorePagingResult>[]>>;
 
   abstract getReviewedByUser(
     userId?: Nullable<string>,

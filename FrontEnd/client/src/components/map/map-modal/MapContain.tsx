@@ -5,7 +5,59 @@ import MarkerPoint from '../MarkerPoint'
 import PopupPoint from '../PopupPoint'
 import './map-contain.scss'
 import MapItemCoffee from './MapItemCoffee'
+import { useQuery,gql } from '@apollo/client'
 
+const SEARCH = gql `
+query Query($search: String) {
+    searchStore(search: $search) {
+      store {
+        storeID
+        storeName
+        areaID
+        storeAddress
+        longtitude
+        latitude
+        directInfo
+        openTime
+        closeTime
+        toPrice
+        fromPrice
+        wifiName
+        wifiPassword
+        types
+        convenients
+        phoneNumber
+        email
+        facebookLink
+        instagramLink
+        website
+        createBy
+        createDate
+        modifiedBy
+        modifiedDate
+      }
+      reviews {
+        reviewID
+        userID
+        storeID
+        title
+        description
+        locationRate
+        placeRate
+        serviceRate
+        foodRate
+        priceRate
+        like
+        view
+        createBy
+        createDate
+        modifiedBy
+        modifiedDate
+      }
+    }
+  }
+  
+`
 
 type Props = {}
 const listCoordinate = [
@@ -27,6 +79,12 @@ export default function MapContain({}: Props) {
  const [openCurrentLocation,setOpenCurrentLocation] = useState<boolean>(false);
  const [fullScreen,setFullScreen] = useState<boolean>(false)
  const mapRef = useRef<HTMLDivElement>(null);
+ const [currentData,setCurrentData] = useState<any> ();
+ const { loading, error, data ,refetch } = useQuery(SEARCH);
+
+ useEffect(() => {
+     refetch({search: ""})
+   },[])
 
  const ChangeZoom = (type : boolean)=> {
     if(type) {
@@ -76,20 +134,23 @@ useEffect(()=> {
     }
 },[popupLocation])
 
+ 
+if(loading) return <>...loading</>
 
 
   return (
     <div className="map-modal__main">
     <div className="map-model__list-place">
         <div className="map-model__list-place-number-result">
-            Đang hiển thị 10/440 kết quả tìm kiếm:
+            Đang hiển thị {data?.searchStore?.length} kết quả tìm kiếm:
         </div>
         <div className="map-model__list-place-result">
             {
-                listCoordinate.map(coord =>(
-                    <MapItemCoffee RedirectLocation={()=>{
-                        setCoords({latitude: coord[0],longitude:coord[1]})
-                        setPopupLocation({latitude: coord[0],longitude:coord[1]})
+                data?.searchStore?.map((coord:any) =>(
+                    <MapItemCoffee data={coord} RedirectLocation={()=>{
+                        setCoords({latitude: coord.store.latitude,longitude:coord.store.longtitude})
+                        setPopupLocation({latitude: coord.store.latitude,longitude:coord.store.longtitude})
+                        setCurrentData(coord)
                     }}></MapItemCoffee>
                 ))
             }
@@ -136,11 +197,12 @@ useEffect(()=> {
                 </Marker>
             }
             {
-                listCoordinate.map(coord =>(
-                    <Marker key={coord[1]} longitude={coord[1]} latitude={coord[0]}  anchor="center" onClick={()=>{
-                        setCoords({latitude: coord[0],longitude:coord[1]})
-                        setPopupLocation({latitude: coord[0],longitude:coord[1]})
-                    }}>
+                  data?.searchStore?.map((coord: any) =>(
+                    <Marker key={coord.store.storeID} longitude={coord.store.longtitude} latitude={coord.store.latitude}  anchor="center" onClick={()=>{
+                        setCoords({latitude:coord.store.latitude,longitude:coord.store.longtitude});
+                        setPopupLocation({latitude: coord.store.latitude,longitude:coord.store.longtitude})
+                        setCurrentData(coord)
+                   }}>
                         <MarkerPoint location={true} mainPoint={true}/>
                     </Marker>
                 ) )
@@ -151,7 +213,7 @@ useEffect(()=> {
                     closeOnClick={false}
                     closeButton={false}
                    >
-                    <PopupPoint closeFunction={()=>setOpenPopup(false)}></PopupPoint>
+                    <PopupPoint data={currentData} closeFunction={()=>setOpenPopup(false)}></PopupPoint>
                 </Popup>)}
         </Map>
         </div>

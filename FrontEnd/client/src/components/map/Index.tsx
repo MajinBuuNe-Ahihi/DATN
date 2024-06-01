@@ -96,7 +96,7 @@ export default function ViewMap(props: Props) {
             </Marker>
             </Map>
              <a className='map_geo-direct' href={`https://www.google.com/maps/dir/?api=1&destination=${coords.latitude},${coords.longitude}`} target='_blank'>
-                <BsFillPinMapFill size={20}  className='map_geo-direct-icon'></BsFillPinMapFill><span>click vo day</span>
+                <BsFillPinMapFill size={20}  className='map_geo-direct-icon'></BsFillPinMapFill><span>Nhấn vào đây</span>
             </a>
         </div>
         :

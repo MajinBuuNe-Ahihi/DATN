@@ -56,7 +56,6 @@ namespace RegisterServer.Application
             {
                 business.VerifiedCode = new Random().Next(100000, 1000000).ToString();
 
-                business.RegisterID = Guid.NewGuid();
                 business.EditMode = Core.Enum.EnumEditMode.Add;
                 business.CreatedDate = DateTime.Now;
                 business.CreatedBy = "hvmanh";

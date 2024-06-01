@@ -23,10 +23,10 @@ export default function Explore({}: Props) {
   return (
     <Container className='explore'>
         <Row className="explore__main" style={{ gap: "24px", flexFlow: 'nowrap' }}>
-            <Col className="explore__feed" sm={9}>
+            <Col className="explore__feed" sm={12}>
                 <Feed/>
             </Col>
-            <Col className="explore__explore" sm={'auto'}>
+            {/* <Col className="explore__explore" sm={'auto'}>
                 <Row className="explore__options">
                     <div onClick={()=>setOptionfilter(EnumF.Popular)}  className={`explore__options-newfeed ${optionFilter === EnumF.Popular?'choose_option':''}`}>
                         <GiFallingStar size={20}></GiFallingStar> Bài nổi bật
@@ -41,7 +41,7 @@ export default function Explore({}: Props) {
                 <Row className="explore__user-positive">
                     <PositiveUser/>
                 </Row>
-            </Col>
+            </Col> */}
         </Row>
     </Container>
   )

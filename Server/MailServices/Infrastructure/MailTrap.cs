@@ -11,9 +11,9 @@ namespace MailServices.Infrastructure
     {
         readonly System.Net.Mail.SmtpClient _smtpClient;
         public MailTrap() {
-            _smtpClient = new System.Net.Mail.SmtpClient("192.168.0.100")
+            _smtpClient = new System.Net.Mail.SmtpClient("192.168.0.102")
             {
-                Port = 25,
+                Port = 2545,
                 Credentials = new NetworkCredential("", ""),
                 EnableSsl = false,
             };

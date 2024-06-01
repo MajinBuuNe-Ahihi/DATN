@@ -1,35 +1,38 @@
-﻿using FileServices.Application;
-using FileServices.Application.Interfaces;
+﻿using FileServices.Application.Interfaces;
 using FileServices.Core.DTO;
-using FileServices.Core.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Minio.Exceptions;
-using System.Net.WebSockets;
 
 namespace FileServices.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ImageController:ControllerBase
+    public class ImageController : ControllerBase
     {
         readonly IImageTempBusiness _imageTempBusiness;
+        readonly IImageUsingBusiness _imageUsingBusiness;
 
-       public  ImageController(IImageTempBusiness imageTempBusiness) {
+        public ImageController(IImageTempBusiness imageTempBusiness, IImageUsingBusiness imageUsingBusiness)
+        {
             _imageTempBusiness = imageTempBusiness;
+            _imageUsingBusiness = imageUsingBusiness;
         }
 
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadFile ([FromForm] FileParams form)
+        public async Task<IActionResult> UploadFile([FromForm] FileParams form)
         {
             if (form.File == null || form.File.Length == 0)
                 return BadRequest("No file uploaded.");
             try
             {
-                var stream = new MemoryStream();
-                await form.File.CopyToAsync(stream);
-                stream.Seek(0, SeekOrigin.Begin);
-               string name =  _imageTempBusiness.Submit(stream,form.Extension,form.Action);
+                string name;
+                using (var stream = new MemoryStream())
+                {
+
+                    await form.File.CopyToAsync(stream);
+                    stream.Seek(0, SeekOrigin.Begin);
+                    name = await _imageUsingBusiness.Submit(stream, form.Extension, form.ObjectID);
+                }
 
                 return Ok(new { fileName = name });
             }
@@ -43,18 +46,25 @@ namespace FileServices.Controllers
             }
         }
 
-        [HttpGet("download/{fileName}")]
-        public async Task<IActionResult> DownloadFile(string fileName)
+        [HttpGet("download")]
+        public async Task<IActionResult> DownloadFile([FromQuery] string bugetName, [FromQuery] string fileName, [FromQuery] string extension)
         {
+                var memoryStream = new MemoryStream();
             try
             {
-                var memoryStream = new MemoryStream();
-                //await _minioClient.GetObjectAsync(_bucketName, fileName, (stream) =>
-                //{
-                //    stream.CopyTo(memoryStream);
-                //});
-                memoryStream.Seek(0, SeekOrigin.Begin);
-                return File(memoryStream, "application/octet-stream", fileName);
+               
+                    var result = await _imageUsingBusiness.DownloadImage(Guid.Parse(bugetName), Guid.Parse(fileName), extension);
+
+                    if (result != null)
+                    {
+                        result.Seek(0, SeekOrigin.Begin);
+                        await result.CopyToAsync(memoryStream);
+                        memoryStream.Seek(0, SeekOrigin.Begin);
+                        return File(memoryStream, "application/octet-stream", $"{fileName}{extension}");
+                    }
+
+                    return NotFound("File not found.");
+                
             }
             catch (MinioException e)
             {
@@ -63,6 +73,9 @@ namespace FileServices.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
+            }finally
+            {
+                //memoryStream.Dispose();
             }
         }
 
@@ -83,17 +96,13 @@ namespace FileServices.Controllers
             }
         }
 
-        [HttpGet("/{action}/{id}")]
-        public async Task<IActionResult> GetImage(string action, string id)
+        [HttpGet("/{objectID}")]
+        public async Task<IActionResult> GetIAllImage(Guid objectID)
         {
             try
             {
-                var image = new MemoryStream();
-                return File(image, "image/jpeg");
-            }
-            catch (MinioException e)
-            {
-                return StatusCode(500, $"MinIO Error: {e.Message}");
+                var result = this._imageUsingBusiness.GetAllImageName(objectID);
+                return Ok(result);
             }
             catch (Exception ex)
             {

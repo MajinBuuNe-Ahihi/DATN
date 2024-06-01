@@ -1,5 +1,10 @@
 import { Injectable } from '@nestjs/common';
-import { Store, StoreDetailResult, StoreInput } from 'src/schema/graphql';
+import {
+  Store,
+  StoreDetailResult,
+  StoreInput,
+  StorePagingResult,
+} from 'src/schema/graphql';
 import { StoreRepository } from './store.repository';
 
 @Injectable()
@@ -20,7 +25,7 @@ export class StoreService {
     return await this.storeRepository.getStore(id);
   }
 
-  async searchStore(search: string): Promise<Array<Store>> {
+  async searchStore(search: string): Promise<Array<StorePagingResult>> {
     return await this.storeRepository.searchStore(search);
   }
 }

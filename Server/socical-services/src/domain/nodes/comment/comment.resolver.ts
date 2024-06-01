@@ -22,4 +22,13 @@ export class CommentResolver {
   ): Promise<Comment> {
     return await this.commentService.updateComment(id, comment);
   }
+
+  @Query()
+  async getCommentByReview(
+    @Args('reviewID') id: string,
+    @Args('offset') offset: number,
+    @Args('limit') limit: number,
+  ): Promise<Array<Comment>> {
+    return await this.commentService.getCommentByReview(id, offset, limit);
+  }
 }

@@ -8,6 +8,7 @@ type Props = {
   value?: string,
   ref?: any,
   onChange?: any,
+  onKeyDown?: any,
   onFocus?: any,
   onBlur?:any,
   placeholder?: string
@@ -15,6 +16,6 @@ type Props = {
 
 export const Input = (props: Props) => {
   return (
-    <input {...props} autoComplete='off' />
+    <input {...props} autoComplete='off'  />
   )
 }

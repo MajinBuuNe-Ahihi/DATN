@@ -1,5 +1,10 @@
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
-import { Store, StoreDetailResult, StoreInput } from 'src/schema/graphql';
+import {
+  Store,
+  StoreDetailResult,
+  StoreInput,
+  StorePagingResult,
+} from 'src/schema/graphql';
 import { StoreService } from './store.service';
 
 @Resolver()
@@ -27,7 +32,9 @@ export class StoreResolver {
   }
 
   @Query()
-  async searchStore(@Args('search') search: string): Promise<Array<Store>> {
+  async searchStore(
+    @Args('search') search: string,
+  ): Promise<Array<StorePagingResult>> {
     return await this.storeService.searchStore(search);
   }
 }

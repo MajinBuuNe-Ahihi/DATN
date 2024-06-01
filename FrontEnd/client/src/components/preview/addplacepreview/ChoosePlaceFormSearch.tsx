@@ -8,35 +8,57 @@ import './choose-place-form-search.scss'
 import { useQuery,gql } from '@apollo/client'
 
 const SEARCH = gql `
-query SearchStore($search: String) {
-  searchStore(search: $search) {
-    storeID
-    storeName
-    areaID
-    storeAddress
-    longtitude
-    latitude
-    directInfo
-    openTime
-    closeTime
-    toPrice
-    fromPrice
-    wifiName
-    wifiPassword
-    types
-    convenients
-    phoneNumber
-    email
-    facebookLink
-    instagramLink
-    website
-    createBy
-    createDate
-    modifiedBy
-    modifiedDate
+query Query($search: String) {
+    searchStore(search: $search) {
+      store {
+        storeID
+        storeName
+        areaID
+        storeAddress
+        longtitude
+        latitude
+        directInfo
+        openTime
+        closeTime
+        toPrice
+        fromPrice
+        wifiName
+        wifiPassword
+        types
+        convenients
+        phoneNumber
+        email
+        facebookLink
+        instagramLink
+        website
+        createBy
+        createDate
+        modifiedBy
+        modifiedDate
+      }
+      reviews {
+        reviewID
+        userID
+        storeID
+        title
+        description
+        locationRate
+        placeRate
+        serviceRate
+        foodRate
+        priceRate
+        like
+        view
+        createBy
+        createDate
+        modifiedBy
+        modifiedDate
+      }
+    }
   }
-}
+  
 `
+
 type Props = {
   setClose: React.Dispatch<React.SetStateAction<boolean>>,
   isOpen: boolean,

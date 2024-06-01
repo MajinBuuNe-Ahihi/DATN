@@ -45,17 +45,7 @@ export default function Register({ changePage }: Props) {
         }}
         validationSchema={SignupSchema}
         onSubmit={async (values) => {
-          await mutateFunction({
-            variables: {
-              user: {
-                userID: uuidv4(),
-                userName: values.name,
-                password: values.password,
-                fullName: values.name,
-                email: values.email,
-              },
-            }
-          })
+        c
  
         if (data) {
           localStorage.setItem("user", JSON.stringify(data.createUser));

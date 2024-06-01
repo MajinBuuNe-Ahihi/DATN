@@ -122,3 +122,5 @@ C:\Users\g\3D Objects\DATN\Server\FileServices\obj\Debug\net6.0\refint\FileServi
 C:\Users\g\3D Objects\DATN\Server\FileServices\obj\Debug\net6.0\FileServices.pdb
 C:\Users\g\3D Objects\DATN\Server\FileServices\obj\Debug\net6.0\FileServices.genruntimeconfig.cache
 C:\Users\g\3D Objects\DATN\Server\FileServices\obj\Debug\net6.0\ref\FileServices.dll
+C:\Users\g\3D Objects\DATN\Server\FileServices\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\g\3D Objects\DATN\Server\FileServices\bin\Debug\net6.0\System.Threading.Channels.dll

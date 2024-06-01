@@ -29,36 +29,39 @@ export class RabbitmqSetup implements OnModuleInit {
         if (msg) {
           const message = JSON.parse(msg.content.toString());
           console.log(message);
-          const store = {
-            storeID: message.RegisterID,
-            storeName: message.StoreName,
-            areaID: message.AreaID,
-            storeAddress: message.StoreAddress,
-            longtitude: 123,
-            latitude: 21,
-            directInfo: message.DirectInfo,
-            openTime: message.OpenTime,
-            closeTime: message.OpenTime,
-            toPrice: message.ToPrice,
-            fromPrice: message.FromPrice,
-            wifiName: message.WifiName,
-            wifiPassword: message.WifiPass,
-            types: message.Types ? [message.Types.split(';')] : [],
-            convenients: message.Convenients
-              ? [message.Convenients.split(';')]
-              : [],
-            phoneNumber: message.PhoneNumber,
-            email: message.Email,
-            facebookLink: message.FacebookLink,
-            instagramLink: message.InstagramLink,
-            website: message.Website,
-            createBy: message.CreatedBy,
-            createDate: message.CreatedDate,
-            modifiedBy: message.ModifiedBy,
-            modifiedDate: message.ModifiedDate,
-          } as StoreInput;
+          if(message.RegisterID) {
+            const store = {
+              storeID: message.RegisterID,
+              storeName: message.StoreName,
+              areaID: (message.AreaID as string).toUpperCase(),
+              storeAddress: message.StoreAddress,
+              directInfo: message.DirectInfo,
+              openTime: message.OpenTime,
+              closeTime: message.CloseTime,
+              toPrice: message.ToPrice,
+              fromPrice: message.FromPrice,
+              wifiName: message.WifiName,
+              wifiPassword: message.WifiPass,
+              types: message.Types ? message.Types.split(';') : [],
+              convenients: message.Convenients
+                ? message.Convenients.split(';')
+                : [],
+              phoneNumber: message.PhoneNumber,
+              description: message.Description,
+              longtitude: Number(message.Longtitude),
+              latitude: Number(message.Latitude),
+              email: message.Email,
+              facebookLink: message.FacebookLink,
+              instagramLink: message.InstagramLink,
+              website: message.Website,
+              createBy: message.CreatedBy,
+              createDate: message.CreatedDate,
+              modifiedBy: message.ModifiedBy,
+              modifiedDate: message.ModifiedDate,
+            } as StoreInput;
 
-          await this.storeService.createStore(store);
+            await this.storeService.createStore(store);
+          }
 
           RabbitmqSetup.channel.ack(msg); // Acknowledge receipt
         }

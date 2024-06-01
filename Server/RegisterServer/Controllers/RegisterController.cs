@@ -28,9 +28,9 @@ namespace RegisterServer.Controllers
         }
 
         [HttpPost("Active")]
-        public IActionResult Active(Guid registerID, string verifyCode)
+        public IActionResult Active([FromBody] ActiveParam activeParam)
         {
-            var result = _registerBusiness.ActiveStore(verifyCode, registerID);
+            var result = _registerBusiness.ActiveStore(activeParam.VerifyCode, activeParam.RegisterID);
             return Ok(result);
         }
     }

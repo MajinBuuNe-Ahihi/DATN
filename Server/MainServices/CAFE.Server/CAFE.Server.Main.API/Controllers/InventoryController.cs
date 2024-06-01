@@ -19,7 +19,7 @@ namespace CAFE.Server.Main.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register([FromBody] InventoryModal inventory)
+        public IActionResult Create([FromBody] InventoryModal inventory)
         {
 
             var result = _inventoryBusiness.Create(inventory);

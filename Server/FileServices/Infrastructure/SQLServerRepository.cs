@@ -74,6 +74,7 @@ namespace FileServices.Infrastructure
 
         public void Open()
         {
+            _connection.Close();
             _connection.Open();
         }
         ~SQLServerRepository()

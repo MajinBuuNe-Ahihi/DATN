@@ -5,6 +5,7 @@ import {
   Entities,
   Relations,
   StoreDetailResult,
+  StorePagingResult,
 } from 'src/schema/graphql';
 import { node } from 'cypher-query-builder';
 import { QueryRepository } from 'src/neo4j/query.repository';
@@ -32,9 +33,11 @@ export class StoreRepository {
       toPrice,
       types,
       website,
+      description,
       wifiName,
       wifiPassword,
     } = store;
+    console.log(types);
     const query = this.queryRepository.initQuery();
     const query2 = this.queryRepository.initQuery();
     const query3 = this.queryRepository.initQuery();
@@ -60,6 +63,7 @@ export class StoreRepository {
         facebookLink: "${facebookLink}",
         instagramLink: "${instagramLink}",
         website: "${website}",
+        description: "${description}",
         createBy:  "hvmanh",
         createDate: ${Date.now()},
         modifiedBy: "hvmanh",
@@ -69,44 +73,36 @@ export class StoreRepository {
         `,
       )
       .run();
-
-    await query2
-      .raw(
-        `
-        With [${types.map((i) => `"${i}"`).join(',')}] as tids
-        UNWIND tids as tid
-        MATCH (s:${Entities.Store} {storeID: "${storeID}"})
-        MATCH (t:${Entities.ShopType} {shopTypeID: tid})
-        CREATE (s)<-[:${Relations.IN_SHOP_TYPE}]-(t)
-        RETURN s
-        `,
-      )
-      .run();
-
-    await query3
-      .raw(
-        `
-        MATCH (s:${Entities.Store} {storeID: "${storeID}"})
-        MATCH (a:${Entities.Area} {areaID: "${areaID}"})
-        CREATE (s)<-[:${Relations.IN_AREA}]-(a)
-        RETURN s
-        `,
-      )
-      .run();
-    await query4
-      .raw(
-        `
+    const raw2 = `
+    With [${types.map((i) => `"${i}"`).join(',')}] as tids
+    UNWIND tids as tid
+    MATCH (s:${Entities.Store} {storeID: "${storeID}"})
+    MATCH (t:${Entities.ShopType} {shopTypeID: tid})
+    CREATE (s)<-[:${Relations.IN_SHOP_TYPE}]-(t)
+    RETURN s
+    `;
+    await query2.raw(raw2).run();
+     console.log(raw2);
+    const raw3 = `
+      MATCH (s:${Entities.Store} {storeID: "${storeID}"})
+      MATCH (a:${Entities.Area} {areaID: "${areaID}"})
+      CREATE (s)<-[:${Relations.IN_AREA}]-(a)
+      RETURN s
+      `;
+    await query3.raw(raw3).run();
+    console.log(raw3);
+    const raw4 = `
       With [${convenients.map((i) => `"${i}"`).join(',')}] as cids
       UNWIND cids as cid
         MATCH (s:${Entities.Store} {storeID: "${storeID}"})
         MATCH(c:${Entities.Convenient} {convenientID: cid})
         CREATE (s)<-[:${Relations.IN_CONVENIENCE}]-(c)
         RETURN s
-        `,
-      )
-      .run();
+        `;
+        console.log(raw4);
+    await query4.raw(raw4).run();
     if (result.length > 0) {
-      console.log(result[0].s.properties)
+      console.log(result[0].s.properties);
       return result[0].s.properties as Store;
     }
     return null;
@@ -184,29 +180,35 @@ export class StoreRepository {
     return null;
   }
 
-  async searchStore(search: string): Promise<Array<Store>> {
+  async searchStore(search: string): Promise<Array<StorePagingResult>> {
     const result = await this.queryRepository
       .initQuery()
       .raw(
         `      
         MATCH (n:Store)
         MATCH (n) <- [:IN_AREA] - (a:Area)
+        OPTIONAL MATCH (n) <- [:REVIEW_TO] - (r:Review)
         MATCH (c:Catalog) - [:CONVINIENT_HAS] -> (b:Convenient) - [:IN_CONVENIENCE] -> (n)
-        MATCH (c:Catalog) - [:TYPE_HAS] -> (d:ShopType) - [:IN_SHOP_TYPE] -> (n)
+       MATCH (c:Catalog) - [:TYPE_HAS] -> (d:ShopType) - [:IN_SHOP_TYPE] -> (n)
         WHERE 
         toLower(n.storeName) CONTAINS  toLower("${search}") or
         toLower(n.storeAddress) CONTAINS   toLower("${search}") or
         toLower(c.catalogName) contains    toLower("${search}") or
         toLower(a.areaName) contains  toLower("${search}")
-        RETURN DISTINCT  n
+        RETURN DISTINCT  n, collect(DISTINCT r) as reviews
         skip 0
-        limit 5
+        limit 10
       `,
       )
       .run();
 
     if (result.length > 0) {
-      return result.map((item) => item.n.properties) as [Store];
+      return result.map((item) => {
+        return {
+          store: item.n.properties,
+          reviews: item.reviews.map((item) => item.properties),
+        };
+      }) as [StorePagingResult];
     }
     return null;
   }

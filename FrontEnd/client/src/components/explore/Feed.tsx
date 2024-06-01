@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   BsThreeDots,
   IoCaretForward,
@@ -11,8 +11,9 @@ import "./feed.scss";
 import QuantityStarVote from "../common/QuantityStarVote";
 import { Input } from "../common/Input";
 import Comments from "./Comments";
-import { useQuery, gql } from "@apollo/client";
+import { useQuery, gql, useMutation } from "@apollo/client";
 import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from "uuid";
 
 const GET_REVIEW = gql`
   query PagingReviews($skip: Int, $limit: Int) {
@@ -76,6 +77,21 @@ const GET_REVIEW = gql`
   }
 `;
 
+const COMMENT = gql `mutation Mutation($comment: CommentInput) {
+  createComment(comment: $comment) {
+    commentID
+    userID
+    reviewID
+    content
+    commentLike
+    createBy
+    createDate
+    modifiedBy
+    modifiedDate
+  }
+}
+`
+
 type Props = {};
 
 export default function Feed({}: Props) {
@@ -83,6 +99,36 @@ export default function Feed({}: Props) {
     skip: 0,
     limit: 10,
   }});
+  const user = JSON.parse(localStorage.getItem("user") || "{}");
+  const [mutateFunction] = useMutation(COMMENT);
+  const [loadId, setLoadID] = useState("")
+
+  const [comment, setComment] = useState<string>('')
+  const handleKeyDown = async (event:any,reviewID: string)=> {
+    if (event.key === 'Enter' && comment) {
+      debugger
+      await mutateFunction({
+        variables: {
+          comment: {
+            commentID: uuidv4(),
+            commentLike: 0,
+            content: comment,
+            createBy: user.userName,
+            createDate: new Date(),
+            modifiedBy: user.userName,
+            modifiedDate: new Date(),
+            reviewID: reviewID,
+            userID: user.userID
+          }
+        }
+      }).then((data) => {
+        if(data) {
+          setLoadID(reviewID);
+          setComment('');
+        }
+      })
+    }
+  }
 
   useEffect(()=>{
     refetch( {
@@ -205,10 +251,13 @@ export default function Feed({}: Props) {
                     type="text"
                     name="inputComment"
                     placeholder="Viết bình luận"
+                    value={comment}
+                    onChange={(e:any) => setComment(e.target.value)}
+                    onKeyDown={(e:any) => handleKeyDown(e,item.review.reviewID)}
                   />
                 </div>
               </div>
-              <Comments />
+              <Comments id={item.review.reviewID} refresh={item.review.reviewID == loadId? uuidv4(): ''}/>
             </div>
           </>
         ))}

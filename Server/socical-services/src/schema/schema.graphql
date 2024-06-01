@@ -51,11 +51,12 @@ type Store {
   storeName: String
   areaID: String
   storeAddress: String
-  longtitude: Float
-  latitude: Float
   directInfo: String
   openTime: String
   closeTime: String
+  longtitude: Float
+  latitude: Float
+  description: String
   toPrice: String
   fromPrice: String
   wifiName: String
@@ -122,6 +123,13 @@ type ReviewedResult {
   review: Review
 }
 
+type StorePagingResult {
+  reviews: [Review],
+  store: Store,
+}
+
+
+
 
 ### INPUTS ###
 input UserInput {
@@ -175,6 +183,7 @@ input StoreInput {
   storeAddress: String
   longtitude: Float
   latitude: Float
+  description: String
   directInfo: String
   openTime: String
   closeTime: String
@@ -252,10 +261,10 @@ type Query {
   getUser(id: String): User
   getStoreByNameFilter(filter: [FilterInput], offset: Int,limit: Int): Store
   getReviewByStore(storeID: String, offset: Int, limit: Int): Review
-  getCommentByReview(reviewID: String, offset: Int, limit: Int): Comment
+  getCommentByReview(reviewID: String, offset: Int, limit: Int): [Comment]
   getReviewByFilter(filter: [FilterInput], offset: Int,limit: Int): Review
   getStore(id: String): StoreDetailResult
-  searchStore(search:String):[Store]
+  searchStore(search:String):[StorePagingResult]
   getReviewedByUser(userId: String): [ReviewedResult]
   getReviewedByStore(storeID: String):[Review]
   pagingReviews(

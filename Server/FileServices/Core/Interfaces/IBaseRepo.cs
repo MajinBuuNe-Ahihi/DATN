@@ -7,7 +7,8 @@ namespace FileServices.Core.Interfaces
 {
     public interface IBaseRepo
     {
-        bool Submit(IBaseEntity item);
-        bool Submit(IBaseEntity item, DbTransaction ts);
+        public bool Submit<T>(IBaseEntity<T> item, DbTransaction ts);
+        public  bool Submit<T>(IBaseEntity<T> item);
+        public T GetByID<T>(Guid id);
     }
 }

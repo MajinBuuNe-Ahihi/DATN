@@ -23,9 +23,9 @@ export class CommentRepository {
     const result = await query
       .raw(
         `
-    CREATE (c:${Entities.Comment} {commentID:"${commentID}",content:"${content}",commentLike:${commentLike}
-        ,createBy:${createBy},createDate:${createDate},userID: :, reviewID:"${reviewID}",modifiedBy:${modifiedBy}, modifiedDate: ${modifiedDate}})
-    RETURN C
+    CREATE (c:${Entities.Comment} {commentID:"${commentID}",content:"${content}",commentLike:"${commentLike}"
+        ,createBy:"${createBy}",createDate:"${createDate}",userID: "${userID}", reviewID:"${reviewID}",modifiedBy:"${modifiedBy}", modifiedDate: "${modifiedDate}"})
+    RETURN c
         `,
       )
       .run();
@@ -33,9 +33,9 @@ export class CommentRepository {
       .initQuery()
       .raw(
         `
-      MATCH( r:${Entities.Review} {reviewID:"${reviewID}")
+        MATCH( r:${Entities.Review} {reviewID:"${reviewID}"})
         MATCH (c:${Entities.Comment} {commentID:"${commentID}"})
-        CREATE (c)-[:${Relations.COMMENT_TO} {createdDate: ${createDate}]->(r)
+        CREATE (c)-[:${Relations.COMMENT_TO}]->(r)
       `,
       )
       .run();
@@ -46,13 +46,13 @@ export class CommentRepository {
         `
       MATCH (u:${Entities.User} {userID:"${userID}" })
       MATCH (c:${Entities.Comment} {commentID:"${commentID}"})
-      CREATE (c)<-[:${Relations.COMMENT_BY} {createdDate: ${createDate}]-(u)
+      CREATE (c)<-[:${Relations.COMMENT_BY}]-(u)
     `,
       )
       .run();
 
     if (result.length > 0) {
-      return result[0] as Comment;
+      return result[0].c.properties as Comment;
     }
     return null;
   }
@@ -82,6 +82,31 @@ export class CommentRepository {
       .run();
     if (result.length > 0) {
       return result[0] as Comment;
+    }
+    return null;
+  }
+
+  async getCommentByReview(
+    id: string,
+    offset: number,
+    limit: number,
+  ): Promise<Array<Comment>> {
+    const query = this.queryRepository.initQuery();
+    const result = await query
+      .raw(
+        `
+      MATCH (c:${Entities.Comment})
+      Where
+         c.reviewID = "${id}"
+      return c
+      ORDER BY c.createDate desc
+      skip ${offset}
+      limit ${limit}
+      `,
+      )
+      .run();
+    if (result.length > 0) {
+      return result.map((item: any) => item.c.properties) as Array<Comment>;
     }
     return null;
   }
