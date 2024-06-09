@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T23:31:50.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eAKcGHIXg9i11UGJKBjL" version="24.4.13" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-06-09T23:32:04.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="o-tyL6dfbrkPp9whhhg5" version="24.4.13" type="github" pages="14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="3200" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -421,10 +421,10 @@
             <mxPoint x="560" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NPiL-tYf-pYXu9lcFu_h-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;entryX=0.01;entryY=0.673;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="NPiL-tYf-pYXu9lcFu_h-22">
+        <mxCell id="NPiL-tYf-pYXu9lcFu_h-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="135" y="620" as="sourcePoint" />
-            <mxPoint x="950" y="760" as="targetPoint" />
+            <mxPoint x="960" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OeHBmzT3Aosdq3DpDK63-1" value="Quản lý phiếu nhập kho" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#fff2cc;" parent="1" vertex="1">
